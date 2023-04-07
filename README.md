@@ -3,8 +3,8 @@
 iPhoneopedia is an iOS app built with SwiftUI that allows users to browse and view information about each iPhone model released by Apple.
 
 ### Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](appview1.png)
+![App Screenshot](appview2.png)
 
 ## Features
 Browse all iPhone models from the first generation to the latest release.
