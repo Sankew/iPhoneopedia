@@ -87,7 +87,6 @@ Build settings, all targets: iOS 27.0, `SWIFT_VERSION = 6.0`, `SWIFT_DEFAULT_ACT
 | Private Cloud Compute for Ask | Code is done: Ask and photo identify use `PrivateCloudComputeLanguageModel` (the server model behind Siri) when available and fall back to on-device. It needs Apple's managed entitlement `com.apple.developer.ml.compute.private-cloud-compute`: request it at developer.apple.com/private-cloud-compute, then add it to an `iPhoneopedia.entitlements` file. PCC doesn't run in the simulator (release note 177684296); test on a device. |
 | iPhone Duo layouts (`ArrangementView`, `reservedRegions`) | These APIs are iOS 27.1 **beta** and won't compile on Xcode 27.0. Test the Duo simulator in Xcode 27.1 first; `sidebarAdaptable` may already be enough. |
 | iCloud sync for My iPhones | Needs a paid developer account. Add the iCloud capability (CloudKit) and Background Modes → Remote notifications. `OwnedPhone` is already CloudKit-compatible. |
-| App icon | The `AppIcon` slot is empty, which gives a build warning. Make a layered icon in Icon Composer 2.0. |
 | Taglines and your own about text | Copy them from the 2022 source into `data/overrides.json` (keys `tagline`, `about`). |
 | Price and screen-size spot-check | The `launchPriceUSD` and `displayInches` values in `data/overrides.json` were drafted from Apple launch announcements. |
 | Widget tap → model, photo in widget | Skipped. Needs a URL scheme or an App Intent button, plus image downscaling. |
