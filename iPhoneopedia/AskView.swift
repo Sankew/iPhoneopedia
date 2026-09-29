@@ -24,13 +24,14 @@ struct AskView: View {
             ForEach(exchanges) { exchange in
                 Section(exchange.question) {
                     Text(exchange.answer)
+                    // No matchedTransitionSource here: a model can appear in several answers.
                     ForEach(exchange.models) { model in
                         NavigationLink(value: model) { PhoneRow(model: model) }
-                            .matchedTransitionSource(id: model.id, in: zoom)
                     }
                 }
             }
         }
+        .defaultScrollAnchor(.bottom)
         .overlay {
             if exchanges.isEmpty {
                 ContentUnavailableView("Ask about any iPhone", systemImage: "sparkles",
@@ -45,18 +46,19 @@ struct AskView: View {
                     Label("Identify from photo", systemImage: "photo")
                 }
                 .labelStyle(.iconOnly)
+                .disabled(busy)
+                // Stays enabled while busy so the keyboard doesn't drop; ask() ignores submits until done.
                 TextField("Which iPhones came in a mini size?", text: $question)
                     .textFieldStyle(.roundedBorder)
                     .onSubmit(ask)
                 if busy {
-                    ProgressView()
+                    ProgressView().accessibilityLabel("Thinking")
                 } else {
                     Button("Ask", systemImage: "arrow.up.circle.fill", action: ask)
                         .labelStyle(.iconOnly)
                         .disabled(question.trimmingCharacters(in: .whitespaces).isEmpty)
                 }
             }
-            .disabled(busy)
             .padding()
             .background(.bar)
         }
@@ -81,11 +83,18 @@ struct AskView: View {
         Task {
             defer { busy = false }
             do {
-                let response = try await session.respond { prompt }
+                let response: LanguageModelSession.Response<String>
+                do {
+                    response = try await session.respond { prompt }
+                } catch LanguageModelSession.GenerationError.exceededContextWindowSize {
+                    // Tool results pile up in the transcript; the small on-device window fills after a few questions.
+                    session = Self.newSession()
+                    response = try await session.respond { prompt }
+                }
                 exchanges.append(Exchange(question: prompt, answer: response.content))
             } catch {
                 exchanges.append(Exchange(question: prompt, answer: "Couldn't answer: \(error.localizedDescription)"))
-                session = Self.newSession() // context window full or guardrail hit: start fresh
+                session = Self.newSession()
             }
         }
     }
@@ -98,7 +107,7 @@ struct AskView: View {
             let title = "Which iPhone is this?"
             do {
                 guard let data = try await item.loadTransferable(type: Data.self),
-                      let image = UIImage(data: data)?.cgImage
+                      let image = UIImage(data: data)
                 else { throw CocoaError(.fileReadCorruptFile) }
                 let models = try await PhoneIdentifier.identify(image)
                 exchanges.append(Exchange(question: title,

@@ -92,7 +92,7 @@ extension View {
     /// Pushes the paging detail for a tapped model, zooming from its row.
     func phoneDetailDestination(models: [PhoneModel], zoom: Namespace.ID) -> some View {
         navigationDestination(for: PhoneModel.self) { model in
-            PhoneDetail(models: models.contains { $0.id == model.id } ? models : [model], selection: model.id)
+            PhoneDetail(models: models.contains { $0.id == model.id } ? models.uniqued : [model], selection: model.id)
                 .navigationTransition(.zoom(sourceID: model.id, in: zoom))
         }
     }

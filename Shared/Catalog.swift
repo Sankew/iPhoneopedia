@@ -40,10 +40,13 @@ nonisolated struct Catalog: Codable, Sendable {
     func search(_ query: String) -> [PhoneModel] {
         let query = query.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !query.isEmpty else { return newestFirst }
-        return newestFirst.filter { model in
+        let hits = newestFirst.filter { model in
             model.name.localizedStandardContains(query) || model.chip.localizedStandardContains(query)
                 || model.identifiers.contains { $0.localizedStandardContains(query) } || String(model.year) == query
         }
+        // An exact name ("iPhone 16") ranks above its longer siblings ("iPhone 16 Pro Max").
+        let exact = hits.filter { $0.name.localizedCaseInsensitiveCompare(query) == .orderedSame }
+        return exact + hits.filter { !exact.contains($0) }
     }
 
     /// Hardware identifier of the device running this code, e.g. "iPhone17,1".
@@ -81,6 +84,14 @@ nonisolated struct PhoneModel: Codable, Sendable, Identifiable, Hashable {
         facts += specs.flatMap(\.rows).filter { $0.count == 2 }.map { "\($0[0]): \($0[1])" }
         if !colors.isEmpty { facts.append("colors: \(colors.map(\.name).joined(separator: ", "))") }
         return "\(name): " + facts.joined(separator: "; ")
+    }
+}
+
+extension [PhoneModel] {
+    /// First occurrence of each model, order kept: ForEach, paging and transitions need unique ids.
+    nonisolated var uniqued: [PhoneModel] {
+        var seen = Set<PhoneModel.ID>()
+        return filter { seen.insert($0.id).inserted }
     }
 }
 

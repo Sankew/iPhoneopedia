@@ -114,20 +114,15 @@ extension PhoneColor {
 struct OwnedToggle: View {
     let model: PhoneModel
     @Environment(\.modelContext) private var context
-    @Query private var owned: [OwnedPhone]
-
-    init(model: PhoneModel) {
-        self.model = model
-        let id = model.id
-        _owned = Query(filter: #Predicate<OwnedPhone> { $0.modelID == id })
-    }
+    @Query private var owned: [OwnedPhone] // a handful of rows; filtering in memory avoids #Predicate isolation issues
 
     var body: some View {
-        Button(owned.isEmpty ? "I owned this" : "Owned", systemImage: owned.isEmpty ? "plus.circle" : "checkmark.circle.fill") {
-            if owned.isEmpty {
+        let records = owned.filter { $0.modelID == model.id }
+        Button(records.isEmpty ? "I owned this" : "Owned", systemImage: records.isEmpty ? "plus.circle" : "checkmark.circle.fill") {
+            if records.isEmpty {
                 context.insert(OwnedPhone(modelID: model.id))
             } else {
-                owned.forEach(context.delete)
+                records.forEach(context.delete)
             }
         }
     }

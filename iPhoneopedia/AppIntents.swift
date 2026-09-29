@@ -1,6 +1,7 @@
 import AppIntents
 import CoreImage
 import FoundationModels
+import UIKit
 import VisualIntelligence
 
 /// Opens a model in the app: Siri, Shortcuts, Spotlight and Visual Intelligence results all route here.
@@ -38,6 +39,6 @@ nonisolated struct PhoneVisualSearch: IntentValueQuery {
         else { return [] }
         let image = CIImage(cvPixelBuffer: buffer)
         guard let cgImage = CIContext().createCGImage(image, from: image.extent) else { return [] }
-        return try await PhoneIdentifier.identify(cgImage).map(PhoneModelEntity.init)
+        return try await PhoneIdentifier.identify(UIImage(cgImage: cgImage)).map(PhoneModelEntity.init)
     }
 }

@@ -35,7 +35,8 @@ struct MyPhonesView: View {
             }
         }
         .navigationTitle("My iPhones")
-        .phoneDetailDestination(models: mine, zoom: zoom)
+        // Page over every model: un-owning the shown phone must not pull it out from under the pager.
+        .phoneDetailDestination(models: store.catalog.newestFirst, zoom: zoom)
     }
 }
 

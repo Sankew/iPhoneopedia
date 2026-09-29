@@ -1,5 +1,5 @@
-import CoreGraphics
 import FoundationModels
+import UIKit
 
 /// Grounds the Ask tab in the catalog: the model looks facts up here instead of recalling them.
 nonisolated struct CatalogTool: Tool {
@@ -11,12 +11,9 @@ nonisolated struct CatalogTool: Tool {
         var terms: [String]
     }
 
-    func call(arguments: Arguments) async throws -> String {
+    @concurrent func call(arguments: Arguments) async throws -> String {
         let catalog = await CatalogStore.shared.catalog
-        var matches: [PhoneModel] = []
-        for model in arguments.terms.flatMap({ catalog.search($0).prefix(4) }) where !matches.contains(model) {
-            matches.append(model)
-        }
+        let matches = arguments.terms.flatMap { catalog.search($0).prefix(4) }.uniqued
         // ponytail: capped at 8 summaries to stay inside the on-device model's small context window.
         return matches.isEmpty ? "No matching iPhone models in the catalog." : matches.prefix(8).map(\.summary).joined(separator: "\n")
     }
@@ -29,8 +26,8 @@ nonisolated enum PhoneIdentifier {
         var models: [String]
     }
 
-    // ponytail: the image goes in without EXIF orientation; pass CGImagePropertyOrientation if sideways photos misidentify.
-    static func identify(_ image: CGImage) async throws -> [PhoneModel] {
+    /// Takes a UIImage so camera photos keep their EXIF orientation.
+    static func identify(_ image: UIImage) async throws -> [PhoneModel] {
         let catalog = await CatalogStore.shared.catalog
         let names = catalog.models.map(\.name).joined(separator: ", ")
         let session = LanguageModelSession {
@@ -40,6 +37,8 @@ nonisolated enum PhoneIdentifier {
             "Which iPhone model is in this photo? Consider the camera layout, notch or Dynamic Island, edges and color."
             Attachment(image)
         }
-        return guess.content.models.compactMap { name in catalog.models.first { $0.name == name } }
+        return guess.content.models.compactMap { name in
+            catalog.models.first { $0.name.localizedCaseInsensitiveCompare(name) == .orderedSame }
+        }.uniqued
     }
 }

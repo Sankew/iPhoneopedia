@@ -40,6 +40,12 @@ struct CatalogTests {
         #expect(catalog.search(query).map(\.name).contains(expected))
     }
 
+    @Test func exactNameRanksFirstAndDuplicatesCollapse() {
+        let results = catalog.search("iPhone 16")
+        #expect(results.first?.name == "iPhone 16")
+        #expect((results + results).uniqued.map(\.id) == results.map(\.id))
+    }
+
     @Test func searchIsNewestFirstAndSummaryHasFacts() throws {
         #expect(catalog.search("").first?.released == catalog.models.last?.released)
         let summary = try #require(catalog.model(identifier: "iPhone3,1")).summary

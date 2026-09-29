@@ -27,6 +27,7 @@ data/overrides.json (prices, sizes, fixes)  ─┘                              
 ## Requirements
 
 Xcode 27, iOS 27. Apple Intelligence features appear only on supported iPhones.
+Building for the first time? Start with [HANDOFF.md](HANDOFF.md).
 
 ## Credits
 

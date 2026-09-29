@@ -1,5 +1,12 @@
 # iPhoneopedia 2.0: full overhaul plan
 
+> **Status:** implemented on `claude/iphoneopedia-upgrade-cbzlle`. See `HANDOFF.md` for what's verified and the Xcode 27 steps.
+> **Deviations from this plan:**
+> - iPhone Duo code was deferred because its APIs are iOS 27.1 beta.
+> - CloudKit entitlements were left out so the first build needs no signing team.
+> - Catalog ids come from the hardware identifier, not the name.
+> - The catalog lives in `Shared/`, not `iPhoneopedia/`.
+
 A ground-up rewrite on Xcode 27 / iOS 27. It has a self-updating iPhone catalog and uses every new Apple framework that fits an iPhone encyclopedia.
 Personal project, so there are no App Store constraints.
 Work top to bottom. Every phase ends with an app that builds and runs.

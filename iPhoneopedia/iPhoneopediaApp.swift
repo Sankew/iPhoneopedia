@@ -55,9 +55,15 @@ struct RootView: View {
         .tabViewStyle(.sidebarAdaptable)
         .tabBarMinimizeBehavior(.onScrollDown)
         .task {
+            await index() // bundled catalog: right away, even offline
             await store.refresh()
-            try? await CSSearchableIndex.default().indexAppEntities(store.models.map(PhoneModelEntity.init))
-            PhoneShortcuts.updateAppShortcutParameters()
+            await index()
         }
+    }
+
+    /// Spotlight entities and Siri shortcut parameters follow the catalog.
+    private func index() async {
+        try? await CSSearchableIndex.default().indexAppEntities(store.models.map(PhoneModelEntity.init))
+        PhoneShortcuts.updateAppShortcutParameters()
     }
 }
