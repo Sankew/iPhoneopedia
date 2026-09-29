@@ -34,11 +34,13 @@ nonisolated struct Catalog: Codable, Sendable {
         models.first { $0.identifiers.contains(identifier) }
     }
 
+    var newestFirst: [PhoneModel] { models.reversed() }
+
     /// Newest first. Matches name, chip, identifier or release year; used by search, Siri/Spotlight and Ask.
     func search(_ query: String) -> [PhoneModel] {
         let query = query.trimmingCharacters(in: .whitespacesAndNewlines)
-        guard !query.isEmpty else { return models.reversed() }
-        return models.reversed().filter { model in
+        guard !query.isEmpty else { return newestFirst }
+        return newestFirst.filter { model in
             model.name.localizedStandardContains(query) || model.chip.localizedStandardContains(query)
                 || model.identifiers.contains { $0.localizedStandardContains(query) } || String(model.year) == query
         }

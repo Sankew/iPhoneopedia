@@ -39,6 +39,6 @@ nonisolated struct PhoneModelQuery: EntityStringQuery {
     }
 
     func suggestedEntities() async throws -> [PhoneModelEntity] {
-        await CatalogStore.shared.catalog.search("").map(PhoneModelEntity.init)
+        await CatalogStore.shared.catalog.newestFirst.map(PhoneModelEntity.init)
     }
 }
