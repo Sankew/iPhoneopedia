@@ -2,7 +2,7 @@ import AppIntents
 import SwiftUI
 import WidgetKit
 
-nonisolated struct PhoneWidgetIntent: WidgetConfigurationIntent {
+struct PhoneWidgetIntent: WidgetConfigurationIntent {
     static let title: LocalizedStringResource = "iPhone"
     static let description = IntentDescription("Shows an iPhone model and how long ago it came out.")
 

@@ -2,10 +2,12 @@ import AppIntents
 import CoreImage
 import FoundationModels
 import UIKit
+#if canImport(VisualIntelligence) // device SDK only; the simulator SDK doesn't ship it
 import VisualIntelligence
+#endif
 
 /// Opens a model in the app: Siri, Shortcuts, Spotlight and Visual Intelligence results all route here.
-nonisolated struct OpenPhoneIntent: OpenIntent {
+struct OpenPhoneIntent: OpenIntent {
     static let title: LocalizedStringResource = "Open iPhone Model"
 
     @Parameter(title: "iPhone Model", requestValueDialog: "Which iPhone?")
@@ -28,6 +30,7 @@ nonisolated struct PhoneShortcuts: AppShortcutsProvider {
     }
 }
 
+#if canImport(VisualIntelligence)
 /// Visual Intelligence: point the camera at a phone, get matching catalog models.
 nonisolated struct PhoneVisualSearch: IntentValueQuery {
     func values(for input: SemanticContentDescriptor) async throws -> [PhoneModelEntity] {
@@ -37,8 +40,13 @@ nonisolated struct PhoneVisualSearch: IntentValueQuery {
               SystemLanguageModel.default.isAvailable,
               let buffer = input.pixelBuffer
         else { return [] }
-        let image = CIImage(cvPixelBuffer: buffer)
-        guard let cgImage = CIContext().createCGImage(image, from: image.extent) else { return [] }
+        // Render inside the closure: the underlying CVPixelBuffer must not escape it.
+        let cgImage = buffer.withUnsafeBuffer { pixels in
+            let image = CIImage(cvPixelBuffer: pixels)
+            return CIContext().createCGImage(image, from: image.extent)
+        }
+        guard let cgImage else { return [] }
         return try await PhoneIdentifier.identify(UIImage(cgImage: cgImage)).map(PhoneModelEntity.init)
     }
 }
+#endif

@@ -86,7 +86,7 @@ struct AskView: View {
                 let response: LanguageModelSession.Response<String>
                 do {
                     response = try await session.respond { prompt }
-                } catch LanguageModelSession.GenerationError.exceededContextWindowSize {
+                } catch LanguageModelError.contextSizeExceeded {
                     // Tool results pile up in the transcript; the small on-device window fills after a few questions.
                     session = Self.newSession()
                     response = try await session.respond { prompt }
