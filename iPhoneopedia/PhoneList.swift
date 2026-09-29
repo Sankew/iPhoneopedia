@@ -70,14 +70,20 @@ struct PhoneRow: View {
     }
 }
 
-/// Apple's product photo; decorative because the model name is always shown next to it.
+/// Apple's product photo, cut out of its white backdrop; decorative because the model name is always shown next to it.
 struct PhoneImage: View {
     let url: URL?
+    @State private var image: UIImage?
+
+    init(url: URL?) {
+        self.url = url
+        _image = State(initialValue: Cutout.cached(url))
+    }
 
     var body: some View {
-        AsyncImage(url: url, transaction: Transaction(animation: .smooth)) { phase in
-            if let image = phase.image {
-                image.resizable().scaledToFit()
+        ZStack {
+            if let image {
+                Image(uiImage: image).resizable().scaledToFit()
                     .transition(.opacity.combined(with: .scale(scale: 0.92)))
             } else {
                 Image(systemName: "iphone")
@@ -86,6 +92,11 @@ struct PhoneImage: View {
                     .padding(4)
                     .foregroundStyle(.tertiary)
             }
+        }
+        .animation(.smooth, value: image)
+        .task(id: url) {
+            guard let url else { return }
+            image = try? await Cutout.image(for: url)
         }
         .accessibilityHidden(true)
     }

@@ -31,7 +31,7 @@ Building for the first time? Start with [HANDOFF.md](HANDOFF.md).
 
 ## Credits
 
-Device data: [AppleDB](https://github.com/littlebyteorg/appledb) (MIT). About text: Wikipedia (CC BY-SA 4.0), linked in the app. Product photos © Apple, loaded from Apple's site.
+Device data: [AppleDB](https://github.com/littlebyteorg/appledb) (MIT). About text: Wikipedia (CC BY-SA 4.0), linked in the app. Product photos © Apple, loaded from Apple's site and cut out of their white backgrounds on device (Vision).
 
 ## Original version (2022)
 

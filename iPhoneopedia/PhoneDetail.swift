@@ -5,16 +5,30 @@ import SwiftUI
 struct PhoneDetail: View {
     let models: [PhoneModel]
     @State var selection: PhoneModel.ID?
+    @State private var bars = EdgeInsets()
 
     var body: some View {
         ScrollView(.horizontal) {
             LazyHStack(spacing: 0) {
                 ForEach(models) { model in
                     PhonePage(model: model)
+                        // Pages run under the glass bars and take their height back as scroll insets,
+                        // so content scrolls beneath the bars instead of being cut off at their edge.
+                        .safeAreaPadding(.top, bars.top)
+                        .safeAreaPadding(.bottom, bars.bottom)
                         .containerRelativeFrame(.horizontal)
                 }
             }
             .scrollTargetLayout()
+        }
+        .ignoresSafeArea(edges: .vertical)
+        .scrollEdgeEffectStyle(.soft, for: .all)
+        .onGeometryChange(for: EdgeInsets.self, of: \.safeAreaInsets) { bars = $0 }
+        .background {
+            ZStack {
+                Backdrop(colors: current?.colors ?? []).id(current?.id).transition(.opacity)
+            }
+            .animation(.smooth(duration: 0.5), value: current?.id)
         }
         .scrollTargetBehavior(.paging)
         .scrollPosition(id: $selection)
@@ -95,7 +109,7 @@ struct PhonePage: View {
                 .padding([.horizontal, .bottom])
             }
         }
-        .background { Backdrop(colors: model.colors) }
+        .scrollEdgeEffectStyle(.soft, for: .all)
     }
 }
 
