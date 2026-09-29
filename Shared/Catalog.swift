@@ -93,7 +93,7 @@ nonisolated struct SpecSection: Codable, Sendable, Hashable {
     var rows: [[String]] // [label, value]
 }
 
-@Observable final class CatalogStore {
+@MainActor @Observable final class CatalogStore {
     static let shared = CatalogStore()
     static let remoteURL = URL(string: "https://raw.githubusercontent.com/Sankew/iPhoneopedia/main/Shared/catalog.json")!
 

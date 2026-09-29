@@ -3,65 +3,102 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F9BB766284102B7003AAFBD /* iPhoneopediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB765284102B7003AAFBD /* iPhoneopediaApp.swift */; };
-		4F9BB768284102B7003AAFBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB767284102B7003AAFBD /* ContentView.swift */; };
-		4F9BB76A284102B7003AAFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BB769284102B7003AAFBD /* Assets.xcassets */; };
-		4F9BB76D284102B7003AAFBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BB76C284102B7003AAFBD /* Preview Assets.xcassets */; };
-		4F9BB777284102B8003AAFBD /* iPhoneopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB776284102B8003AAFBD /* iPhoneopediaTests.swift */; };
-		4F9BB781284102B8003AAFBD /* iPhoneopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB780284102B8003AAFBD /* iPhoneopediaUITests.swift */; };
-		4F9BB783284102B8003AAFBD /* iPhoneopediaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB782284102B8003AAFBD /* iPhoneopediaUITestsLaunchTests.swift */; };
+		1A0000000000000000000050 /* iPhoneopediaWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000021 /* iPhoneopediaWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F9BB773284102B8003AAFBD /* PBXContainerItemProxy */ = {
+		1A0000000000000000000051 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F9BB75A284102B6003AAFBD /* Project object */;
+			containerPortal = 1A0000000000000000000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F9BB761284102B7003AAFBD;
-			remoteInfo = iPhoneopedia;
+			remoteGlobalIDString = 1A0000000000000000000031;
+			remoteInfo = iPhoneopediaWidget;
 		};
-		4F9BB77D284102B8003AAFBD /* PBXContainerItemProxy */ = {
+		1A0000000000000000000053 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F9BB75A284102B6003AAFBD /* Project object */;
+			containerPortal = 1A0000000000000000000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F9BB761284102B7003AAFBD;
+			remoteGlobalIDString = 1A0000000000000000000030;
 			remoteInfo = iPhoneopedia;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A0000000000000000000043 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1A0000000000000000000050 /* iPhoneopediaWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		4F9BB762284102B7003AAFBD /* iPhoneopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F9BB765284102B7003AAFBD /* iPhoneopediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneopediaApp.swift; sourceTree = "<group>"; };
-		4F9BB767284102B7003AAFBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4F9BB769284102B7003AAFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F9BB76C284102B7003AAFBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4F9BB772284102B8003AAFBD /* iPhoneopediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneopediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F9BB776284102B8003AAFBD /* iPhoneopediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneopediaTests.swift; sourceTree = "<group>"; };
-		4F9BB77C284102B8003AAFBD /* iPhoneopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneopediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F9BB780284102B8003AAFBD /* iPhoneopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneopediaUITests.swift; sourceTree = "<group>"; };
-		4F9BB782284102B8003AAFBD /* iPhoneopediaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneopediaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A0000000000000000000020 /* iPhoneopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0000000000000000000021 /* iPhoneopediaWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iPhoneopediaWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0000000000000000000022 /* iPhoneopediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneopediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1A0000000000000000000014 /* Exceptions for "iPhoneopediaWidget" folder in "iPhoneopediaWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1A0000000000000000000031 /* iPhoneopediaWidget */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1A0000000000000000000010 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000011 /* iPhoneopedia */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iPhoneopedia;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000012 /* iPhoneopediaWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1A0000000000000000000014 /* Exceptions for "iPhoneopediaWidget" folder in "iPhoneopediaWidget" target */,
+			);
+			path = iPhoneopediaWidget;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000013 /* iPhoneopediaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iPhoneopediaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		4F9BB75F284102B7003AAFBD /* Frameworks */ = {
+		1A0000000000000000000041 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F9BB76F284102B8003AAFBD /* Frameworks */ = {
+		1A0000000000000000000045 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F9BB779284102B8003AAFBD /* Frameworks */ = {
+		1A0000000000000000000048 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,179 +108,160 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F9BB759284102B6003AAFBD = {
+		1A0000000000000000000002 = {
 			isa = PBXGroup;
 			children = (
-				4F9BB764284102B7003AAFBD /* iPhoneopedia */,
-				4F9BB775284102B8003AAFBD /* iPhoneopediaTests */,
-				4F9BB77F284102B8003AAFBD /* iPhoneopediaUITests */,
-				4F9BB763284102B7003AAFBD /* Products */,
+				1A0000000000000000000010 /* Shared */,
+				1A0000000000000000000011 /* iPhoneopedia */,
+				1A0000000000000000000012 /* iPhoneopediaWidget */,
+				1A0000000000000000000013 /* iPhoneopediaTests */,
+				1A0000000000000000000003 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F9BB763284102B7003AAFBD /* Products */ = {
+		1A0000000000000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F9BB762284102B7003AAFBD /* iPhoneopedia.app */,
-				4F9BB772284102B8003AAFBD /* iPhoneopediaTests.xctest */,
-				4F9BB77C284102B8003AAFBD /* iPhoneopediaUITests.xctest */,
+				1A0000000000000000000020 /* iPhoneopedia.app */,
+				1A0000000000000000000021 /* iPhoneopediaWidget.appex */,
+				1A0000000000000000000022 /* iPhoneopediaTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4F9BB764284102B7003AAFBD /* iPhoneopedia */ = {
-			isa = PBXGroup;
-			children = (
-				4F9BB765284102B7003AAFBD /* iPhoneopediaApp.swift */,
-				4F9BB767284102B7003AAFBD /* ContentView.swift */,
-				4F9BB769284102B7003AAFBD /* Assets.xcassets */,
-				4F9BB76B284102B7003AAFBD /* Preview Content */,
-			);
-			path = iPhoneopedia;
-			sourceTree = "<group>";
-		};
-		4F9BB76B284102B7003AAFBD /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4F9BB76C284102B7003AAFBD /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4F9BB775284102B8003AAFBD /* iPhoneopediaTests */ = {
-			isa = PBXGroup;
-			children = (
-				4F9BB776284102B8003AAFBD /* iPhoneopediaTests.swift */,
-			);
-			path = iPhoneopediaTests;
-			sourceTree = "<group>";
-		};
-		4F9BB77F284102B8003AAFBD /* iPhoneopediaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4F9BB780284102B8003AAFBD /* iPhoneopediaUITests.swift */,
-				4F9BB782284102B8003AAFBD /* iPhoneopediaUITestsLaunchTests.swift */,
-			);
-			path = iPhoneopediaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F9BB761284102B7003AAFBD /* iPhoneopedia */ = {
+		1A0000000000000000000030 /* iPhoneopedia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F9BB786284102B8003AAFBD /* Build configuration list for PBXNativeTarget "iPhoneopedia" */;
+			buildConfigurationList = 1A0000000000000000000063 /* Build configuration list for PBXNativeTarget "iPhoneopedia" */;
 			buildPhases = (
-				4F9BB75E284102B7003AAFBD /* Sources */,
-				4F9BB75F284102B7003AAFBD /* Frameworks */,
-				4F9BB760284102B7003AAFBD /* Resources */,
+				1A0000000000000000000040 /* Sources */,
+				1A0000000000000000000041 /* Frameworks */,
+				1A0000000000000000000042 /* Resources */,
+				1A0000000000000000000043 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1A0000000000000000000052 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1A0000000000000000000010 /* Shared */,
+				1A0000000000000000000011 /* iPhoneopedia */,
 			);
 			name = iPhoneopedia;
+			packageProductDependencies = (
+			);
 			productName = iPhoneopedia;
-			productReference = 4F9BB762284102B7003AAFBD /* iPhoneopedia.app */;
+			productReference = 1A0000000000000000000020 /* iPhoneopedia.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F9BB771284102B8003AAFBD /* iPhoneopediaTests */ = {
+		1A0000000000000000000031 /* iPhoneopediaWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F9BB789284102B8003AAFBD /* Build configuration list for PBXNativeTarget "iPhoneopediaTests" */;
+			buildConfigurationList = 1A0000000000000000000066 /* Build configuration list for PBXNativeTarget "iPhoneopediaWidget" */;
 			buildPhases = (
-				4F9BB76E284102B8003AAFBD /* Sources */,
-				4F9BB76F284102B8003AAFBD /* Frameworks */,
-				4F9BB770284102B8003AAFBD /* Resources */,
+				1A0000000000000000000044 /* Sources */,
+				1A0000000000000000000045 /* Frameworks */,
+				1A0000000000000000000046 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F9BB774284102B8003AAFBD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1A0000000000000000000010 /* Shared */,
+				1A0000000000000000000012 /* iPhoneopediaWidget */,
+			);
+			name = iPhoneopediaWidget;
+			packageProductDependencies = (
+			);
+			productName = iPhoneopediaWidget;
+			productReference = 1A0000000000000000000021 /* iPhoneopediaWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1A0000000000000000000032 /* iPhoneopediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0000000000000000000069 /* Build configuration list for PBXNativeTarget "iPhoneopediaTests" */;
+			buildPhases = (
+				1A0000000000000000000047 /* Sources */,
+				1A0000000000000000000048 /* Frameworks */,
+				1A0000000000000000000049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A0000000000000000000054 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1A0000000000000000000013 /* iPhoneopediaTests */,
 			);
 			name = iPhoneopediaTests;
+			packageProductDependencies = (
+			);
 			productName = iPhoneopediaTests;
-			productReference = 4F9BB772284102B8003AAFBD /* iPhoneopediaTests.xctest */;
+			productReference = 1A0000000000000000000022 /* iPhoneopediaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4F9BB77B284102B8003AAFBD /* iPhoneopediaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F9BB78C284102B8003AAFBD /* Build configuration list for PBXNativeTarget "iPhoneopediaUITests" */;
-			buildPhases = (
-				4F9BB778284102B8003AAFBD /* Sources */,
-				4F9BB779284102B8003AAFBD /* Frameworks */,
-				4F9BB77A284102B8003AAFBD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4F9BB77E284102B8003AAFBD /* PBXTargetDependency */,
-			);
-			name = iPhoneopediaUITests;
-			productName = iPhoneopediaUITests;
-			productReference = 4F9BB77C284102B8003AAFBD /* iPhoneopediaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F9BB75A284102B6003AAFBD /* Project object */ = {
+		1A0000000000000000000001 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					4F9BB761284102B7003AAFBD = {
-						CreatedOnToolsVersion = 13.4;
+					1A0000000000000000000030 = {
+						CreatedOnToolsVersion = 27.0;
 					};
-					4F9BB771284102B8003AAFBD = {
-						CreatedOnToolsVersion = 13.4;
-						TestTargetID = 4F9BB761284102B7003AAFBD;
+					1A0000000000000000000031 = {
+						CreatedOnToolsVersion = 27.0;
 					};
-					4F9BB77B284102B8003AAFBD = {
-						CreatedOnToolsVersion = 13.4;
-						TestTargetID = 4F9BB761284102B7003AAFBD;
+					1A0000000000000000000032 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 1A0000000000000000000030;
 					};
 				};
 			};
-			buildConfigurationList = 4F9BB75D284102B6003AAFBD /* Build configuration list for PBXProject "iPhoneopedia" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 1A0000000000000000000060 /* Build configuration list for PBXProject "iPhoneopedia" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4F9BB759284102B6003AAFBD;
-			productRefGroup = 4F9BB763284102B7003AAFBD /* Products */;
+			mainGroup = 1A0000000000000000000002;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1A0000000000000000000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F9BB761284102B7003AAFBD /* iPhoneopedia */,
-				4F9BB771284102B8003AAFBD /* iPhoneopediaTests */,
-				4F9BB77B284102B8003AAFBD /* iPhoneopediaUITests */,
+				1A0000000000000000000030 /* iPhoneopedia */,
+				1A0000000000000000000031 /* iPhoneopediaWidget */,
+				1A0000000000000000000032 /* iPhoneopediaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F9BB760284102B7003AAFBD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F9BB76D284102B7003AAFBD /* Preview Assets.xcassets in Resources */,
-				4F9BB76A284102B7003AAFBD /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F9BB770284102B8003AAFBD /* Resources */ = {
+		1A0000000000000000000042 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F9BB77A284102B8003AAFBD /* Resources */ = {
+		1A0000000000000000000046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0000000000000000000049 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,85 +271,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F9BB75E284102B7003AAFBD /* Sources */ = {
+		1A0000000000000000000040 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F9BB768284102B7003AAFBD /* ContentView.swift in Sources */,
-				4F9BB766284102B7003AAFBD /* iPhoneopediaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F9BB76E284102B8003AAFBD /* Sources */ = {
+		1A0000000000000000000044 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F9BB777284102B8003AAFBD /* iPhoneopediaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F9BB778284102B8003AAFBD /* Sources */ = {
+		1A0000000000000000000047 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F9BB781284102B8003AAFBD /* iPhoneopediaUITests.swift in Sources */,
-				4F9BB783284102B8003AAFBD /* iPhoneopediaUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F9BB774284102B8003AAFBD /* PBXTargetDependency */ = {
+		1A0000000000000000000052 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F9BB761284102B7003AAFBD /* iPhoneopedia */;
-			targetProxy = 4F9BB773284102B8003AAFBD /* PBXContainerItemProxy */;
+			target = 1A0000000000000000000031 /* iPhoneopediaWidget */;
+			targetProxy = 1A0000000000000000000051 /* PBXContainerItemProxy */;
 		};
-		4F9BB77E284102B8003AAFBD /* PBXTargetDependency */ = {
+		1A0000000000000000000054 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F9BB761284102B7003AAFBD /* iPhoneopedia */;
-			targetProxy = 4F9BB77D284102B8003AAFBD /* PBXContainerItemProxy */;
+			target = 1A0000000000000000000030 /* iPhoneopedia */;
+			targetProxy = 1A0000000000000000000053 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4F9BB784284102B8003AAFBD /* Debug */ = {
+		1A0000000000000000000061 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -339,87 +328,57 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
-		4F9BB785284102B8003AAFBD /* Release */ = {
+		1A0000000000000000000062 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		4F9BB787284102B8003AAFBD /* Debug */ = {
+		1A0000000000000000000064 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iPhoneopedia/Preview Content\"";
-				DEVELOPMENT_TEAM = 3475W94545;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iPhoneopedia;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -429,26 +388,24 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..iPhoneopedia;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankew.iPhoneopedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4F9BB788284102B8003AAFBD /* Release */ = {
+		1A0000000000000000000065 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iPhoneopedia/Preview Content\"";
-				DEVELOPMENT_TEAM = 3475W94545;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iPhoneopedia;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,131 +415,130 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..iPhoneopedia;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankew.iPhoneopedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		4F9BB78A284102B8003AAFBD /* Debug */ = {
+		1A0000000000000000000067 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3475W94545;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..iPhoneopediaTests;
+				INFOPLIST_FILE = iPhoneopediaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iPhoneopedia;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankew.iPhoneopedia.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneopedia.app/iPhoneopedia";
 			};
 			name = Debug;
 		};
-		4F9BB78B284102B8003AAFBD /* Release */ = {
+		1A0000000000000000000068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3475W94545;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..iPhoneopediaTests;
+				INFOPLIST_FILE = iPhoneopediaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iPhoneopedia;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankew.iPhoneopedia.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneopedia.app/iPhoneopedia";
 			};
 			name = Release;
 		};
-		4F9BB78D284102B8003AAFBD /* Debug */ = {
+		1A000000000000000000006A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3475W94545;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..iPhoneopediaUITests;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankew.iPhoneopediaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iPhoneopedia;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneopedia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPhoneopedia";
 			};
 			name = Debug;
 		};
-		4F9BB78E284102B8003AAFBD /* Release */ = {
+		1A000000000000000000006B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3475W94545;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..iPhoneopediaUITests;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankew.iPhoneopediaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iPhoneopedia;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneopedia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPhoneopedia";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F9BB75D284102B6003AAFBD /* Build configuration list for PBXProject "iPhoneopedia" */ = {
+		1A0000000000000000000060 /* Build configuration list for PBXProject "iPhoneopedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F9BB784284102B8003AAFBD /* Debug */,
-				4F9BB785284102B8003AAFBD /* Release */,
+				1A0000000000000000000061 /* Debug */,
+				1A0000000000000000000062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F9BB786284102B8003AAFBD /* Build configuration list for PBXNativeTarget "iPhoneopedia" */ = {
+		1A0000000000000000000063 /* Build configuration list for PBXNativeTarget "iPhoneopedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F9BB787284102B8003AAFBD /* Debug */,
-				4F9BB788284102B8003AAFBD /* Release */,
+				1A0000000000000000000064 /* Debug */,
+				1A0000000000000000000065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F9BB789284102B8003AAFBD /* Build configuration list for PBXNativeTarget "iPhoneopediaTests" */ = {
+		1A0000000000000000000066 /* Build configuration list for PBXNativeTarget "iPhoneopediaWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F9BB78A284102B8003AAFBD /* Debug */,
-				4F9BB78B284102B8003AAFBD /* Release */,
+				1A0000000000000000000067 /* Debug */,
+				1A0000000000000000000068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F9BB78C284102B8003AAFBD /* Build configuration list for PBXNativeTarget "iPhoneopediaUITests" */ = {
+		1A0000000000000000000069 /* Build configuration list for PBXNativeTarget "iPhoneopediaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F9BB78D284102B8003AAFBD /* Debug */,
-				4F9BB78E284102B8003AAFBD /* Release */,
+				1A000000000000000000006A /* Debug */,
+				1A000000000000000000006B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F9BB75A284102B6003AAFBD /* Project object */;
+	rootObject = 1A0000000000000000000001 /* Project object */;
 }
