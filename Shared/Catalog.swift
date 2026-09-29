@@ -49,6 +49,22 @@ nonisolated struct Catalog: Codable, Sendable {
         return exact + hits.filter { !exact.contains($0) }
     }
 
+    /// Models named in free text (an Ask answer), in order of appearance.
+    /// Longest names match first, so "iPhone 4S" isn't also counted as "iPhone 4".
+    func models(mentionedIn text: String) -> [PhoneModel] {
+        var text = text
+        var hits: [(offset: Int, model: PhoneModel)] = []
+        // ponytail: the bare "iPhone" would match every generic mention; the original is reachable by search.
+        for model in models.sorted(by: { $0.name.count > $1.name.count }) where model.name != "iPhone" {
+            let pattern = "(?<!\\w)" + NSRegularExpression.escapedPattern(for: model.name) + "(?!\\w)"
+            while let range = text.range(of: pattern, options: [.regularExpression, .caseInsensitive]) {
+                hits.append((text.distance(from: text.startIndex, to: range.lowerBound), model))
+                text.replaceSubrange(range, with: String(repeating: "#", count: text[range].count))
+            }
+        }
+        return hits.sorted { $0.offset < $1.offset }.map(\.model).uniqued
+    }
+
     /// Hardware identifier of the device running this code, e.g. "iPhone17,1".
     static var deviceIdentifier: String {
         if let simulated = ProcessInfo.processInfo.environment["SIMULATOR_MODEL_IDENTIFIER"] { return simulated }

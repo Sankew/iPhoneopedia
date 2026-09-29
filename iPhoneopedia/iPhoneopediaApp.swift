@@ -1,6 +1,5 @@
 import AppIntents
 import CoreSpotlight
-import FoundationModels
 import SwiftData
 import SwiftUI
 
@@ -43,7 +42,7 @@ struct RootView: View {
             Tab("My iPhones", systemImage: "person.crop.circle", value: .mine) {
                 NavigationStack { MyPhonesView() }
             }
-            if SystemLanguageModel.default.isAvailable {
+            if Assistant.isAvailable {
                 Tab("Ask", systemImage: "sparkles", value: .ask) {
                     NavigationStack { AskView() }
                 }

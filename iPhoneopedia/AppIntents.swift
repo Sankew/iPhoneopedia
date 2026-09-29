@@ -1,6 +1,5 @@
 import AppIntents
 import CoreImage
-import FoundationModels
 import UIKit
 #if canImport(VisualIntelligence) // device SDK only; the simulator SDK doesn't ship it
 import VisualIntelligence
@@ -37,7 +36,7 @@ nonisolated struct PhoneVisualSearch: IntentValueQuery {
         // Labels are generic ("phone"), never model names: use them only to skip non-phones,
         // then let the on-device model look at the pixels.
         guard input.labels.contains(where: { $0.localizedCaseInsensitiveContains("phone") }),
-              SystemLanguageModel.default.isAvailable,
+              Assistant.isAvailable,
               let buffer = input.pixelBuffer
         else { return [] }
         // Render inside the closure: the underlying CVPixelBuffer must not escape it.

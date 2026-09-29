@@ -53,6 +53,11 @@ struct CatalogTests {
         #expect(summary.contains("Chip: A4") && summary.contains("US launch price $199"))
     }
 
+    @Test func mentionedModelsPreferLongestNameAndKeepOrder() {
+        let text = "The iPhone 4s followed the iPhone 4. Later came the iPhone SE (2nd generation), then more iPhones."
+        #expect(catalog.models(mentionedIn: text).map(\.name) == ["iPhone 4S", "iPhone 4", "iPhone SE (2nd generation)"])
+    }
+
     @Test func releaseDatesAreCalendarDaysInLocalTime() throws {
         let iPhone4 = try #require(catalog.model(identifier: "iPhone3,1"))
         let day = Calendar.current.dateComponents([.year, .month, .day], from: iPhone4.released)

@@ -61,7 +61,7 @@ Build settings, all targets: iOS 27.0, `SWIFT_VERSION = 6.0`, `SWIFT_DEFAULT_ACT
   - "Your iPhone" appears in the simulator (`SIMULATOR_MODEL_IDENTIFIER`).
   - Pull to refresh.
 - **Detail**
-  - **Opens on the tapped model.** The initial `scrollPosition` isn't verified. If it lands on the first page, use a `ScrollViewReader` and `scrollTo` in `onAppear`.
+  - Opens on the tapped model (verified in the iOS 27 simulator).
   - Swipe changes pages and the title.
   - Zoom transition from the row.
   - "I owned this" toggles, and stays visible when you un-own inside My iPhones.
@@ -84,6 +84,7 @@ Build settings, all targets: iOS 27.0, `SWIFT_VERSION = 6.0`, `SWIFT_DEFAULT_ACT
 
 | Item | Why / how |
 |---|---|
+| Private Cloud Compute for Ask | Code is done: Ask and photo identify use `PrivateCloudComputeLanguageModel` (the server model behind Siri) when available and fall back to on-device. It needs Apple's managed entitlement `com.apple.developer.ml.compute.private-cloud-compute`: request it at developer.apple.com/private-cloud-compute, then add it to an `iPhoneopedia.entitlements` file. PCC doesn't run in the simulator (release note 177684296); test on a device. |
 | iPhone Duo layouts (`ArrangementView`, `reservedRegions`) | These APIs are iOS 27.1 **beta** and won't compile on Xcode 27.0. Test the Duo simulator in Xcode 27.1 first; `sidebarAdaptable` may already be enough. |
 | iCloud sync for My iPhones | Needs a paid developer account. Add the iCloud capability (CloudKit) and Background Modes → Remote notifications. `OwnedPhone` is already CloudKit-compatible. |
 | App icon | The `AppIcon` slot is empty, which gives a build warning. Make a layered icon in Icon Composer 2.0. |

@@ -75,14 +75,17 @@ struct PhoneImage: View {
     let url: URL?
 
     var body: some View {
-        AsyncImage(url: url) { image in
-            image.resizable().scaledToFit()
-        } placeholder: {
-            Image(systemName: "iphone")
-                .resizable()
-                .scaledToFit()
-                .padding(4)
-                .foregroundStyle(.tertiary)
+        AsyncImage(url: url, transaction: Transaction(animation: .smooth)) { phase in
+            if let image = phase.image {
+                image.resizable().scaledToFit()
+                    .transition(.opacity.combined(with: .scale(scale: 0.92)))
+            } else {
+                Image(systemName: "iphone")
+                    .resizable()
+                    .scaledToFit()
+                    .padding(4)
+                    .foregroundStyle(.tertiary)
+            }
         }
         .accessibilityHidden(true)
     }

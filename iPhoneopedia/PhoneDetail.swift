@@ -19,6 +19,7 @@ struct PhoneDetail: View {
         .scrollTargetBehavior(.paging)
         .scrollPosition(id: $selection)
         .scrollIndicators(.hidden)
+        .sensoryFeedback(.selection, trigger: selection)
         .navigationTitle(current?.name ?? "")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
@@ -36,52 +37,140 @@ struct PhonePage: View {
     let model: PhoneModel
 
     var body: some View {
-        List {
-            Section {
+        ScrollView {
+            VStack(spacing: 16) {
                 PhoneImage(url: model.imageURL)
+                    .padding(.horizontal) // inside the measured frame, so the parallax rests at zero
                     .frame(maxWidth: .infinity)
-                    .frame(height: 240)
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(model.name).font(.largeTitle.bold())
-                    if let tagline = model.tagline {
-                        Text(tagline).foregroundStyle(.secondary)
+                    .frame(height: 280)
+                    // Parallax while paging: the photo lags behind its page and shrinks as it leaves.
+                    .visualEffect { content, proxy in
+                        let x = proxy.frame(in: .scrollView(axis: .horizontal)).minX
+                        let progress = min(abs(x) / max(proxy.size.width, 1), 1)
+                        return content
+                            .offset(x: -x * 0.4)
+                            .scaleEffect(1 - progress * 0.25)
+                            .opacity(1 - progress * 0.6)
+                    }
+
+                VStack(alignment: .leading, spacing: 16) {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(model.name).font(.largeTitle.bold())
+                        if let tagline = model.tagline {
+                            Text(tagline).foregroundStyle(.secondary)
+                        }
+                    }
+                    FactPills(model: model)
+
+                    GlassCard("Overview") {
+                        SpecRow(label: model.released > .now ? "Available" : "Released",
+                                value: model.released.formatted(date: .long, time: .omitted))
+                        if let discontinued = model.discontinued {
+                            SpecRow(label: "Discontinued", value: discontinued.formatted(date: .long, time: .omitted))
+                        }
+                        if !model.colors.isEmpty {
+                            ColorSwatches(colors: model.colors)
+                        }
+                    }
+
+                    ForEach(model.specs, id: \.title) { section in
+                        GlassCard(section.title) {
+                            ForEach(section.rows, id: \.self) { row in
+                                SpecRow(label: row.first ?? "", value: row.last ?? "")
+                            }
+                        }
+                    }
+
+                    if let about = model.about {
+                        GlassCard("About") {
+                            Text(about)
+                            if let source = model.aboutSource {
+                                Link(source.host()?.contains("wikipedia") == true ? "Source: Wikipedia (CC BY-SA 4.0)" : "Source",
+                                     destination: source)
+                                    .font(.footnote)
+                            }
+                        }
                     }
                 }
-            }
-
-            Section("Overview") {
-                LabeledContent(model.released > .now ? "Available" : "Released",
-                               value: model.released.formatted(date: .long, time: .omitted))
-                if let discontinued = model.discontinued {
-                    LabeledContent("Discontinued", value: discontinued.formatted(date: .long, time: .omitted))
-                }
-                if let price = model.launchPriceUSD {
-                    LabeledContent("US launch price", value: price, format: .currency(code: "USD").precision(.fractionLength(0)))
-                }
-                if !model.colors.isEmpty {
-                    ColorSwatches(colors: model.colors)
-                }
-            }
-
-            ForEach(model.specs, id: \.title) { section in
-                Section(section.title) {
-                    ForEach(section.rows, id: \.self) { row in
-                        LabeledContent(row.first ?? "", value: row.last ?? "")
-                    }
-                }
-            }
-
-            if let about = model.about {
-                Section("About") {
-                    Text(about)
-                    if let source = model.aboutSource {
-                        Link(source.host()?.contains("wikipedia") == true ? "Source: Wikipedia (CC BY-SA 4.0)" : "Source",
-                             destination: source)
-                            .font(.footnote)
-                    }
-                }
+                .padding([.horizontal, .bottom])
             }
         }
+        .background { Backdrop(colors: model.colors) }
+    }
+}
+
+/// The phone's own finishes, washed out behind the glass: every page has its color.
+private struct Backdrop: View {
+    let colors: [PhoneColor]
+
+    var body: some View {
+        let tints = colors.isEmpty ? [Color.accentColor] : colors.prefix(3).map(\.color)
+        LinearGradient(colors: tints.map { $0.opacity(0.35) } + [Color(.systemGroupedBackground)],
+                       startPoint: .top, endPoint: .bottom)
+            .ignoresSafeArea()
+    }
+}
+
+/// Year, chip, price and screen size as glass capsules; they stack when Dynamic Type makes them too wide.
+private struct FactPills: View {
+    let model: PhoneModel
+
+    var body: some View {
+        var facts = [String(model.year), model.chip]
+        if let price = model.launchPriceUSD {
+            facts.append(price.formatted(.currency(code: "USD").precision(.fractionLength(0))))
+        }
+        if let inches = model.displayInches {
+            facts.append("\(inches.formatted())″")
+        }
+        let pills = ForEach(facts, id: \.self) { fact in
+            Text(fact)
+                .font(.subheadline.weight(.semibold))
+                .padding(.horizontal, 14)
+                .padding(.vertical, 8)
+                .glassEffect(in: .capsule)
+        }
+        return GlassEffectContainer(spacing: 8) {
+            ViewThatFits(in: .horizontal) {
+                HStack(spacing: 8) { pills }
+                VStack(alignment: .leading, spacing: 8) { pills }
+            }
+        }
+    }
+}
+
+private struct GlassCard<Content: View>: View {
+    let title: String
+    @ViewBuilder let content: Content
+
+    init(_ title: String, @ViewBuilder content: () -> Content) {
+        self.title = title
+        self.content = content()
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(title).font(.headline)
+            content
+        }
+        .padding()
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .glassEffect(in: .rect(cornerRadius: 24))
+    }
+}
+
+private struct SpecRow: View {
+    let label: String
+    let value: String
+
+    var body: some View {
+        HStack(alignment: .firstTextBaseline) {
+            Text(label).foregroundStyle(.secondary)
+            Spacer(minLength: 16)
+            Text(value).multilineTextAlignment(.trailing)
+        }
+        .font(.subheadline)
+        .accessibilityElement(children: .combine)
     }
 }
 
@@ -89,17 +178,22 @@ struct ColorSwatches: View {
     let colors: [PhoneColor]
 
     var body: some View {
-        LabeledContent("Colors") {
-            VStack(alignment: .trailing, spacing: 4) {
-                HStack(spacing: 4) {
+        VStack(alignment: .leading, spacing: 8) {
+            GlassEffectContainer(spacing: 6) {
+                HStack(spacing: 6) {
                     ForEach(colors, id: \.name) { color in
-                        Circle().fill(color.color).stroke(.separator).frame(width: 18, height: 18)
+                        Circle()
+                            .fill(color.color)
+                            .padding(4)
+                            .frame(width: 30, height: 30)
+                            .glassEffect(in: .circle)
                     }
                 }
-                Text(colors.map(\.name).formatted()).font(.caption)
             }
+            Text(colors.map(\.name).formatted()).font(.caption).foregroundStyle(.secondary)
         }
         .accessibilityElement(children: .combine)
+        .accessibilityLabel("Colors: \(colors.map(\.name).formatted())")
     }
 }
 
@@ -118,13 +212,19 @@ struct OwnedToggle: View {
 
     var body: some View {
         let records = owned.filter { $0.modelID == model.id }
-        Button(records.isEmpty ? "I owned this" : "Owned", systemImage: records.isEmpty ? "plus.circle" : "checkmark.circle.fill") {
-            if records.isEmpty {
-                context.insert(OwnedPhone(modelID: model.id))
-            } else {
+        let isOwned = !records.isEmpty
+        Button {
+            if isOwned {
                 records.forEach(context.delete)
+            } else {
+                context.insert(OwnedPhone(modelID: model.id))
             }
+        } label: {
+            Label(isOwned ? "Owned" : "I owned this", systemImage: isOwned ? "checkmark.circle.fill" : "plus.circle")
+                .contentTransition(.symbolEffect(.replace))
         }
+        .symbolEffect(.bounce, value: isOwned)
+        .sensoryFeedback(.success, trigger: isOwned) { _, owned in owned }
     }
 }
 
