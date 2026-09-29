@@ -1,0 +1,37 @@
+name: Update catalog
+
+on:
+  schedule:
+    - cron: '17 6 * * *' # daily
+  workflow_dispatch: # "Run workflow" button = instant update
+  push:
+    branches: [main]
+    paths: ['data/**', 'scripts/**']
+  pull_request:
+    paths: ['data/**', 'scripts/**', 'Shared/catalog.json']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: node --test
+      - run: node scripts/build-catalog.mjs
+      - name: Commit catalog if changed
+        if: github.event_name != 'pull_request'
+        run: |
+          git diff --quiet Shared/catalog.json && exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'catalog: update' Shared/catalog.json
+          git push
