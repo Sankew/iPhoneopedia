@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T12:59:31Z",
+  "generatedAt": "2026-09-29T13:23:14Z",
   "models": [
     {
-      "id": "iphone",
+      "id": "iphone1-1",
       "name": "iPhone",
       "identifiers": [
         "iPhone1,1"
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": "iphone-3g",
+      "id": "iphone1-2",
       "name": "iPhone 3G",
       "identifiers": [
         "iPhone1,2"
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": "iphone-3gs",
+      "id": "iphone2-1",
       "name": "iPhone 3GS",
       "identifiers": [
         "iPhone2,1"
@@ -173,7 +173,7 @@
       ]
     },
     {
-      "id": "iphone-4",
+      "id": "iphone3-1",
       "name": "iPhone 4",
       "identifiers": [
         "iPhone3,1",
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "id": "iphone-4s",
+      "id": "iphone4-1",
       "name": "iPhone 4S",
       "identifiers": [
         "iPhone4,1"
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "id": "iphone-5",
+      "id": "iphone5-1",
       "name": "iPhone 5",
       "identifiers": [
         "iPhone5,1",
@@ -350,7 +350,7 @@
       ]
     },
     {
-      "id": "iphone-5c",
+      "id": "iphone5-3",
       "name": "iPhone 5c",
       "identifiers": [
         "iPhone5,3",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "iphone-5s",
+      "id": "iphone6-1",
       "name": "iPhone 5s",
       "identifiers": [
         "iPhone6,1",
@@ -484,7 +484,7 @@
       ]
     },
     {
-      "id": "iphone-6",
+      "id": "iphone7-2",
       "name": "iPhone 6",
       "identifiers": [
         "iPhone7,2"
@@ -538,7 +538,7 @@
       ]
     },
     {
-      "id": "iphone-6-plus",
+      "id": "iphone7-1",
       "name": "iPhone 6 Plus",
       "identifiers": [
         "iPhone7,1"
@@ -592,7 +592,7 @@
       ]
     },
     {
-      "id": "iphone-6s",
+      "id": "iphone8-1",
       "name": "iPhone 6s",
       "identifiers": [
         "iPhone8,1"
@@ -650,7 +650,7 @@
       ]
     },
     {
-      "id": "iphone-6s-plus",
+      "id": "iphone8-2",
       "name": "iPhone 6s Plus",
       "identifiers": [
         "iPhone8,2"
@@ -708,7 +708,7 @@
       ]
     },
     {
-      "id": "iphone-se-1st-generation",
+      "id": "iphone8-4",
       "name": "iPhone SE (1st generation)",
       "identifiers": [
         "iPhone8,4"
@@ -766,7 +766,7 @@
       ]
     },
     {
-      "id": "iphone-7",
+      "id": "iphone9-1",
       "name": "iPhone 7",
       "identifiers": [
         "iPhone9,1",
@@ -833,7 +833,7 @@
       ]
     },
     {
-      "id": "iphone-7-plus",
+      "id": "iphone9-2",
       "name": "iPhone 7 Plus",
       "identifiers": [
         "iPhone9,2",
@@ -900,7 +900,7 @@
       ]
     },
     {
-      "id": "iphone-8",
+      "id": "iphone10-1",
       "name": "iPhone 8",
       "identifiers": [
         "iPhone10,1",
@@ -959,7 +959,7 @@
       ]
     },
     {
-      "id": "iphone-8-plus",
+      "id": "iphone10-2",
       "name": "iPhone 8 Plus",
       "identifiers": [
         "iPhone10,2",
@@ -1018,7 +1018,7 @@
       ]
     },
     {
-      "id": "iphone-x",
+      "id": "iphone10-3",
       "name": "iPhone X",
       "identifiers": [
         "iPhone10,3",
@@ -1069,7 +1069,7 @@
       ]
     },
     {
-      "id": "iphone-xs",
+      "id": "iphone11-2",
       "name": "iPhone XS",
       "identifiers": [
         "iPhone11,2"
@@ -1123,7 +1123,7 @@
       ]
     },
     {
-      "id": "iphone-xs-max",
+      "id": "iphone11-4",
       "name": "iPhone XS Max",
       "identifiers": [
         "iPhone11,4",
@@ -1178,7 +1178,7 @@
       ]
     },
     {
-      "id": "iphone-xr",
+      "id": "iphone11-8",
       "name": "iPhone XR",
       "identifiers": [
         "iPhone11,8"
@@ -1244,7 +1244,7 @@
       ]
     },
     {
-      "id": "iphone-11",
+      "id": "iphone12-1",
       "name": "iPhone 11",
       "identifiers": [
         "iPhone12,1"
@@ -1310,7 +1310,7 @@
       ]
     },
     {
-      "id": "iphone-11-pro",
+      "id": "iphone12-3",
       "name": "iPhone 11 Pro",
       "identifiers": [
         "iPhone12,3"
@@ -1368,7 +1368,7 @@
       ]
     },
     {
-      "id": "iphone-11-pro-max",
+      "id": "iphone12-5",
       "name": "iPhone 11 Pro Max",
       "identifiers": [
         "iPhone12,5"
@@ -1426,7 +1426,7 @@
       ]
     },
     {
-      "id": "iphone-se-2nd-generation",
+      "id": "iphone12-8",
       "name": "iPhone SE (2nd generation)",
       "identifiers": [
         "iPhone12,8"
@@ -1480,7 +1480,7 @@
       ]
     },
     {
-      "id": "iphone-12",
+      "id": "iphone13-2",
       "name": "iPhone 12",
       "identifiers": [
         "iPhone13,2"
@@ -1546,7 +1546,7 @@
       ]
     },
     {
-      "id": "iphone-12-pro",
+      "id": "iphone13-3",
       "name": "iPhone 12 Pro",
       "identifiers": [
         "iPhone13,3"
@@ -1604,7 +1604,7 @@
       ]
     },
     {
-      "id": "iphone-12-mini",
+      "id": "iphone13-1",
       "name": "iPhone 12 mini",
       "identifiers": [
         "iPhone13,1"
@@ -1670,7 +1670,7 @@
       ]
     },
     {
-      "id": "iphone-12-pro-max",
+      "id": "iphone13-4",
       "name": "iPhone 12 Pro Max",
       "identifiers": [
         "iPhone13,4"
@@ -1728,7 +1728,7 @@
       ]
     },
     {
-      "id": "iphone-13",
+      "id": "iphone14-5",
       "name": "iPhone 13",
       "identifiers": [
         "iPhone14,5"
@@ -1802,7 +1802,7 @@
       ]
     },
     {
-      "id": "iphone-13-mini",
+      "id": "iphone14-4",
       "name": "iPhone 13 mini",
       "identifiers": [
         "iPhone14,4"
@@ -1876,7 +1876,7 @@
       ]
     },
     {
-      "id": "iphone-13-pro",
+      "id": "iphone14-2",
       "name": "iPhone 13 Pro",
       "identifiers": [
         "iPhone14,2"
@@ -1946,7 +1946,7 @@
       ]
     },
     {
-      "id": "iphone-13-pro-max",
+      "id": "iphone14-3",
       "name": "iPhone 13 Pro Max",
       "identifiers": [
         "iPhone14,3"
@@ -2016,7 +2016,7 @@
       ]
     },
     {
-      "id": "iphone-se-3rd-generation",
+      "id": "iphone14-6",
       "name": "iPhone SE (3rd generation)",
       "identifiers": [
         "iPhone14,6"
@@ -2078,7 +2078,7 @@
       ]
     },
     {
-      "id": "iphone-14",
+      "id": "iphone14-7",
       "name": "iPhone 14",
       "identifiers": [
         "iPhone14,7"
@@ -2152,7 +2152,7 @@
       ]
     },
     {
-      "id": "iphone-14-pro",
+      "id": "iphone15-2",
       "name": "iPhone 14 Pro",
       "identifiers": [
         "iPhone15,2"
@@ -2218,7 +2218,7 @@
       ]
     },
     {
-      "id": "iphone-14-pro-max",
+      "id": "iphone15-3",
       "name": "iPhone 14 Pro Max",
       "identifiers": [
         "iPhone15,3"
@@ -2284,7 +2284,7 @@
       ]
     },
     {
-      "id": "iphone-14-plus",
+      "id": "iphone14-8",
       "name": "iPhone 14 Plus",
       "identifiers": [
         "iPhone14,8"
@@ -2358,7 +2358,7 @@
       ]
     },
     {
-      "id": "iphone-15",
+      "id": "iphone15-4",
       "name": "iPhone 15",
       "identifiers": [
         "iPhone15,4"
@@ -2428,7 +2428,7 @@
       ]
     },
     {
-      "id": "iphone-15-plus",
+      "id": "iphone15-5",
       "name": "iPhone 15 Plus",
       "identifiers": [
         "iPhone15,5"
@@ -2498,7 +2498,7 @@
       ]
     },
     {
-      "id": "iphone-15-pro",
+      "id": "iphone16-1",
       "name": "iPhone 15 Pro",
       "identifiers": [
         "iPhone16,1"
@@ -2556,7 +2556,7 @@
       ]
     },
     {
-      "id": "iphone-15-pro-max",
+      "id": "iphone16-2",
       "name": "iPhone 15 Pro Max",
       "identifiers": [
         "iPhone16,2"
@@ -2614,7 +2614,7 @@
       ]
     },
     {
-      "id": "iphone-16",
+      "id": "iphone17-3",
       "name": "iPhone 16",
       "identifiers": [
         "iPhone17,3"
@@ -2675,7 +2675,7 @@
       ]
     },
     {
-      "id": "iphone-16-plus",
+      "id": "iphone17-4",
       "name": "iPhone 16 Plus",
       "identifiers": [
         "iPhone17,4"
@@ -2737,7 +2737,7 @@
       ]
     },
     {
-      "id": "iphone-16-pro",
+      "id": "iphone17-1",
       "name": "iPhone 16 Pro",
       "identifiers": [
         "iPhone17,1"
@@ -2795,7 +2795,7 @@
       ]
     },
     {
-      "id": "iphone-16-pro-max",
+      "id": "iphone17-2",
       "name": "iPhone 16 Pro Max",
       "identifiers": [
         "iPhone17,2"
@@ -2853,7 +2853,7 @@
       ]
     },
     {
-      "id": "iphone-16e",
+      "id": "iphone17-5",
       "name": "iPhone 16e",
       "identifiers": [
         "iPhone17,5"
@@ -2903,7 +2903,7 @@
       ]
     },
     {
-      "id": "iphone-17",
+      "id": "iphone18-3",
       "name": "iPhone 17",
       "identifiers": [
         "iPhone18,3"
@@ -2964,7 +2964,7 @@
       ]
     },
     {
-      "id": "iphone-17-pro",
+      "id": "iphone18-1",
       "name": "iPhone 17 Pro",
       "identifiers": [
         "iPhone18,1"
@@ -3018,7 +3018,7 @@
       ]
     },
     {
-      "id": "iphone-17-pro-max",
+      "id": "iphone18-2",
       "name": "iPhone 17 Pro Max",
       "identifiers": [
         "iPhone18,2"
@@ -3072,7 +3072,7 @@
       ]
     },
     {
-      "id": "iphone-air",
+      "id": "iphone18-4",
       "name": "iPhone Air",
       "identifiers": [
         "iPhone18,4"
@@ -3129,7 +3129,7 @@
       ]
     },
     {
-      "id": "iphone-17e",
+      "id": "iphone18-5",
       "name": "iPhone 17e",
       "identifiers": [
         "iPhone18,5"
@@ -3182,7 +3182,7 @@
       ]
     },
     {
-      "id": "iphone-18-pro",
+      "id": "iphone19-2",
       "name": "iPhone 18 Pro",
       "identifiers": [
         "iPhone19,2"
@@ -3239,7 +3239,7 @@
       ]
     },
     {
-      "id": "iphone-18-pro-max",
+      "id": "iphone19-3",
       "name": "iPhone 18 Pro Max",
       "identifiers": [
         "iPhone19,3",
@@ -3297,7 +3297,7 @@
       ]
     },
     {
-      "id": "iphone-duo",
+      "id": "iphone19-4",
       "name": "iPhone Duo",
       "identifiers": [
         "iPhone19,4"

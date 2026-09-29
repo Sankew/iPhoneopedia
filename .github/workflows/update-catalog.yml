@@ -13,13 +13,15 @@ on:
 permissions:
   contents: write
 
+# PR checks get their own lane so they never replace a pending update of main.
 concurrency:
-  group: catalog
+  group: catalog-${{ github.event_name == 'pull_request' && github.ref || 'main' }}
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5

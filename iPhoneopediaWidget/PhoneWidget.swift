@@ -31,14 +31,15 @@ nonisolated struct PhoneTimeline: AppIntentTimelineProvider {
         return Timeline(entries: [await entry(for: configuration)], policy: .after(.now.addingTimeInterval(24 * 60 * 60)))
     }
 
-    /// The configured model, else this device, else the newest iPhone.
+    /// The configured model, else this device, else the newest released iPhone.
     private func entry(for configuration: PhoneWidgetIntent) async -> PhoneEntry {
         let catalog = await CatalogStore.shared.catalog
         if let id = configuration.model?.id, let model = catalog.models.first(where: { $0.id == id }) {
             return PhoneEntry(date: .now, model: model, isThisDevice: false)
         }
         let device = catalog.model(identifier: Catalog.deviceIdentifier)
-        return PhoneEntry(date: .now, model: device ?? catalog.models.last, isThisDevice: device != nil)
+        let newest = catalog.models.last { $0.released <= .now } ?? catalog.models.last
+        return PhoneEntry(date: .now, model: device ?? newest, isThisDevice: device != nil)
     }
 }
 
