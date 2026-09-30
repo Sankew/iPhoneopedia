@@ -79,7 +79,7 @@ export function specsFor(m, o = {}) {
 const text = (html) =>
   html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;|&#160;/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim()
 
-// ponytail: regex over Apple's markup (one heading + image + model numbers per model).
+// A regex over Apple's markup (one heading + image + model numbers per model).
 // If Apple redesigns the page, the scrape-hit check in main() fails the run; swap in an HTML parser then.
 export function imagesFromApplePage(html, models, pageURL = APPLE_PAGE) {
   const found = {}

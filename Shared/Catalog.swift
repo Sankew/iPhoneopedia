@@ -54,7 +54,7 @@ nonisolated struct Catalog: Codable, Sendable {
     func models(mentionedIn text: String) -> [PhoneModel] {
         var text = text
         var hits: [(offset: Int, model: PhoneModel)] = []
-        // ponytail: the bare "iPhone" would match every generic mention; the original is reachable by search.
+        // Skips the bare "iPhone": it would match every generic mention; the original is reachable by search.
         for model in models.sorted(by: { $0.name.count > $1.name.count }) where model.name != "iPhone" {
             let pattern = "(?<!\\w)" + NSRegularExpression.escapedPattern(for: model.name) + "(?!\\w)"
             while let range = text.range(of: pattern, options: [.regularExpression, .caseInsensitive]) {

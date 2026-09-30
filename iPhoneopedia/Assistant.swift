@@ -38,7 +38,7 @@ nonisolated struct CatalogTool: Tool {
     @concurrent func call(arguments: Arguments) async throws -> String {
         let catalog = await CatalogStore.shared.catalog
         let matches = arguments.terms.flatMap { catalog.search($0).prefix(4) }.uniqued
-        // ponytail: capped at 8 summaries to stay inside the on-device model's small context window.
+        // Capped at 8 summaries to stay inside the on-device model's small context window.
         return matches.isEmpty ? "No matching iPhone models in the catalog." : matches.prefix(8).map(\.summary).joined(separator: "\n")
     }
 }

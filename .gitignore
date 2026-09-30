@@ -4,4 +4,3 @@ DerivedData/
 *.xcuserstate
 .build/
 node_modules/
-.claude/settings.local.json
