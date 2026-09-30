@@ -40,9 +40,19 @@ nonisolated struct Catalog: Codable, Sendable {
     func search(_ query: String) -> [PhoneModel] {
         let query = query.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !query.isEmpty else { return newestFirst }
-        let hits = newestFirst.filter { model in
+        if ["original iphone", "first iphone"].contains(query.lowercased()) {
+            return Array(models.prefix(1))
+        }
+        var hits = newestFirst.filter { model in
             model.name.localizedStandardContains(query) || model.chip.localizedStandardContains(query)
                 || model.identifiers.contains { $0.localizedStandardContains(query) } || String(model.year) == query
+        }
+        if hits.isEmpty {
+            // "iPhone mini" names no model, but every word of it is in "iPhone 13 mini".
+            let words = query.split(whereSeparator: \.isWhitespace)
+            hits = newestFirst.filter { model in
+                words.allSatisfy { model.name.localizedStandardContains($0) } // names only: "14" would match chip A14
+            }
         }
         // An exact name ("iPhone 16") ranks above its longer siblings ("iPhone 16 Pro Max").
         let exact = hits.filter { $0.name.localizedCaseInsensitiveCompare(query) == .orderedSame }
@@ -126,14 +136,22 @@ nonisolated struct SpecSection: Codable, Sendable, Hashable {
     static let shared = CatalogStore()
     static let remoteURL = URL(string: "https://raw.githubusercontent.com/Sankew/iPhoneopedia/main/Shared/catalog.json")!
 
-    private(set) var catalog = Catalog.bundled
+    private(set) var catalog: Catalog
+    private let fetch: @Sendable (URL) async throws -> Data
+
+    /// `fetch` is the only network boundary; tests pass canned catalogs.
+    init(catalog: Catalog = .bundled,
+         fetch: @escaping @Sendable (URL) async throws -> Data = { try await URLSession.shared.data(from: $0).0 }) {
+        self.catalog = catalog
+        self.fetch = fetch
+    }
 
     var models: [PhoneModel] { catalog.models }
     var current: PhoneModel? { catalog.model(identifier: Catalog.deviceIdentifier) }
 
     /// Fetches the latest catalog. URLCache handles ETag revalidation; on any failure the current data stays.
     func refresh() async {
-        guard let (data, _) = try? await URLSession.shared.data(from: Self.remoteURL),
+        guard let data = try? await fetch(Self.remoteURL),
               let remote = try? Catalog.decode(data),
               remote.schemaVersion <= Catalog.supportedSchema,
               remote.generatedAt >= catalog.generatedAt

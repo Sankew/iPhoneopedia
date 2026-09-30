@@ -49,13 +49,14 @@ struct PhoneWidgetView: View {
     var body: some View {
         if let model = entry.model {
             VStack(alignment: .leading, spacing: 2) {
-                Image(systemName: "iphone").font(.title2).foregroundStyle(.tint)
+                Image(systemName: "iphone").font(.title2).foregroundStyle(.tint).widgetAccentable()
                 Spacer()
                 Text(entry.isThisDevice ? "Your iPhone" : model.chip)
                     .font(.caption)
                     .foregroundStyle(.secondary)
                 Text(model.name)
                     .font(.headline)
+                    .widgetAccentable()
                     .minimumScaleFactor(0.7)
                 Text(model.released > entry.date
                      ? "Coming \(model.released.formatted(date: .abbreviated, time: .omitted))"

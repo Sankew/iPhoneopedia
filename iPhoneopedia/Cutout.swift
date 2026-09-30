@@ -8,7 +8,9 @@ import Vision
 nonisolated enum Cutout {
     private static let folder = URL.cachesDirectory.appending(path: "Cutouts", directoryHint: .isDirectory)
     private static let context = CIContext()
-    nonisolated(unsafe) private static let memory = NSCache<NSURL, UIImage>() // NSCache is thread-safe
+    // NSCache is documented thread-safe but not annotated Sendable; it also evicts under memory pressure,
+    // which a Mutex-guarded dictionary wouldn't.
+    nonisolated(unsafe) private static let memory = NSCache<NSURL, UIImage>()
     private static let maxPixels: CGFloat = 1200 // detail photo width at 3x; also keeps the flood fill fast
 
     /// Already-loaded result, so rows that scroll back into view don't flash the placeholder.
@@ -33,7 +35,7 @@ nonisolated enum Cutout {
             // Opaque photo: cut it out and keep the result, since this is the expensive part.
             image = UIImage(cgImage: await cutOut(source))
             try? FileManager.default.createDirectory(at: folder, withIntermediateDirectories: true)
-            try? image.pngData()?.write(to: file)
+            try? image.pngData()?.write(to: file, options: .atomic) // concurrent loads may read it mid-write
         }
         memory.setObject(image, forKey: url as NSURL)
         return image

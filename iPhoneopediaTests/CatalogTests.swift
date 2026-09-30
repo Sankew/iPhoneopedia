@@ -35,7 +35,8 @@ struct CatalogTests {
         #expect(catalog.model(identifier: identifier)?.name == name)
     }
 
-    @Test(arguments: [("mini", "iPhone 13 mini"), ("A4", "iPhone 4"), ("iphone3,3", "iPhone 4"), ("2007", "iPhone")])
+    @Test(arguments: [("mini", "iPhone 13 mini"), ("A4", "iPhone 4"), ("iphone3,3", "iPhone 4"), ("2007", "iPhone"),
+                      ("iPhone mini", "iPhone 12 mini"), ("original iPhone", "iPhone")])
     func searchMatchesNameChipIdentifierAndYear(query: String, expected: String) {
         #expect(catalog.search(query).map(\.name).contains(expected))
     }
@@ -56,6 +57,29 @@ struct CatalogTests {
     @Test func mentionedModelsPreferLongestNameAndKeepOrder() {
         let text = "The iPhone 4s followed the iPhone 4. Later came the iPhone SE (2nd generation), then more iPhones."
         #expect(catalog.models(mentionedIn: text).map(\.name) == ["iPhone 4S", "iPhone 4", "iPhone SE (2nd generation)"])
+    }
+
+    /// A bad or stale remote catalog must never replace what the app already shows.
+    @Test func refreshOnlyTakesNewerCatalogsItUnderstands() async throws {
+        let encoder = JSONEncoder()
+        encoder.dateEncodingStrategy = .iso8601
+        var newer = catalog
+        newer.generatedAt += 60
+        newer.models.removeLast()
+        var older = newer
+        older.generatedAt = catalog.generatedAt - 60
+        var unknownSchema = newer
+        unknownSchema.schemaVersion = Catalog.supportedSchema + 1
+
+        for (remote, accepted) in [(newer, true), (older, false), (unknownSchema, false)] {
+            let data = try encoder.encode(remote)
+            let store = CatalogStore(catalog: catalog, fetch: { _ in data })
+            await store.refresh()
+            #expect((store.models.count == newer.models.count) == accepted)
+        }
+        let offline = CatalogStore(catalog: catalog, fetch: { _ in throw URLError(.notConnectedToInternet) })
+        await offline.refresh()
+        #expect(offline.models.count == catalog.models.count)
     }
 
     @Test func releaseDatesAreCalendarDaysInLocalTime() throws {

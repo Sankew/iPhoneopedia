@@ -1,7 +1,21 @@
+<img src="screenshots/icon.png" width="96" alt="iPhoneopedia icon: three glass iPhones fanned like pages">
+
 # iPhoneopedia
 
 Every iPhone from the 2007 original to the iPhone Duo, in a SwiftUI app for iOS 27.
 The catalog updates itself, so a new iPhone shows up in the app without an App Store release.
+
+<p>
+  <img src="screenshots/list.png" width="250" alt="The list of iPhones by year, with your iPhone pinned on top">
+  <img src="screenshots/detail-17pro.png" width="250" alt="iPhone 17 Pro detail page: glass cards over a Cosmic Orange tint">
+  <img src="screenshots/detail-se-dark.png" width="250" alt="iPhone SE (2nd generation) in dark mode, its photo cut out of Apple's white background">
+</p>
+<p>
+  <img src="screenshots/ask.png" width="250" alt="Ask: which iPhones came in a mini size, answered with the 12 mini and 13 mini">
+  <img src="screenshots/trends.png" width="250" alt="Trends: launch prices and screen sizes since 2007">
+  <img src="screenshots/list-dark.png" width="250" alt="The list in dark mode">
+</p>
+<img src="screenshots/ipad-detail.png" width="770" alt="iPhone 18 Pro Max on iPad, with the tab bar at the top">
 
 ## Features
 
@@ -50,7 +64,7 @@ Xcode 27, iOS 27. Set your team on the three targets (app, widget, tests) and ru
 
 ## Still to do
 
-- **Private Cloud Compute.** Apple grants it per app as a managed entitlement (`com.apple.developer.ml.compute.private-cloud-compute`, requested at [developer.apple.com/private-cloud-compute](https://developer.apple.com/private-cloud-compute/)). Until then Ask runs on device. PCC doesn't work in the simulator.
+- **Private Cloud Compute.** Apple grants it per app as a managed entitlement, `com.apple.developer.private-cloud-compute` ([request form](https://developer.apple.com/contact/request/private-cloud-compute/)). Once it's granted, add it to the app's entitlements and set `hasCloudEntitlement` in `Assistant.swift` to `true`. Until then Ask runs on device; without the entitlement the cloud model crashes the app instead of failing politely. PCC doesn't work in the simulator.
 - **iPhone Duo layout.** The Duo APIs (`ArrangementView`, `reservedRegions`) need Xcode 27.1. `sidebarAdaptable` might already look fine unfolded.
 - **iCloud sync for My iPhones.** Needs a paid developer account; `OwnedPhone` is already CloudKit-compatible.
 - **Taglines and my own about text** from the 2022 app, into `overrides.json`.

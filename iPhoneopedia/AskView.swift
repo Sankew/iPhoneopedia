@@ -17,7 +17,10 @@ struct AskView: View {
     private static let instructions = """
         You answer questions about iPhone models for the iPhoneopedia app. \
         Always call searchCatalog to look facts up, and answer only from its results. \
-        If the catalog doesn't have the answer, say so. Keep answers short and use exact model names.
+        The first iPhone, from 2007, is named just "iPhone". \
+        If the catalog doesn't have the answer, say so. \
+        Answer in one to three sentences with exact model names; the app lists the models you name below your answer, \
+        so don't repeat every fact from the search results.
         """
     private static let suggestions = [
         "Which iPhones came in a mini size?",
@@ -207,49 +210,51 @@ private struct ExchangeView: View {
     let exchange: AskView.Exchange
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            VStack(alignment: .trailing, spacing: 8) {
-                if let photo = exchange.photo {
-                    photo
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 140, height: 140)
-                        .clipShape(.rect(cornerRadius: 20))
-                        .accessibilityLabel("Your photo")
+        GlassEffectContainer(spacing: 10) {
+            VStack(alignment: .leading, spacing: 10) {
+                VStack(alignment: .trailing, spacing: 8) {
+                    if let photo = exchange.photo {
+                        photo
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 140, height: 140)
+                            .clipShape(.rect(cornerRadius: 20))
+                            .accessibilityLabel("Your photo")
+                    }
+                    Text(exchange.question)
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 10)
+                        .glassEffect(.regular.tint(.accentColor), in: .rect(cornerRadius: 20))
                 }
-                Text(exchange.question)
-                    .foregroundStyle(.white)
-                    .padding(.horizontal, 16)
-                    .padding(.vertical, 10)
-                    .glassEffect(.regular.tint(.accentColor), in: .rect(cornerRadius: 20))
-            }
-            .frame(maxWidth: .infinity, alignment: .trailing)
+                .frame(maxWidth: .infinity, alignment: .trailing)
 
-            VStack(alignment: .leading, spacing: 12) {
-                if exchange.answer.isEmpty {
-                    Image(systemName: "ellipsis")
-                        .font(.title2)
-                        .symbolEffect(.variableColor.iterative, options: .repeating)
-                        .accessibilityLabel("Thinking")
-                } else {
-                    Text(Self.markdown(exchange.answer))
-                        .textSelection(.enabled)
+                VStack(alignment: .leading, spacing: 12) {
+                    if exchange.answer.isEmpty {
+                        Image(systemName: "ellipsis")
+                            .font(.title2)
+                            .symbolEffect(.variableColor.iterative, options: .repeating)
+                            .accessibilityLabel("Thinking")
+                    } else {
+                        Text(Self.markdown(exchange.answer))
+                            .textSelection(.enabled)
+                    }
+                    // No matchedTransitionSource here: a model can appear in several answers.
+                    ForEach(exchange.models) { model in
+                        NavigationLink(value: model) { PhoneRow(model: model) }
+                            .buttonStyle(.plain)
+                            .transition(.scale(scale: 0.9).combined(with: .opacity))
+                    }
+                    if let assistant = exchange.assistant {
+                        Label(assistant.label, systemImage: assistant.systemImage)
+                            .font(.caption2)
+                            .foregroundStyle(.secondary)
+                    }
                 }
-                // No matchedTransitionSource here: a model can appear in several answers.
-                ForEach(exchange.models) { model in
-                    NavigationLink(value: model) { PhoneRow(model: model) }
-                        .buttonStyle(.plain)
-                        .transition(.scale(scale: 0.9).combined(with: .opacity))
-                }
-                if let assistant = exchange.assistant {
-                    Label(assistant.label, systemImage: assistant.systemImage)
-                        .font(.caption2)
-                        .foregroundStyle(.secondary)
-                }
+                .padding(16)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .glassEffect(in: .rect(cornerRadius: 24))
             }
-            .padding(16)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .glassEffect(in: .rect(cornerRadius: 24))
         }
     }
 

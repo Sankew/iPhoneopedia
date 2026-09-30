@@ -67,41 +67,43 @@ struct PhonePage: View {
                             .opacity(1 - progress * 0.6)
                     }
 
-                VStack(alignment: .leading, spacing: 16) {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(model.name).font(.largeTitle.bold())
-                        if let tagline = model.tagline {
-                            Text(tagline).foregroundStyle(.secondary)
-                        }
-                    }
-                    FactPills(model: model)
-
-                    GlassCard("Overview") {
-                        SpecRow(label: model.released > .now ? "Available" : "Released",
-                                value: model.released.formatted(date: .long, time: .omitted))
-                        if let discontinued = model.discontinued {
-                            SpecRow(label: "Discontinued", value: discontinued.formatted(date: .long, time: .omitted))
-                        }
-                        if !model.colors.isEmpty {
-                            ColorSwatches(colors: model.colors)
-                        }
-                    }
-
-                    ForEach(model.specs, id: \.title) { section in
-                        GlassCard(section.title) {
-                            ForEach(section.rows, id: \.self) { row in
-                                SpecRow(label: row.first ?? "", value: row.last ?? "")
+                GlassEffectContainer(spacing: 8) {
+                    VStack(alignment: .leading, spacing: 16) {
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text(model.name).font(.largeTitle.bold())
+                            if let tagline = model.tagline {
+                                Text(tagline).foregroundStyle(.secondary)
                             }
                         }
-                    }
+                        FactPills(model: model)
 
-                    if let about = model.about {
-                        GlassCard("About") {
-                            Text(about)
-                            if let source = model.aboutSource {
-                                Link(source.host()?.contains("wikipedia") == true ? "Source: Wikipedia (CC BY-SA 4.0)" : "Source",
-                                     destination: source)
-                                    .font(.footnote)
+                        GlassCard("Overview") {
+                            SpecRow(label: model.released > .now ? "Available" : "Released",
+                                    value: model.released.formatted(date: .long, time: .omitted))
+                            if let discontinued = model.discontinued {
+                                SpecRow(label: "Discontinued", value: discontinued.formatted(date: .long, time: .omitted))
+                            }
+                            if !model.colors.isEmpty {
+                                ColorSwatches(colors: model.colors)
+                            }
+                        }
+
+                        ForEach(model.specs, id: \.title) { section in
+                            GlassCard(section.title) {
+                                ForEach(section.rows, id: \.self) { row in
+                                    SpecRow(label: row.first ?? "", value: row.last ?? "")
+                                }
+                            }
+                        }
+
+                        if let about = model.about {
+                            GlassCard("About") {
+                                Text(about)
+                                if let source = model.aboutSource {
+                                    Link(source.host()?.contains("wikipedia") == true ? "Source: Wikipedia (CC BY-SA 4.0)" : "Source",
+                                         destination: source)
+                                        .font(.footnote)
+                                }
                             }
                         }
                     }
@@ -144,11 +146,9 @@ private struct FactPills: View {
                 .padding(.vertical, 8)
                 .glassEffect(in: .capsule)
         }
-        return GlassEffectContainer(spacing: 8) {
-            ViewThatFits(in: .horizontal) {
-                HStack(spacing: 8) { pills }
-                VStack(alignment: .leading, spacing: 8) { pills }
-            }
+        return ViewThatFits(in: .horizontal) { // the page's GlassEffectContainer holds these
+            HStack(spacing: 8) { pills }
+            VStack(alignment: .leading, spacing: 8) { pills }
         }
     }
 }
@@ -193,15 +193,13 @@ struct ColorSwatches: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            GlassEffectContainer(spacing: 6) {
-                HStack(spacing: 6) {
-                    ForEach(colors, id: \.name) { color in
-                        Circle()
-                            .fill(color.color)
-                            .padding(4)
-                            .frame(width: 30, height: 30)
-                            .glassEffect(in: .circle)
-                    }
+            // Plain circles: they sit on a glass card, and glass on glass muddies both.
+            HStack(spacing: 8) {
+                ForEach(colors, id: \.name) { color in
+                    Circle()
+                        .fill(color.color)
+                        .overlay { Circle().strokeBorder(.primary.opacity(0.2)) }
+                        .frame(width: 24, height: 24)
                 }
             }
             Text(colors.map(\.name).formatted()).font(.caption).foregroundStyle(.secondary)

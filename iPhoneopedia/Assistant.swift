@@ -5,14 +5,18 @@ import UIKit
 nonisolated enum Assistant: Sendable {
     case cloud, onDevice
 
+    /// Set to true once Apple grants the managed entitlement `com.apple.developer.private-cloud-compute`
+    /// and it's in the app's entitlements. Without it the cloud model still reports itself available,
+    /// but its first response is a fatal error rather than a thrown one, so no fallback can catch it.
+    private static let hasCloudEntitlement = false
     private static let cloudModel = PrivateCloudComputeLanguageModel()
 
-    /// Private Cloud Compute when this app may use it (managed entitlement, Apple Intelligence device, quota left), else on device.
+    /// Private Cloud Compute when this app may use it (entitlement, Apple Intelligence device, quota left), else on device.
     static var preferred: Assistant {
-        cloudModel.isAvailable && !cloudModel.quotaUsage.isLimitReached ? .cloud : .onDevice
+        hasCloudEntitlement && cloudModel.isAvailable && !cloudModel.quotaUsage.isLimitReached ? .cloud : .onDevice
     }
 
-    static var isAvailable: Bool { cloudModel.isAvailable || SystemLanguageModel.default.isAvailable }
+    static var isAvailable: Bool { (hasCloudEntitlement && cloudModel.isAvailable) || SystemLanguageModel.default.isAvailable }
 
     var label: String { self == .cloud ? "Private Cloud Compute" : "On device" }
     var systemImage: String { self == .cloud ? "lock.icloud" : "iphone" }
@@ -31,15 +35,18 @@ nonisolated struct CatalogTool: Tool {
     let description = "Looks up iPhone models in the iPhoneopedia catalog and returns their facts. Search by model name, chip, identifier or release year."
 
     @Generable nonisolated struct Arguments {
-        @Guide(description: "One search term per model, chip or year, e.g. [\"iPhone 13 mini\", \"iPhone 16e\"], [\"A17 Pro\"] or [\"2016\"]")
+        @Guide(description: "Short search terms: a keyword like \"mini\", \"Plus\" or \"Max\", a chip like \"A17 Pro\", a year like \"2016\", or a model name taken from the question")
         var terms: [String]
     }
 
     @concurrent func call(arguments: Arguments) async throws -> String {
         let catalog = await CatalogStore.shared.catalog
         let matches = arguments.terms.flatMap { catalog.search($0).prefix(4) }.uniqued
+        // Say which terms missed: a bare "no matches" makes the model conclude the catalog lacks the whole topic.
+        let misses = arguments.terms.filter { catalog.search($0).isEmpty }
+            .map { "No model matches \"\($0)\"; try a shorter keyword." }
         // Capped at 8 summaries to stay inside the on-device model's small context window.
-        return matches.isEmpty ? "No matching iPhone models in the catalog." : matches.prefix(8).map(\.summary).joined(separator: "\n")
+        return (matches.prefix(8).map(\.summary) + misses).joined(separator: "\n")
     }
 }
 
