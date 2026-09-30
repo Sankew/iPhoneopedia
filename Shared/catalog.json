@@ -1,0 +1,3526 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-29T15:25:00Z",
+  "models": [
+    {
+      "id": "iphone1-1",
+      "name": "iPhone",
+      "identifiers": [
+        "iPhone1,1"
+      ],
+      "released": "2007-06-29",
+      "discontinued": "2008-06-09",
+      "chip": "APL0098",
+      "launchPriceUSD": 499,
+      "displayInches": 3.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone-original-colors.jpg",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "B3B9BB"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "APL0098"
+            ],
+            [
+              "Display",
+              "3.5-inch"
+            ],
+            [
+              "RAM",
+              "128MB LPDDR"
+            ],
+            [
+              "Storage",
+              "4GB, 8GB, 16GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone1,1"
+            ],
+            [
+              "Model numbers",
+              "A1203"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone is a smartphone developed and marketed by Apple as the first device in the iPhone lineup of smartphones. It features a Samsung S5L8900 SoC (90 nm), a 3.5 in multi-touch display, and a web browser (Safari). After years of rumors and speculation, it was officially announced on January 9, 2007, and was released in the United States on June 29, 2007.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
+    },
+    {
+      "id": "iphone1-2",
+      "name": "iPhone 3G",
+      "identifiers": [
+        "iPhone1,2"
+      ],
+      "released": "2008-07-11",
+      "discontinued": "2010-06-07",
+      "chip": "APL0098",
+      "launchPriceUSD": 199,
+      "displayInches": 3.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone3g-colors.jpg",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "000000"
+        },
+        {
+          "name": "White",
+          "hex": "F1F1F3"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "APL0098"
+            ],
+            [
+              "Display",
+              "3.5-inch"
+            ],
+            [
+              "RAM",
+              "128MB LPDDR"
+            ],
+            [
+              "Storage",
+              "8GB, 16GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone1,2"
+            ],
+            [
+              "Model numbers",
+              "A1241, A1324"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 3G is a smartphone developed and marketed by Apple. It is the second generation of iPhone, successor to the original iPhone, and was introduced on June 9, 2008, at WWDC 2008 which took place at the Moscone Center in San Francisco.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_3G"
+    },
+    {
+      "id": "iphone2-1",
+      "name": "iPhone 3GS",
+      "identifiers": [
+        "iPhone2,1"
+      ],
+      "released": "2009-06-19",
+      "discontinued": "2012-09-12",
+      "chip": "APL0298",
+      "launchPriceUSD": 199,
+      "displayInches": 3.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone3gs-colors.jpg",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "000000"
+        },
+        {
+          "name": "White",
+          "hex": "F1F1F3"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "APL0298"
+            ],
+            [
+              "Display",
+              "3.5-inch"
+            ],
+            [
+              "RAM",
+              "256MB LPDDR"
+            ],
+            [
+              "Storage",
+              "8GB, 16GB, 32GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone2,1"
+            ],
+            [
+              "Model numbers",
+              "A1303, A1325"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 3GS, stylized as iPhone 3G🅂, is a smartphone that was developed and marketed by Apple. It is the third generation of the iPhone and the successor to the iPhone 3G. It was unveiled on June 8, 2009, at WWDC 2009, which took place at the Moscone Center in San Francisco.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_3GS"
+    },
+    {
+      "id": "iphone3-1",
+      "name": "iPhone 4",
+      "identifiers": [
+        "iPhone3,1",
+        "iPhone3,2",
+        "iPhone3,3"
+      ],
+      "released": "2010-06-24",
+      "discontinued": "2013-09-10",
+      "chip": "A4",
+      "launchPriceUSD": 199,
+      "displayInches": 3.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone4-colors.jpg",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "EDEDED"
+        },
+        {
+          "name": "Black",
+          "hex": "000000"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A4"
+            ],
+            [
+              "Display",
+              "3.5-inch"
+            ],
+            [
+              "RAM",
+              "512MB LPDDR"
+            ],
+            [
+              "Storage",
+              "8GB, 16GB, 32GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone3,1, iPhone3,2, iPhone3,3"
+            ],
+            [
+              "Model numbers",
+              "A1332, A1349"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 4 is a smartphone that was developed and marketed by Apple. It is the fourth generation of the iPhone lineup, succeeding the iPhone 3GS and preceding the iPhone 4s. Following a number of notable leaks, the iPhone 4 was first unveiled on June 7, 2010, at Apple's Worldwide Developers Conference in San Francisco, and was released on June 24, 2010, in the United States, United Kingdom, France, Germany, and Japan.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_4"
+    },
+    {
+      "id": "iphone4-1",
+      "name": "iPhone 4S",
+      "identifiers": [
+        "iPhone4,1"
+      ],
+      "released": "2011-10-14",
+      "discontinued": "2014-09-09",
+      "chip": "A5",
+      "launchPriceUSD": 199,
+      "displayInches": 3.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone4s-colors.jpg",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "000000"
+        },
+        {
+          "name": "White",
+          "hex": "EDEDED"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A5"
+            ],
+            [
+              "Display",
+              "3.5-inch"
+            ],
+            [
+              "RAM",
+              "512MB LPDDR2"
+            ],
+            [
+              "Storage",
+              "8GB, 16GB, 32GB, 64GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone4,1"
+            ],
+            [
+              "Model numbers",
+              "A1387, A1431"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 4s is a smartphone that was developed and marketed by Apple. It is the fifth generation of the iPhone, succeeding the iPhone 4 and preceding the iPhone 5. It was announced on October 4, 2011, at Apple's Cupertino campus, and was the final Apple product announced in the lifetime of former Apple CEO and co-founder Steve Jobs, who died the following day.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_4s"
+    },
+    {
+      "id": "iphone5-1",
+      "name": "iPhone 5",
+      "identifiers": [
+        "iPhone5,1",
+        "iPhone5,2"
+      ],
+      "released": "2012-09-21",
+      "discontinued": "2013-09-10",
+      "chip": "A6",
+      "launchPriceUSD": 199,
+      "displayInches": 4,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5-colors.jpg",
+      "colors": [
+        {
+          "name": "Black & Slate",
+          "hex": "273037"
+        },
+        {
+          "name": "White & Silver",
+          "hex": "CBCDCC"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A6"
+            ],
+            [
+              "Display",
+              "4-inch"
+            ],
+            [
+              "RAM",
+              "1GB LPDDR2"
+            ],
+            [
+              "Storage",
+              "16GB, 32GB, 64GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone5,1, iPhone5,2"
+            ],
+            [
+              "Model numbers",
+              "A1428, A1429, A1442"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 5 is a smartphone that was developed and marketed by Apple. It is the 6th generation iPhone, succeeding the iPhone 4s, and preceding both the iPhone 5s and iPhone 5c. It was formally unveiled as part of a press event on September 12, 2012, and subsequently released on September 21, 2012. The iPhone 5 was the first iPhone to be announced in September, and setting a trend for subsequent iPhone releases, the first iPhone to be completely developed under the guidance of Tim Cook and the last iPhone to be overseen by Steve Jobs. The iPhone 5's design was used three times, first with the iPhone 5 itself in 2012, then with the iPhone 5s in 2013, and finally with the first-generation iPhone SE in 2016.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_5"
+    },
+    {
+      "id": "iphone5-3",
+      "name": "iPhone 5c",
+      "identifiers": [
+        "iPhone5,3",
+        "iPhone5,4"
+      ],
+      "released": "2013-09-20",
+      "discontinued": "2015-09-09",
+      "chip": "A6",
+      "launchPriceUSD": 99,
+      "displayInches": 4,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5c-colors.jpg",
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "40B0EA"
+        },
+        {
+          "name": "Green",
+          "hex": "98E467"
+        },
+        {
+          "name": "Pink",
+          "hex": "FF6C6C"
+        },
+        {
+          "name": "White",
+          "hex": "F0F0F2"
+        },
+        {
+          "name": "Yellow",
+          "hex": "FFEF6F"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A6"
+            ],
+            [
+              "Display",
+              "4-inch"
+            ],
+            [
+              "RAM",
+              "1GB LPDDR2"
+            ],
+            [
+              "Storage",
+              "16GB, 32GB, 64GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone5,3, iPhone5,4"
+            ],
+            [
+              "Model numbers",
+              "A1456, A1507, A1516, A1526, A1529, A1532"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 5c is a smartphone that was developed and marketed by Apple. It is part of the sixth generation of the iPhone. The device was unveiled on September 10, 2013, and released on September 20, 2013, along with its higher-end counterpart, the iPhone 5s. The \"c\" in the iPhone 5c's name stands for \"color\".",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_5c"
+    },
+    {
+      "id": "iphone6-1",
+      "name": "iPhone 5s",
+      "identifiers": [
+        "iPhone6,1",
+        "iPhone6,2"
+      ],
+      "released": "2013-09-20",
+      "discontinued": "2016-03-21",
+      "chip": "A7",
+      "launchPriceUSD": 199,
+      "displayInches": 4,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5s-colors.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "C9CBCA"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "757577"
+        },
+        {
+          "name": "Gold",
+          "hex": "CDBCA8"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A7"
+            ],
+            [
+              "Display",
+              "4-inch"
+            ],
+            [
+              "RAM",
+              "1GB LPDDR3"
+            ],
+            [
+              "Storage",
+              "16GB, 32GB, 64GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone6,1, iPhone6,2"
+            ],
+            [
+              "Model numbers",
+              "A1453, A1457, A1518, A1528, A1530, A1533"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 5s is a smartphone that was developed and marketed by Apple. It is the seventh generation of the iPhone, succeeding the iPhone 5, and was unveiled in September 2013 alongside the iPhone 5c. It was the last iPhone to have Steve Jobs involved in its design.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_5s"
+    },
+    {
+      "id": "iphone7-2",
+      "name": "iPhone 6",
+      "identifiers": [
+        "iPhone7,2"
+      ],
+      "released": "2014-09-19",
+      "discontinued": "2018-09-12",
+      "chip": "A8",
+      "launchPriceUSD": 199,
+      "displayInches": 4.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone6-colors.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "DCDDDF"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "9D9EA3"
+        },
+        {
+          "name": "Gold",
+          "hex": "D5BEAA"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A8"
+            ],
+            [
+              "Display",
+              "4.7-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone7,2"
+            ],
+            [
+              "Model numbers",
+              "A1549, A1586, A1589"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 6 and iPhone 6 Plus are smartphones that were developed and marketed by Apple. They are the eighth generation of the iPhone, succeeding the iPhone 5, iPhone 5c and iPhone 5s, and were released on September 19, 2014. The iPhone 6 and 6 Plus respectively include larger 4.7-inch and 5.5-inch displays, a faster processor, upgraded cameras, improved LTE and Wi-Fi connectivity and support for a near-field communications-based mobile payments offering. The iPhone 6 and iPhone 6 Plus were replaced as the flagship devices of the iPhone series by the iPhone 6s and iPhone 6s Plus on September 9, 2015.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_6"
+    },
+    {
+      "id": "iphone7-1",
+      "name": "iPhone 6 Plus",
+      "identifiers": [
+        "iPhone7,1"
+      ],
+      "released": "2014-09-19",
+      "discontinued": "2016-09-07",
+      "chip": "A8",
+      "launchPriceUSD": 299,
+      "displayInches": 5.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone6plus-colors.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "DCDDDF"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "9D9EA3"
+        },
+        {
+          "name": "Gold",
+          "hex": "D5BEAA"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A8"
+            ],
+            [
+              "Display",
+              "5.5-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone7,1"
+            ],
+            [
+              "Model numbers",
+              "A1522, A1524, A1593"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 6 and iPhone 6 Plus are smartphones that were developed and marketed by Apple. They are the eighth generation of the iPhone, succeeding the iPhone 5, iPhone 5c and iPhone 5s, and were released on September 19, 2014. The iPhone 6 and 6 Plus respectively include larger 4.7-inch and 5.5-inch displays, a faster processor, upgraded cameras, improved LTE and Wi-Fi connectivity and support for a near-field communications-based mobile payments offering. The iPhone 6 and iPhone 6 Plus were replaced as the flagship devices of the iPhone series by the iPhone 6s and iPhone 6s Plus on September 9, 2015.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_6"
+    },
+    {
+      "id": "iphone8-1",
+      "name": "iPhone 6s",
+      "identifiers": [
+        "iPhone8,1"
+      ],
+      "released": "2015-09-25",
+      "discontinued": "2018-09-12",
+      "chip": "A9",
+      "launchPriceUSD": 199,
+      "displayInches": 4.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-6s-colors.jpg",
+      "colors": [
+        {
+          "name": "Gold",
+          "hex": "DAC2AA"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "E2B7B2"
+        },
+        {
+          "name": "Silver",
+          "hex": "D9D9DB"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "A9AAAF"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A9"
+            ],
+            [
+              "Display",
+              "4.7-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone8,1"
+            ],
+            [
+              "Model numbers",
+              "A1633, A1688, A1691, A1700"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 6s and iPhone 6s Plus are smartphones that were designed, developed, and marketed by Apple. They are the ninth generation of the iPhone. They were announced on September 9, 2015, at the Bill Graham Civic Auditorium in San Francisco by Apple CEO Tim Cook, with pre-orders beginning September 12 and official release on September 25, 2015. They were succeeded by the iPhone 7 and iPhone 7 Plus on September 7, 2016, and were discontinued with the announcement of the iPhone XS, iPhone XS Max, and iPhone XR on September 12, 2018.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_6s"
+    },
+    {
+      "id": "iphone8-2",
+      "name": "iPhone 6s Plus",
+      "identifiers": [
+        "iPhone8,2"
+      ],
+      "released": "2015-09-25",
+      "discontinued": "2018-09-12",
+      "chip": "A9",
+      "launchPriceUSD": 299,
+      "displayInches": 5.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-6splus-colors.jpg",
+      "colors": [
+        {
+          "name": "Gold",
+          "hex": "DAC2AA"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "E2B7B2"
+        },
+        {
+          "name": "Silver",
+          "hex": "D9D9DB"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "A9AAAF"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A9"
+            ],
+            [
+              "Display",
+              "5.5-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone8,2"
+            ],
+            [
+              "Model numbers",
+              "A1634, A1687, A1690, A1699"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 6s and iPhone 6s Plus are smartphones that were designed, developed, and marketed by Apple. They are the ninth generation of the iPhone. They were announced on September 9, 2015, at the Bill Graham Civic Auditorium in San Francisco by Apple CEO Tim Cook, with pre-orders beginning September 12 and official release on September 25, 2015. They were succeeded by the iPhone 7 and iPhone 7 Plus on September 7, 2016, and were discontinued with the announcement of the iPhone XS, iPhone XS Max, and iPhone XR on September 12, 2018.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_6s"
+    },
+    {
+      "id": "iphone8-4",
+      "name": "iPhone SE (1st generation)",
+      "identifiers": [
+        "iPhone8,4"
+      ],
+      "released": "2016-03-31",
+      "discontinued": "2018-09-12",
+      "chip": "A9",
+      "launchPriceUSD": 399,
+      "displayInches": 4,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se/iphone-se-colors.jpg",
+      "colors": [
+        {
+          "name": "Gold",
+          "hex": "DBC3AB"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "DDB3B0"
+        },
+        {
+          "name": "Silver",
+          "hex": "CCCCCE"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "9F9EA5"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A9"
+            ],
+            [
+              "Display",
+              "4-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone8,4"
+            ],
+            [
+              "Model numbers",
+              "A1662, A1723, A1724"
+            ]
+          ]
+        }
+      ],
+      "about": "The first-generation iPhone SE is a smartphone that was developed and marketed by Apple. It is part of the ninth generation of the iPhone alongside the higher-end iPhone 6s and 6s Plus. It was introduced on March 21, 2016, with pre-orders beginning on March 24, 2016, and was officially released on March 31, 2016, alongside the 9.7-inch iPad Pro. It was re-released on March 24, 2017, with larger storage capacities.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_SE_(1st_generation)"
+    },
+    {
+      "id": "iphone9-1",
+      "name": "iPhone 7",
+      "identifiers": [
+        "iPhone9,1",
+        "iPhone9,3"
+      ],
+      "released": "2016-09-16",
+      "discontinued": "2019-09-10",
+      "chip": "A10",
+      "launchPriceUSD": 649,
+      "displayInches": 4.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-7/iphone7-colors.jpg",
+      "colors": [
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "AE2531"
+        },
+        {
+          "name": "Black",
+          "hex": "222326"
+        },
+        {
+          "name": "Gold",
+          "hex": "E8CEB7"
+        },
+        {
+          "name": "Jet Black",
+          "hex": "000000"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "E6BAB6"
+        },
+        {
+          "name": "Silver",
+          "hex": "CCCDCF"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A10"
+            ],
+            [
+              "Display",
+              "4.7-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone9,1, iPhone9,3"
+            ],
+            [
+              "Model numbers",
+              "A1660, A1778, A1779, A1780"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 7 and iPhone 7 Plus are smartphones that were developed and marketed by Apple. They are the tenth generation of the iPhone. They were announced on September 7, 2016, at the Bill Graham Civic Auditorium in San Francisco by Apple CEO Tim Cook, and were released on September 16, 2016, succeeding the iPhone 6, iPhone 6 Plus, iPhone 6S and iPhone 6S Plus as the flagship devices in the iPhone series. Apple also released the iPhone 7 and iPhone 7 Plus in numerous countries worldwide throughout September and October 2016. They were succeeded as flagship devices by the iPhone 8 and iPhone 8 Plus on September 12, 2017, and were discontinued with the announcement of the iPhone 11 and iPhone 11 Pro on September 10, 2019.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_7"
+    },
+    {
+      "id": "iphone9-2",
+      "name": "iPhone 7 Plus",
+      "identifiers": [
+        "iPhone9,2",
+        "iPhone9,4"
+      ],
+      "released": "2016-09-16",
+      "discontinued": "2019-09-10",
+      "chip": "A10",
+      "launchPriceUSD": 769,
+      "displayInches": 5.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-7-plus/iphone7plus-colors.jpg",
+      "colors": [
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "AE2531"
+        },
+        {
+          "name": "Black",
+          "hex": "222326"
+        },
+        {
+          "name": "Gold",
+          "hex": "E8CEB7"
+        },
+        {
+          "name": "Jet Black",
+          "hex": "000000"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "E6BAB6"
+        },
+        {
+          "name": "Silver",
+          "hex": "CCCDCF"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A10"
+            ],
+            [
+              "Display",
+              "5.5-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone9,2, iPhone9,4"
+            ],
+            [
+              "Model numbers",
+              "A1661, A1784, A1785, A1786"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 7 and iPhone 7 Plus are smartphones that were developed and marketed by Apple. They are the tenth generation of the iPhone. They were announced on September 7, 2016, at the Bill Graham Civic Auditorium in San Francisco by Apple CEO Tim Cook, and were released on September 16, 2016, succeeding the iPhone 6, iPhone 6 Plus, iPhone 6S and iPhone 6S Plus as the flagship devices in the iPhone series. Apple also released the iPhone 7 and iPhone 7 Plus in numerous countries worldwide throughout September and October 2016. They were succeeded as flagship devices by the iPhone 8 and iPhone 8 Plus on September 12, 2017, and were discontinued with the announcement of the iPhone 11 and iPhone 11 Pro on September 10, 2019.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_7"
+    },
+    {
+      "id": "iphone10-1",
+      "name": "iPhone 8",
+      "identifiers": [
+        "iPhone10,1",
+        "iPhone10,4"
+      ],
+      "released": "2017-09-22",
+      "discontinued": "2020-04-15",
+      "chip": "A11",
+      "launchPriceUSD": 699,
+      "displayInches": 4.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-8/iphone-8-colors.jpg",
+      "colors": [
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "BB0F30"
+        },
+        {
+          "name": "Gold",
+          "hex": "F4E8DF"
+        },
+        {
+          "name": "Silver",
+          "hex": "E9EAEC"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "262628"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A11"
+            ],
+            [
+              "Display",
+              "4.7-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone10,1, iPhone10,4"
+            ],
+            [
+              "Model numbers",
+              "A1863, A1905, A1906, A1907"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 8 and iPhone 8 Plus are smartphones developed and marketed by Apple. They are the eleventh generation of the iPhone. The iPhone 8 was released on September 22, 2017, succeeding the iPhone 7 and iPhone 7 Plus, respectively.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_8"
+    },
+    {
+      "id": "iphone10-2",
+      "name": "iPhone 8 Plus",
+      "identifiers": [
+        "iPhone10,2",
+        "iPhone10,5"
+      ],
+      "released": "2017-09-22",
+      "discontinued": "2020-04-15",
+      "chip": "A11",
+      "launchPriceUSD": 799,
+      "displayInches": 5.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-8-plus/iphone-8plus-colors.jpg",
+      "colors": [
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "BB0F30"
+        },
+        {
+          "name": "Gold",
+          "hex": "F4E8DF"
+        },
+        {
+          "name": "Silver",
+          "hex": "E9EAEC"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "262628"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A11"
+            ],
+            [
+              "Display",
+              "5.5-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone10,2, iPhone10,5"
+            ],
+            [
+              "Model numbers",
+              "A1864, A1897, A1898, A1899"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 8 and iPhone 8 Plus are smartphones developed and marketed by Apple. They are the eleventh generation of the iPhone. The iPhone 8 was released on September 22, 2017, succeeding the iPhone 7 and iPhone 7 Plus, respectively.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_8"
+    },
+    {
+      "id": "iphone10-3",
+      "name": "iPhone X",
+      "identifiers": [
+        "iPhone10,3",
+        "iPhone10,6"
+      ],
+      "released": "2017-11-03",
+      "discontinued": "2018-09-12",
+      "chip": "A11",
+      "launchPriceUSD": 999,
+      "displayInches": 5.8,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-x-colors.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "E3E3E1"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "26272C"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A11"
+            ],
+            [
+              "Display",
+              "5.8-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone10,3, iPhone10,6"
+            ],
+            [
+              "Model numbers",
+              "A1865, A1901, A1902, A1903"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone X is a smartphone that was developed and marketed by Apple. It is part of the 11th generation of the iPhone, alongside the lower-end iPhone 8 and 8 Plus released two months prior. Available for pre-order from October 27, 2017, the iPhone X was released on November 3, 2017. The naming of the iPhone X – skipping the iPhone 9 – marked the 10th anniversary of the iPhone.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_X"
+    },
+    {
+      "id": "iphone11-2",
+      "name": "iPhone XS",
+      "identifiers": [
+        "iPhone11,2"
+      ],
+      "released": "2018-09-21",
+      "discontinued": "2019-09-10",
+      "chip": "A12",
+      "launchPriceUSD": 999,
+      "displayInches": 5.8,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xs-colors.jpg",
+      "colors": [
+        {
+          "name": "Gold",
+          "hex": "FBDBC4"
+        },
+        {
+          "name": "Silver",
+          "hex": "E4E4E2"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "222329"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A12"
+            ],
+            [
+              "Display",
+              "5.8-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone11,2"
+            ],
+            [
+              "Model numbers",
+              "A1920, A2097, A2098, A2099, A2100"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone XS and iPhone XS Max are smartphones designed, developed, and marketed by Apple. Released as the twelfth-generation flagship models of the iPhone, they succeeded the iPhone X and were unveiled alongside the lower-end iPhone XR on September 12, 2018, during a keynote address by Apple CEO Tim Cook at the Steve Jobs Theater at Apple Park in Cupertino, California. Pre-orders began on September 14, 2018, with general availability starting September 21, 2018. The iPhone XS and XS Max introduced improvements over their predecessor, including enhanced processing power, dual-SIM functionality, improved water resistance, and stereo audio recording for video capture.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_XS"
+    },
+    {
+      "id": "iphone11-4",
+      "name": "iPhone XS Max",
+      "identifiers": [
+        "iPhone11,4",
+        "iPhone11,6"
+      ],
+      "released": "2018-09-21",
+      "discontinued": "2019-09-10",
+      "chip": "A12",
+      "launchPriceUSD": 1099,
+      "displayInches": 6.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xs-max-colors.jpg",
+      "colors": [
+        {
+          "name": "Gold",
+          "hex": "FBDBC4"
+        },
+        {
+          "name": "Silver",
+          "hex": "E4E4E2"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "222329"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A12"
+            ],
+            [
+              "Display",
+              "6.5-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone11,4, iPhone11,6"
+            ],
+            [
+              "Model numbers",
+              "A1921, A2101, A2102, A2103, A2104"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone XS and iPhone XS Max are smartphones designed, developed, and marketed by Apple. Released as the twelfth-generation flagship models of the iPhone, they succeeded the iPhone X and were unveiled alongside the lower-end iPhone XR on September 12, 2018, during a keynote address by Apple CEO Tim Cook at the Steve Jobs Theater at Apple Park in Cupertino, California. Pre-orders began on September 14, 2018, with general availability starting September 21, 2018. The iPhone XS and XS Max introduced improvements over their predecessor, including enhanced processing power, dual-SIM functionality, improved water resistance, and stereo audio recording for video capture.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_XS"
+    },
+    {
+      "id": "iphone11-8",
+      "name": "iPhone XR",
+      "identifiers": [
+        "iPhone11,8"
+      ],
+      "released": "2018-10-26",
+      "discontinued": "2021-09-14",
+      "chip": "A12",
+      "launchPriceUSD": 749,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xr/identify-iphone-xr-colors.jpg",
+      "colors": [
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "9A0114"
+        },
+        {
+          "name": "Black",
+          "hex": "212123"
+        },
+        {
+          "name": "Blue",
+          "hex": "45ACE7"
+        },
+        {
+          "name": "Coral",
+          "hex": "FD624E"
+        },
+        {
+          "name": "White",
+          "hex": "F9F9F9"
+        },
+        {
+          "name": "Yellow",
+          "hex": "F7CF49"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A12"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone11,8"
+            ],
+            [
+              "Model numbers",
+              "A1984, A2105, A2106, A2107, A2108"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone XR is a smartphone developed and marketed by Apple. It is part of the twelfth generation of the iPhone, alongside the higher-end iPhone XS and XS Max models. Pre-orders began on October 19, 2018, with the official release on October 26, 2018. Launched at $749 in the US, the iPhone XR was the least expensive device in Apple's twelfth generation of iPhones, which also includes the iPhone XS and XS Max, and was therefore considered an \"affordable flagship\" or \"budget flagship\" phone at its release.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_XR"
+    },
+    {
+      "id": "iphone12-1",
+      "name": "iPhone 11",
+      "identifiers": [
+        "iPhone12,1"
+      ],
+      "released": "2019-09-20",
+      "discontinued": "2022-09-07",
+      "chip": "A13",
+      "launchPriceUSD": 699,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11-colors.jpg",
+      "colors": [
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "B6062A"
+        },
+        {
+          "name": "Black",
+          "hex": "1E1E1E"
+        },
+        {
+          "name": "Green",
+          "hex": "ABDDCA"
+        },
+        {
+          "name": "Purple",
+          "hex": "D7D1E0"
+        },
+        {
+          "name": "White",
+          "hex": "FBF9F2"
+        },
+        {
+          "name": "Yellow",
+          "hex": "FEE581"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A13"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone12,1"
+            ],
+            [
+              "Model numbers",
+              "A2111, A2221, A2222, A2223"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 11 is a smartphone that was developed and marketed by Apple. It is the thirteenth generation of iPhone, succeeding the iPhone XR, and was unveiled on September 10, 2019, alongside the higher-end iPhone 11 Pro at the Steve Jobs Theater at Apple Park in Cupertino, California, by Apple CEO Tim Cook. Preorders began on September 13, 2019, and the phone was officially released on September 20, 2019, one day after the official public release of iOS 13.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_11"
+    },
+    {
+      "id": "iphone12-3",
+      "name": "iPhone 11 Pro",
+      "identifiers": [
+        "iPhone12,3"
+      ],
+      "released": "2019-09-20",
+      "discontinued": "2020-10-13",
+      "chip": "A13",
+      "launchPriceUSD": 999,
+      "displayInches": 5.8,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11pro.jpg",
+      "colors": [
+        {
+          "name": "Gold",
+          "hex": "F4D2B9"
+        },
+        {
+          "name": "Midnight Green",
+          "hex": "414A46"
+        },
+        {
+          "name": "Silver",
+          "hex": "E0E0D8"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "3A3839"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A13"
+            ],
+            [
+              "Display",
+              "5.8-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone12,3"
+            ],
+            [
+              "Model numbers",
+              "A2160, A2215, A2216, A2217"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 11 Pro and iPhone 11 Pro Max are smartphones developed and marketed by Apple. Serving as Apple's flagship models of the 13th generation of iPhones, they succeeded the iPhone XS and iPhone XS Max, respectively, upon their release. Apple CEO Tim Cook unveiled the devices alongside the standard model, the iPhone 11, on September 10, 2019, at the Steve Jobs Theater at Apple Park in Cupertino, California. Pre-orders began on September 13, 2019, and the phones went on sale on September 20. They were discontinued on October 13, 2020, following the announcement of the iPhone 12 and iPhone 12 Pro.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_11_Pro"
+    },
+    {
+      "id": "iphone12-5",
+      "name": "iPhone 11 Pro Max",
+      "identifiers": [
+        "iPhone12,5"
+      ],
+      "released": "2019-09-20",
+      "discontinued": "2020-10-13",
+      "chip": "A13",
+      "launchPriceUSD": 1099,
+      "displayInches": 6.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11pro-max.jpg",
+      "colors": [
+        {
+          "name": "Gold",
+          "hex": "F4D2B9"
+        },
+        {
+          "name": "Midnight Green",
+          "hex": "414A46"
+        },
+        {
+          "name": "Silver",
+          "hex": "E0E0D8"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "3A3839"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A13"
+            ],
+            [
+              "Display",
+              "6.5-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone12,5"
+            ],
+            [
+              "Model numbers",
+              "A2161, A2218, A2219, A2220"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 11 Pro and iPhone 11 Pro Max are smartphones developed and marketed by Apple. Serving as Apple's flagship models of the 13th generation of iPhones, they succeeded the iPhone XS and iPhone XS Max, respectively, upon their release. Apple CEO Tim Cook unveiled the devices alongside the standard model, the iPhone 11, on September 10, 2019, at the Steve Jobs Theater at Apple Park in Cupertino, California. Pre-orders began on September 13, 2019, and the phones went on sale on September 20. They were discontinued on October 13, 2020, following the announcement of the iPhone 12 and iPhone 12 Pro.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_11_Pro"
+    },
+    {
+      "id": "iphone12-8",
+      "name": "iPhone SE (2nd generation)",
+      "identifiers": [
+        "iPhone12,8"
+      ],
+      "released": "2020-04-24",
+      "discontinued": "2022-03-08",
+      "chip": "A13",
+      "launchPriceUSD": 399,
+      "displayInches": 4.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se/iphone-se-2nd-gen-colors.jpg",
+      "colors": [
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "AF0125"
+        },
+        {
+          "name": "Black",
+          "hex": "1D1D1F"
+        },
+        {
+          "name": "White",
+          "hex": "F1F1F1"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A13"
+            ],
+            [
+              "Display",
+              "4.7-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone12,8"
+            ],
+            [
+              "Model numbers",
+              "A2275, A2296, A2297, A2298"
+            ]
+          ]
+        }
+      ],
+      "about": "The second-generation iPhone SE is a smartphone developed and marketed by Apple. It is part of the 13th generation of the iPhone, alongside the iPhone 11 and 11 Pro/Pro Max models. Apple announced it on April 15, 2020, coinciding with the discontinuation of the iPhone 8 and 8 Plus. Orders began on April 17, 2020, and the phone was released on April 24, 2020. It was released with a starting price of US$399, and positioned as a budget phone.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_SE_(2nd_generation)"
+    },
+    {
+      "id": "iphone13-2",
+      "name": "iPhone 12",
+      "identifiers": [
+        "iPhone13,2"
+      ],
+      "released": "2020-10-23",
+      "discontinued": "2023-09-12",
+      "chip": "A14",
+      "launchPriceUSD": 799,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2021-iphone12-colors.png",
+      "colors": [
+        {
+          "name": "Purple",
+          "hex": "AFA9DF"
+        },
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "DF3434"
+        },
+        {
+          "name": "Black",
+          "hex": "221C24"
+        },
+        {
+          "name": "Blue",
+          "hex": "033356"
+        },
+        {
+          "name": "Green",
+          "hex": "DDF4D8"
+        },
+        {
+          "name": "White",
+          "hex": "FDF4F4"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A14"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone13,2"
+            ],
+            [
+              "Model numbers",
+              "A2172, A2402, A2403, A2404, A2405"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 12 and iPhone 12 Mini are smartphones that were developed and marketed by Apple. They are the fourteenth-generation iPhones, succeeding the iPhone 11. They were unveiled at a virtually held Apple Special Event at Apple Park in Cupertino, California, on October 13, 2020, alongside the \"premium flagship\" iPhone 12 Pro and iPhone 12 Pro Max and HomePod Mini. Pre-orders for the iPhone 12 started on October 16, 2020, and the phone was released in most countries on October 23, 2020, alongside the iPhone 12 Pro and fourth-generation iPad Air. Pre-orders for the iPhone 12 Mini began on November 6, 2020, and the phone was released on November 13, 2020, alongside the iPhone 12 Pro Max.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_12"
+    },
+    {
+      "id": "iphone13-3",
+      "name": "iPhone 12 Pro",
+      "identifiers": [
+        "iPhone13,3"
+      ],
+      "released": "2020-10-23",
+      "discontinued": "2021-09-14",
+      "chip": "A14",
+      "launchPriceUSD": 999,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-12-pro/iphone12-pro-colors.jpg",
+      "colors": [
+        {
+          "name": "Gold",
+          "hex": "FCEFD9"
+        },
+        {
+          "name": "Graphite",
+          "hex": "494846"
+        },
+        {
+          "name": "Pacific Blue",
+          "hex": "304B55"
+        },
+        {
+          "name": "Silver",
+          "hex": "F3F4F0"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A14"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone13,3"
+            ],
+            [
+              "Model numbers",
+              "A2341, A2406, A2407, A2408, A2409"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 12 Pro and iPhone 12 Pro Max are smartphones developed and marketed by Apple. They are the flagship smartphones in the fourteenth generation of the iPhone, succeeding the iPhone 11 Pro and iPhone 11 Pro Max, respectively. They were unveiled alongside the iPhone 12 and iPhone 12 Mini at an Apple Special Event at Apple Park in Cupertino, California, on October 13, 2020, with the iPhone 12 Pro being released on October 23, 2020, and the iPhone 12 Pro Max on November 13, 2020. They were discontinued on September 14, 2021, along with the iPhone XR, following the announcement of the iPhone 13 and iPhone 13 Pro.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_12_Pro"
+    },
+    {
+      "id": "iphone13-1",
+      "name": "iPhone 12 mini",
+      "identifiers": [
+        "iPhone13,1"
+      ],
+      "released": "2020-11-13",
+      "discontinued": "2022-09-07",
+      "chip": "A14",
+      "launchPriceUSD": 699,
+      "displayInches": 5.4,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2021-iphone12-mini-colors.png",
+      "colors": [
+        {
+          "name": "Purple",
+          "hex": "AFA9DF"
+        },
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "DF3434"
+        },
+        {
+          "name": "Black",
+          "hex": "221C24"
+        },
+        {
+          "name": "Blue",
+          "hex": "033356"
+        },
+        {
+          "name": "Green",
+          "hex": "DDF4D8"
+        },
+        {
+          "name": "White",
+          "hex": "FDF4F4"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A14"
+            ],
+            [
+              "Display",
+              "5.4-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone13,1"
+            ],
+            [
+              "Model numbers",
+              "A2176, A2398, A2399, A2400, A2401"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 12 and iPhone 12 Mini are smartphones that were developed and marketed by Apple. They are the fourteenth-generation iPhones, succeeding the iPhone 11. They were unveiled at a virtually held Apple Special Event at Apple Park in Cupertino, California, on October 13, 2020, alongside the \"premium flagship\" iPhone 12 Pro and iPhone 12 Pro Max and HomePod Mini. Pre-orders for the iPhone 12 started on October 16, 2020, and the phone was released in most countries on October 23, 2020, alongside the iPhone 12 Pro and fourth-generation iPad Air. Pre-orders for the iPhone 12 Mini began on November 6, 2020, and the phone was released on November 13, 2020, alongside the iPhone 12 Pro Max.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_12"
+    },
+    {
+      "id": "iphone13-4",
+      "name": "iPhone 12 Pro Max",
+      "identifiers": [
+        "iPhone13,4"
+      ],
+      "released": "2020-11-13",
+      "discontinued": "2021-09-14",
+      "chip": "A14",
+      "launchPriceUSD": 1099,
+      "displayInches": 6.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-12-pro-max/iphone12-pro-max-colors.jpg",
+      "colors": [
+        {
+          "name": "Gold",
+          "hex": "FCEFD9"
+        },
+        {
+          "name": "Graphite",
+          "hex": "494846"
+        },
+        {
+          "name": "Pacific Blue",
+          "hex": "304B55"
+        },
+        {
+          "name": "Silver",
+          "hex": "F3F4F0"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A14"
+            ],
+            [
+              "Display",
+              "6.7-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone13,4"
+            ],
+            [
+              "Model numbers",
+              "A2342, A2410, A2411, A2412, A2413"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 12 Pro and iPhone 12 Pro Max are smartphones developed and marketed by Apple. They are the flagship smartphones in the fourteenth generation of the iPhone, succeeding the iPhone 11 Pro and iPhone 11 Pro Max, respectively. They were unveiled alongside the iPhone 12 and iPhone 12 Mini at an Apple Special Event at Apple Park in Cupertino, California, on October 13, 2020, with the iPhone 12 Pro being released on October 23, 2020, and the iPhone 12 Pro Max on November 13, 2020. They were discontinued on September 14, 2021, along with the iPhone XR, following the announcement of the iPhone 13 and iPhone 13 Pro.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_12_Pro"
+    },
+    {
+      "id": "iphone14-5",
+      "name": "iPhone 13",
+      "identifiers": [
+        "iPhone14,5"
+      ],
+      "released": "2021-09-24",
+      "discontinued": "2024-09-09",
+      "chip": "A15",
+      "launchPriceUSD": 799,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-colors.png",
+      "colors": [
+        {
+          "name": "Green",
+          "hex": "334434"
+        },
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "96060D"
+        },
+        {
+          "name": "Blue",
+          "hex": "235D7B"
+        },
+        {
+          "name": "Midnight",
+          "hex": "151D23"
+        },
+        {
+          "name": "Pink",
+          "hex": "FCDDD8"
+        },
+        {
+          "name": "Starlight",
+          "hex": "F9F4EE"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A15"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ],
+            [
+              "RAM",
+              "4GB LPDDR4X @ 2133MHz"
+            ],
+            [
+              "Storage",
+              "128GB, 256GB, 512GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone14,5"
+            ],
+            [
+              "Model numbers",
+              "A2482, A2631, A2633, A2634, A2635"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 13 and iPhone 13 Mini are smartphones that were developed and marketed by Apple. They are the fifteenth generation of iPhones, succeeding the iPhone 12 and 12 Mini. They were unveiled at an Apple Event in Apple Park in Cupertino, California, on September 14, 2021, alongside the higher-priced iPhone 13 Pro and iPhone 13 Pro Max flagships. Furthermore, they were released on September 24, 2021. Improvements over the iPhone 12 include a 512 GB storage variant, BeiDou positioning support, and HDR video recording at 60 frames per second, doubling the frame rate of its predecessor.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_13"
+    },
+    {
+      "id": "iphone14-4",
+      "name": "iPhone 13 mini",
+      "identifiers": [
+        "iPhone14,4"
+      ],
+      "released": "2021-09-24",
+      "discontinued": "2023-09-12",
+      "chip": "A15",
+      "launchPriceUSD": 699,
+      "displayInches": 5.4,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-iphone13-mini-colors.png",
+      "colors": [
+        {
+          "name": "Green",
+          "hex": "334434"
+        },
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "96060D"
+        },
+        {
+          "name": "Blue",
+          "hex": "235D7B"
+        },
+        {
+          "name": "Midnight",
+          "hex": "151D23"
+        },
+        {
+          "name": "Pink",
+          "hex": "FCDDD8"
+        },
+        {
+          "name": "Starlight",
+          "hex": "F9F4EE"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A15"
+            ],
+            [
+              "Display",
+              "5.4-inch"
+            ],
+            [
+              "RAM",
+              "4GB LPDDR4X @ 2133MHz"
+            ],
+            [
+              "Storage",
+              "128GB, 256GB, 512GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone14,4"
+            ],
+            [
+              "Model numbers",
+              "A2481, A2626, A2628, A2629, A2630"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 13 and iPhone 13 Mini are smartphones that were developed and marketed by Apple. They are the fifteenth generation of iPhones, succeeding the iPhone 12 and 12 Mini. They were unveiled at an Apple Event in Apple Park in Cupertino, California, on September 14, 2021, alongside the higher-priced iPhone 13 Pro and iPhone 13 Pro Max flagships. Furthermore, they were released on September 24, 2021. Improvements over the iPhone 12 include a 512 GB storage variant, BeiDou positioning support, and HDR video recording at 60 frames per second, doubling the frame rate of its predecessor.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_13"
+    },
+    {
+      "id": "iphone14-2",
+      "name": "iPhone 13 Pro",
+      "identifiers": [
+        "iPhone14,2"
+      ],
+      "released": "2021-09-24",
+      "discontinued": "2022-09-07",
+      "chip": "A15",
+      "launchPriceUSD": 999,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-pro-colors.png",
+      "colors": [
+        {
+          "name": "Alpine Green",
+          "hex": "546554"
+        },
+        {
+          "name": "Gold",
+          "hex": "F6E4C7"
+        },
+        {
+          "name": "Graphite",
+          "hex": "4C4C4A"
+        },
+        {
+          "name": "Sierra Blue",
+          "hex": "93A9C0"
+        },
+        {
+          "name": "Silver",
+          "hex": "F1F1E7"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A15"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ],
+            [
+              "RAM",
+              "6GB LPDDR4X"
+            ],
+            [
+              "Storage",
+              "128GB, 256GB, 512GB, 1TB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone14,2"
+            ],
+            [
+              "Model numbers",
+              "A2483, A2636, A2638, A2639, A2640"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 13 Pro and iPhone 13 Pro Max are smartphones developed and marketed by Apple. They were the flagship smartphones in the fifteenth generation of the iPhone, succeeding the iPhone 12 Pro and iPhone 12 Pro Max respectively. The devices were unveiled alongside the iPhone 13 and iPhone 13 Mini at an Apple Special Event at Apple Park in Cupertino, California, on September 14, 2021, and became available ten days later, on September 24. They were discontinued on September 7, 2022, as well as the iPhone 11 and iPhone 12 mini, following the announcement of the iPhone 14 and iPhone 14 Pro.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_13_Pro"
+    },
+    {
+      "id": "iphone14-3",
+      "name": "iPhone 13 Pro Max",
+      "identifiers": [
+        "iPhone14,3"
+      ],
+      "released": "2021-09-24",
+      "discontinued": "2022-09-07",
+      "chip": "A15",
+      "launchPriceUSD": 1099,
+      "displayInches": 6.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2022-spring-iphone13-pro-max-colors.png",
+      "colors": [
+        {
+          "name": "Alpine Green",
+          "hex": "546554"
+        },
+        {
+          "name": "Gold",
+          "hex": "F6E4C7"
+        },
+        {
+          "name": "Graphite",
+          "hex": "4C4C4A"
+        },
+        {
+          "name": "Sierra Blue",
+          "hex": "93A9C0"
+        },
+        {
+          "name": "Silver",
+          "hex": "F1F1E7"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A15"
+            ],
+            [
+              "Display",
+              "6.7-inch"
+            ],
+            [
+              "RAM",
+              "6GB LPDDR4X"
+            ],
+            [
+              "Storage",
+              "128GB, 256GB, 512GB, 1TB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone14,3"
+            ],
+            [
+              "Model numbers",
+              "A2484, A2641, A2643, A2644, A2645"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 13 Pro and iPhone 13 Pro Max are smartphones developed and marketed by Apple. They were the flagship smartphones in the fifteenth generation of the iPhone, succeeding the iPhone 12 Pro and iPhone 12 Pro Max respectively. The devices were unveiled alongside the iPhone 13 and iPhone 13 Mini at an Apple Special Event at Apple Park in Cupertino, California, on September 14, 2021, and became available ten days later, on September 24. They were discontinued on September 7, 2022, as well as the iPhone 11 and iPhone 12 mini, following the announcement of the iPhone 14 and iPhone 14 Pro.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_13_Pro"
+    },
+    {
+      "id": "iphone14-6",
+      "name": "iPhone SE (3rd generation)",
+      "identifiers": [
+        "iPhone14,6"
+      ],
+      "released": "2022-03-18",
+      "discontinued": "2025-02-19",
+      "chip": "A15",
+      "launchPriceUSD": 429,
+      "displayInches": 4.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se-3rd-gen-colors.png",
+      "colors": [
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "A10415"
+        },
+        {
+          "name": "Midnight",
+          "hex": "161E24"
+        },
+        {
+          "name": "Starlight",
+          "hex": "F7F2EE"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A15"
+            ],
+            [
+              "Display",
+              "4.7-inch"
+            ],
+            [
+              "RAM",
+              "4GB LPDDR4X"
+            ],
+            [
+              "Storage",
+              "64GB, 128GB, 256GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone14,6"
+            ],
+            [
+              "Model numbers",
+              "A2595, A2782, A2783, A2784, A2785"
+            ]
+          ]
+        }
+      ],
+      "about": "The third-generation iPhone SE is a smartphone designed and developed by Apple. It is part of the 15th generation of the iPhone, alongside the iPhone 13 and 13 Mini and iPhone 13 Pro and 13 Pro Max models. Apple announced the third-generation iPhone SE on March 8, 2022, as the successor to the second-generation iPhone SE of 2020. Pre-orders began on March 11, 2022, and the phone was released afterwards on March 18, 2022. It was released with a starting price of US$429, a $30 increase over its predecessor.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_SE_(3rd_generation)"
+    },
+    {
+      "id": "iphone14-7",
+      "name": "iPhone 14",
+      "identifiers": [
+        "iPhone14,7"
+      ],
+      "released": "2022-09-16",
+      "discontinued": "2025-02-19",
+      "chip": "A15",
+      "launchPriceUSD": 799,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-colors-spring-2023.png",
+      "colors": [
+        {
+          "name": "Yellow",
+          "hex": "F8D868"
+        },
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "F80628"
+        },
+        {
+          "name": "Blue",
+          "hex": "A8B8C8"
+        },
+        {
+          "name": "Midnight",
+          "hex": "192928"
+        },
+        {
+          "name": "Purple",
+          "hex": "E8D8E8"
+        },
+        {
+          "name": "Starlight",
+          "hex": "F8F8E7"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A15"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ],
+            [
+              "RAM",
+              "6GB"
+            ],
+            [
+              "Storage",
+              "128GB, 256GB, 512GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone14,7"
+            ],
+            [
+              "Model numbers",
+              "A2649, A2881, A2882, A2883, A2884"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 14 and iPhone 14 Plus are smartphones that were developed and marketed by Apple. They are the sixteenth-generation iPhones, succeeding the iPhone 13 and iPhone 13 Mini, and were announced during an Apple Event at Apple Park in Cupertino, California, on September 7, 2022, alongside the higher-priced iPhone 14 Pro and iPhone 14 Pro Max flagships. The iPhone 14 and iPhone 14 Plus feature a 6.1-inch (15 cm) and 6.7-inch (17 cm) display, improvements to the rear-facing camera, and satellite connectivity for contacting emergency services. The iPhone 14 was made available on September 16, 2022, and the iPhone 14 Plus was made available on October 7, 2022. The phones were priced at $799 and $899 respectively and both launched with iOS 16. Pre-orders for the iPhone 14 and iPhone 14 Plus began on September 9, 2022. Along with the 14 Pro and 14 Pro Max, the iPhone 14 and 14 Plus are the last iPhone models to feature the Lightning port, as their successors, the iPhone 15 and 15 Plus, use a USB-C port, per European Commission regulation.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_14"
+    },
+    {
+      "id": "iphone15-2",
+      "name": "iPhone 14 Pro",
+      "identifiers": [
+        "iPhone15,2"
+      ],
+      "released": "2022-09-16",
+      "discontinued": "2023-09-12",
+      "chip": "A16",
+      "launchPriceUSD": 999,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-pro-colors.png",
+      "colors": [
+        {
+          "name": "Deep Purple",
+          "hex": "595261"
+        },
+        {
+          "name": "Gold",
+          "hex": "F3E6CC"
+        },
+        {
+          "name": "Silver",
+          "hex": "F0F2F2"
+        },
+        {
+          "name": "Space Black",
+          "hex": "3B3937"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A16"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ],
+            [
+              "RAM",
+              "6GB"
+            ],
+            [
+              "Storage",
+              "128GB, 256GB, 512GB, 1TB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone15,2"
+            ],
+            [
+              "Model numbers",
+              "A2650, A2889, A2890, A2891, A2892"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 14 Pro and iPhone 14 Pro Max are smartphones that were developed and marketed by Apple. They are the sixteenth-generation flagship iPhones, succeeding the iPhone 13 Pro and Pro Max. The devices were unveiled alongside the iPhone 14 and 14 Plus during the Apple Event at Apple Park in Cupertino, California, on September 7, 2022, and were made available on September 16, 2022.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_14_Pro"
+    },
+    {
+      "id": "iphone15-3",
+      "name": "iPhone 14 Pro Max",
+      "identifiers": [
+        "iPhone15,3"
+      ],
+      "released": "2022-09-16",
+      "discontinued": "2023-09-12",
+      "chip": "A16",
+      "launchPriceUSD": 1099,
+      "displayInches": 6.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-pro-max-colors.png",
+      "colors": [
+        {
+          "name": "Deep Purple",
+          "hex": "595261"
+        },
+        {
+          "name": "Gold",
+          "hex": "F3E6CC"
+        },
+        {
+          "name": "Silver",
+          "hex": "F0F2F2"
+        },
+        {
+          "name": "Space Black",
+          "hex": "3B3937"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A16"
+            ],
+            [
+              "Display",
+              "6.7-inch"
+            ],
+            [
+              "RAM",
+              "6GB"
+            ],
+            [
+              "Storage",
+              "128GB, 256GB, 512GB, 1TB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone15,3"
+            ],
+            [
+              "Model numbers",
+              "A2651, A2893, A2894, A2895, A2896"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 14 Pro and iPhone 14 Pro Max are smartphones that were developed and marketed by Apple. They are the sixteenth-generation flagship iPhones, succeeding the iPhone 13 Pro and Pro Max. The devices were unveiled alongside the iPhone 14 and 14 Plus during the Apple Event at Apple Park in Cupertino, California, on September 7, 2022, and were made available on September 16, 2022.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_14_Pro"
+    },
+    {
+      "id": "iphone14-8",
+      "name": "iPhone 14 Plus",
+      "identifiers": [
+        "iPhone14,8"
+      ],
+      "released": "2022-10-07",
+      "discontinued": "2025-02-19",
+      "chip": "A15",
+      "launchPriceUSD": 899,
+      "displayInches": 6.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-14-plus-colors-spring-2023.png",
+      "colors": [
+        {
+          "name": "Yellow",
+          "hex": "F8D868"
+        },
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "F80628"
+        },
+        {
+          "name": "Blue",
+          "hex": "A8B8C8"
+        },
+        {
+          "name": "Midnight",
+          "hex": "192928"
+        },
+        {
+          "name": "Purple",
+          "hex": "E8D8E8"
+        },
+        {
+          "name": "Starlight",
+          "hex": "F8F8E7"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A15"
+            ],
+            [
+              "Display",
+              "6.7-inch"
+            ],
+            [
+              "RAM",
+              "6GB"
+            ],
+            [
+              "Storage",
+              "128GB, 256GB, 512GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone14,8"
+            ],
+            [
+              "Model numbers",
+              "A2632, A2885, A2886, A2887, A2888"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 14 and iPhone 14 Plus are smartphones that were developed and marketed by Apple. They are the sixteenth-generation iPhones, succeeding the iPhone 13 and iPhone 13 Mini, and were announced during an Apple Event at Apple Park in Cupertino, California, on September 7, 2022, alongside the higher-priced iPhone 14 Pro and iPhone 14 Pro Max flagships. The iPhone 14 and iPhone 14 Plus feature a 6.1-inch (15 cm) and 6.7-inch (17 cm) display, improvements to the rear-facing camera, and satellite connectivity for contacting emergency services. The iPhone 14 was made available on September 16, 2022, and the iPhone 14 Plus was made available on October 7, 2022. The phones were priced at $799 and $899 respectively and both launched with iOS 16. Pre-orders for the iPhone 14 and iPhone 14 Plus began on September 9, 2022. Along with the 14 Pro and 14 Pro Max, the iPhone 14 and 14 Plus are the last iPhones to feature the Lightning port, as their successors, the iPhone 15 and 15 Plus, use a USB-C port, per European Commission regulation.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_14"
+    },
+    {
+      "id": "iphone15-4",
+      "name": "iPhone 15",
+      "identifiers": [
+        "iPhone15,4"
+      ],
+      "released": "2023-09-22",
+      "discontinued": "2025-09-09",
+      "chip": "A16",
+      "launchPriceUSD": 799,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15.png",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "4E4F4E"
+        },
+        {
+          "name": "Blue",
+          "hex": "F3F8F8"
+        },
+        {
+          "name": "Green",
+          "hex": "F3F8E8"
+        },
+        {
+          "name": "Pink",
+          "hex": "FCE8E8"
+        },
+        {
+          "name": "Yellow",
+          "hex": "FCFBE4"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A16"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ],
+            [
+              "RAM",
+              "6GB"
+            ],
+            [
+              "Storage",
+              "128GB, 256GB, 512GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone15,4"
+            ],
+            [
+              "Model numbers",
+              "A2846, A3089, A3090, A3092"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 15 and iPhone 15 Plus are smartphones developed and marketed by Apple. They are the seventeenth generation of iPhones, succeeding the iPhone 14 and iPhone 14 Plus. The devices were announced on September 12, 2023, during the Apple Event at Apple Park in Cupertino, California, alongside the higher-priced flagship iPhone 15 Pro and 15 Pro Max. Pre-orders began on September 15, 2023, and the devices were made available on September 22, 2023.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_15"
+    },
+    {
+      "id": "iphone15-5",
+      "name": "iPhone 15 Plus",
+      "identifiers": [
+        "iPhone15,5"
+      ],
+      "released": "2023-09-22",
+      "discontinued": "2025-09-09",
+      "chip": "A16",
+      "launchPriceUSD": 899,
+      "displayInches": 6.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-plus.png",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "4E4F4E"
+        },
+        {
+          "name": "Blue",
+          "hex": "F3F8F8"
+        },
+        {
+          "name": "Green",
+          "hex": "F3F8E8"
+        },
+        {
+          "name": "Pink",
+          "hex": "FCE8E8"
+        },
+        {
+          "name": "Yellow",
+          "hex": "FCFBE4"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A16"
+            ],
+            [
+              "Display",
+              "6.7-inch"
+            ],
+            [
+              "RAM",
+              "6GB"
+            ],
+            [
+              "Storage",
+              "128GB, 256GB, 512GB"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone15,5"
+            ],
+            [
+              "Model numbers",
+              "A2847, A3093, A3094, A3096"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 15 and iPhone 15 Plus are smartphones developed and marketed by Apple. They are the seventeenth generation of iPhones, succeeding the iPhone 14 and iPhone 14 Plus. The devices were announced on September 12, 2023, during the Apple Event at Apple Park in Cupertino, California, alongside the higher-priced flagship iPhone 15 Pro and 15 Pro Max. Pre-orders began on September 15, 2023, and the devices were made available on September 22, 2023.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_15"
+    },
+    {
+      "id": "iphone16-1",
+      "name": "iPhone 15 Pro",
+      "identifiers": [
+        "iPhone16,1"
+      ],
+      "released": "2023-09-22",
+      "discontinued": "2024-09-09",
+      "chip": "A17 Pro",
+      "launchPriceUSD": 999,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-pro.png",
+      "colors": [
+        {
+          "name": "Black Titanium",
+          "hex": "464646"
+        },
+        {
+          "name": "Blue Titanium",
+          "hex": "545A66"
+        },
+        {
+          "name": "Natural Titanium",
+          "hex": "A6A29B"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "EEEAE6"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A17 Pro"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone16,1"
+            ],
+            [
+              "Model numbers",
+              "A2848, A3101, A3102, A3104"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 15 Pro and iPhone 15 Pro Max are smartphones that were developed and marketed by Apple. They are the seventeenth-generation flagship iPhones, succeeding the iPhone 14 Pro and 14 Pro Max.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_15_Pro"
+    },
+    {
+      "id": "iphone16-2",
+      "name": "iPhone 15 Pro Max",
+      "identifiers": [
+        "iPhone16,2"
+      ],
+      "released": "2023-09-22",
+      "discontinued": "2024-09-09",
+      "chip": "A17 Pro",
+      "launchPriceUSD": 1199,
+      "displayInches": 6.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-pro-max.png",
+      "colors": [
+        {
+          "name": "Black Titanium",
+          "hex": "464646"
+        },
+        {
+          "name": "Blue Titanium",
+          "hex": "545A66"
+        },
+        {
+          "name": "Natural Titanium",
+          "hex": "A6A29B"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "EEEAE6"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A17 Pro"
+            ],
+            [
+              "Display",
+              "6.7-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone16,2"
+            ],
+            [
+              "Model numbers",
+              "A2849, A3105, A3106, A3108"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 15 Pro and iPhone 15 Pro Max are smartphones that were developed and marketed by Apple. They are the seventeenth-generation flagship iPhones, succeeding the iPhone 14 Pro and 14 Pro Max.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_15_Pro"
+    },
+    {
+      "id": "iphone17-3",
+      "name": "iPhone 16",
+      "identifiers": [
+        "iPhone17,3"
+      ],
+      "released": "2024-09-20",
+      "chip": "A18",
+      "launchPriceUSD": 799,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-colors.png",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "464747"
+        },
+        {
+          "name": "Pink",
+          "hex": "F1A8D8"
+        },
+        {
+          "name": "Teal",
+          "hex": "AFD4D2"
+        },
+        {
+          "name": "Ultramarine",
+          "hex": "94A6F1"
+        },
+        {
+          "name": "White",
+          "hex": "F7F7F5"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A18"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone17,3"
+            ],
+            [
+              "Model numbers",
+              "A3081, A3286, A3287, A3288"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 16 and iPhone 16 Plus are smartphones developed and marketed by Apple. They are the eighteenth-generation iPhones, succeeding the iPhone 15 and iPhone 15 Plus. The devices were announced alongside the higher-priced iPhone 16 Pro and 16 Pro Max during the Apple Event at Apple Park in Cupertino, California, on September 9, 2024, and released on September 20.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_16"
+    },
+    {
+      "id": "iphone17-4",
+      "name": "iPhone 16 Plus",
+      "identifiers": [
+        "iPhone17,4"
+      ],
+      "released": "2024-09-20",
+      "discontinued": "2026-09-09",
+      "chip": "A18",
+      "launchPriceUSD": 899,
+      "displayInches": 6.7,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-plus-colors.png",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "464747"
+        },
+        {
+          "name": "Pink",
+          "hex": "F1A8D8"
+        },
+        {
+          "name": "Teal",
+          "hex": "AFD4D2"
+        },
+        {
+          "name": "Ultramarine",
+          "hex": "94A6F1"
+        },
+        {
+          "name": "White",
+          "hex": "F7F7F5"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A18"
+            ],
+            [
+              "Display",
+              "6.7-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone17,4"
+            ],
+            [
+              "Model numbers",
+              "A3082, A3289, A3290, A3291"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 16 and iPhone 16 Plus are smartphones developed and marketed by Apple. They are the eighteenth-generation iPhones, succeeding the iPhone 15 and iPhone 15 Plus. The devices were announced alongside the higher-priced iPhone 16 Pro and 16 Pro Max during the Apple Event at Apple Park in Cupertino, California, on September 9, 2024, and released on September 20.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_16"
+    },
+    {
+      "id": "iphone17-1",
+      "name": "iPhone 16 Pro",
+      "identifiers": [
+        "iPhone17,1"
+      ],
+      "released": "2024-09-20",
+      "discontinued": "2025-09-09",
+      "chip": "A18 Pro",
+      "launchPriceUSD": 999,
+      "displayInches": 6.3,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-pro-colors.png",
+      "colors": [
+        {
+          "name": "Black Titanium",
+          "hex": "4F4F4F"
+        },
+        {
+          "name": "Desert Titanium",
+          "hex": "EBD8C8"
+        },
+        {
+          "name": "Natural Titanium",
+          "hex": "CBC7C0"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "ECECEA"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A18 Pro"
+            ],
+            [
+              "Display",
+              "6.3-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone17,1"
+            ],
+            [
+              "Model numbers",
+              "A3083, A3292, A3293, A3294"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 16 Pro and iPhone 16 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone 16 and iPhone 16 Plus, they form the eighteenth generation of the iPhone, succeeding the iPhone 15 Pro and iPhone 15 Pro Max, and were announced on September 9, 2024, and released on September 20, 2024. The iPhone 16 Pro and iPhone 16 Pro Max include a larger 6.3-inch and 6.9-inch display, a faster processor, upgraded wide and ultra-wide cameras, support for Wi-Fi 7, larger batteries, and come pre-installed with iOS 18. They were discontinued on September 9, 2025, following the announcement of the iPhone 17 Pro and 17 Pro Max.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_16_Pro"
+    },
+    {
+      "id": "iphone17-2",
+      "name": "iPhone 16 Pro Max",
+      "identifiers": [
+        "iPhone17,2"
+      ],
+      "released": "2024-09-20",
+      "discontinued": "2025-09-09",
+      "chip": "A18 Pro",
+      "launchPriceUSD": 1199,
+      "displayInches": 6.9,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16-pro-max-colors.png",
+      "colors": [
+        {
+          "name": "Black Titanium",
+          "hex": "4F4F4F"
+        },
+        {
+          "name": "Desert Titanium",
+          "hex": "EBD8C8"
+        },
+        {
+          "name": "Natural Titanium",
+          "hex": "CBC7C0"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "ECECEA"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A18 Pro"
+            ],
+            [
+              "Display",
+              "6.9-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone17,2"
+            ],
+            [
+              "Model numbers",
+              "A3084, A3295, A3296, A3297"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 16 Pro and iPhone 16 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone 16 and iPhone 16 Plus, they form the eighteenth generation of the iPhone, succeeding the iPhone 15 Pro and iPhone 15 Pro Max, and were announced on September 9, 2024, and released on September 20, 2024. The iPhone 16 Pro and iPhone 16 Pro Max include a larger 6.3-inch and 6.9-inch display, a faster processor, upgraded wide and ultra-wide cameras, support for Wi-Fi 7, larger batteries, and come pre-installed with iOS 18. They were discontinued on September 9, 2025, following the announcement of the iPhone 17 Pro and 17 Pro Max.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_16_Pro"
+    },
+    {
+      "id": "iphone17-5",
+      "name": "iPhone 16e",
+      "identifiers": [
+        "iPhone17,5"
+      ],
+      "released": "2025-02-28",
+      "discontinued": "2026-03-02",
+      "chip": "A18",
+      "launchPriceUSD": 599,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-16e/iphone-16e-colors.png",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "404040"
+        },
+        {
+          "name": "White",
+          "hex": "F6F6F4"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A18"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone17,5"
+            ],
+            [
+              "Model numbers",
+              "A3212, A3408, A3409, A3410"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 16e is a smartphone developed and marketed by Apple as part of its iPhone series. It is part of the eighteenth-generation iPhone line-up, together with the iPhone 16, the iPhone 16 Plus, and the Pro models, the iPhone 16 Pro and iPhone 16 Pro Max. Announced on February 19, 2025, as part of the iPhone 16 line-up, the iPhone 16e was released with a starting price of US$599, marking a US$170 increase over the starting price of the iPhone SE, or a US$120 increase over the price of the comparable 128 GB of storage version of that iPhone.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_16e"
+    },
+    {
+      "id": "iphone18-3",
+      "name": "iPhone 17",
+      "identifiers": [
+        "iPhone18,3"
+      ],
+      "released": "2025-09-19",
+      "chip": "A19",
+      "launchPriceUSD": 799,
+      "displayInches": 6.3,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-colors.png",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "464747"
+        },
+        {
+          "name": "Lavender",
+          "hex": "E7D7F2"
+        },
+        {
+          "name": "Mist Blue",
+          "hex": "A6BDDD"
+        },
+        {
+          "name": "Sage",
+          "hex": "BAC79C"
+        },
+        {
+          "name": "White",
+          "hex": "F7F7F5"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A19"
+            ],
+            [
+              "Display",
+              "6.3-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone18,3"
+            ],
+            [
+              "Model numbers",
+              "A3258, A3519, A3520, A3521"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 17 is a smartphone developed and marketed by Apple that is part of the nineteenth generation of the iPhone. Succeeding the iPhone 16, the device was announced alongside the higher-priced, refreshed iPhone 17 Pro and 17 Pro Max and the new iPhone Air during an Apple Event at Apple Park in Cupertino, California, on September 9, 2025.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_17"
+    },
+    {
+      "id": "iphone18-1",
+      "name": "iPhone 17 Pro",
+      "identifiers": [
+        "iPhone18,1"
+      ],
+      "released": "2025-09-19",
+      "discontinued": "2026-09-09",
+      "chip": "A19 Pro",
+      "launchPriceUSD": 1099,
+      "displayInches": 6.3,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-pro-colors.png",
+      "colors": [
+        {
+          "name": "Cosmic Orange",
+          "hex": "F8833E"
+        },
+        {
+          "name": "Deep Blue",
+          "hex": "4A5680"
+        },
+        {
+          "name": "Silver",
+          "hex": "E7E7E7"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A19 Pro"
+            ],
+            [
+              "Display",
+              "6.3-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone18,1"
+            ],
+            [
+              "Model numbers",
+              "A3256, A3522, A3523, A3524"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 17 Pro and iPhone 17 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone 17 and iPhone Air, they form the nineteenth generation of the iPhone, succeeding the iPhone 16 Pro and iPhone 16 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2025, and released on September 19, 2025.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_17_Pro"
+    },
+    {
+      "id": "iphone18-2",
+      "name": "iPhone 17 Pro Max",
+      "identifiers": [
+        "iPhone18,2"
+      ],
+      "released": "2025-09-19",
+      "discontinued": "2026-09-09",
+      "chip": "A19 Pro",
+      "launchPriceUSD": 1199,
+      "displayInches": 6.9,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17-pro-max-colors.png",
+      "colors": [
+        {
+          "name": "Cosmic Orange",
+          "hex": "F8833E"
+        },
+        {
+          "name": "Deep Blue",
+          "hex": "4A5680"
+        },
+        {
+          "name": "Silver",
+          "hex": "E7E7E7"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A19 Pro"
+            ],
+            [
+              "Display",
+              "6.9-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone18,2"
+            ],
+            [
+              "Model numbers",
+              "A3257, A3525, A3526, A3527"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 17 Pro and iPhone 17 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone 17 and iPhone Air, they form the nineteenth generation of the iPhone, succeeding the iPhone 16 Pro and iPhone 16 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2025, and released on September 19, 2025.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_17_Pro"
+    },
+    {
+      "id": "iphone18-4",
+      "name": "iPhone Air",
+      "identifiers": [
+        "iPhone18,4"
+      ],
+      "released": "2025-09-19",
+      "chip": "A19 Pro",
+      "launchPriceUSD": 999,
+      "displayInches": 6.5,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-air-colors.png",
+      "colors": [
+        {
+          "name": "Cloud White",
+          "hex": "FCFCFC"
+        },
+        {
+          "name": "Light Gold",
+          "hex": "FAF2E5"
+        },
+        {
+          "name": "Sky Blue",
+          "hex": "E5F2FA"
+        },
+        {
+          "name": "Space Black",
+          "hex": "0E0E0E"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A19 Pro"
+            ],
+            [
+              "Display",
+              "6.5-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone18,4"
+            ],
+            [
+              "Model numbers",
+              "A3260, A3516, A3517, A3518"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone Air is a smartphone developed and marketed by Apple. Part of the nineteenth generation of the iPhone, it was announced alongside the lower-priced iPhone 17 and the higher-priced iPhone 17 Pro and 17 Pro Max during the Apple Event at Apple Park in Cupertino, California, on September 9, 2025. The iPhone Air replaces the Plus series in the iPhone line-up and is an option focused on lightweight design and enhanced features. With a depth of 5.6 mm (0.22 in), it was the thinnest iPhone ever at the time of its release, surpassing the 6.9 mm (0.27 in) thick iPhone 6; this excludes the top of the phone with a depth of 11.3 mm (0.44 in).",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_Air"
+    },
+    {
+      "id": "iphone18-5",
+      "name": "iPhone 17e",
+      "identifiers": [
+        "iPhone18,5"
+      ],
+      "released": "2026-03-11",
+      "chip": "A19",
+      "launchPriceUSD": 599,
+      "displayInches": 6.1,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-17e/iphone-17e-colors.png",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "404040"
+        },
+        {
+          "name": "Soft Pink",
+          "hex": "FCE7E6"
+        },
+        {
+          "name": "White",
+          "hex": "F6F6F4"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A19"
+            ],
+            [
+              "Display",
+              "6.1-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone18,5"
+            ],
+            [
+              "Model numbers",
+              "A3575, A3634, A3635"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 17e is a smartphone developed and marketed by Apple as part of the iPhone product line. It was announced on March 2, 2026, and positioned as the entry-level model within the iPhone 17 lineup. At launch, like the iPhone 16e, it had a starting price of US$599, but with 256 GB of storage as opposed to 128 GB. It was later raised to US$699 on September 9, 2026.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_17e"
+    },
+    {
+      "id": "iphone19-2",
+      "name": "iPhone 18 Pro",
+      "identifiers": [
+        "iPhone19,2"
+      ],
+      "released": "2026-09-18",
+      "chip": "A20 Pro",
+      "launchPriceUSD": 1199,
+      "displayInches": 6.3,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-18-pro-colors.png",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "3C3C3C"
+        },
+        {
+          "name": "Burgundy",
+          "hex": "4D1822"
+        },
+        {
+          "name": "Glacier",
+          "hex": "E8F2FE"
+        },
+        {
+          "name": "Silver",
+          "hex": "F7F7F7"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A20 Pro"
+            ],
+            [
+              "Display",
+              "6.3-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone19,2"
+            ],
+            [
+              "Model numbers",
+              "A3472, A3713, A3714, A3715"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 18 Pro and iPhone 18 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone Duo, they form the twentieth generation of the iPhone, succeeding the iPhone 17 Pro and iPhone 17 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2026. The phones were released on September 18, 2026.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_18_Pro"
+    },
+    {
+      "id": "iphone19-3",
+      "name": "iPhone 18 Pro Max",
+      "identifiers": [
+        "iPhone19,3",
+        "iPhone19,7"
+      ],
+      "released": "2026-09-18",
+      "chip": "A20 Pro",
+      "launchPriceUSD": 1299,
+      "displayInches": 6.9,
+      "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-18-pro-max-colors.png",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "3C3C3C"
+        },
+        {
+          "name": "Burgundy",
+          "hex": "4D1822"
+        },
+        {
+          "name": "Glacier",
+          "hex": "E8F2FE"
+        },
+        {
+          "name": "Silver",
+          "hex": "F7F7F7"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A20 Pro"
+            ],
+            [
+              "Display",
+              "6.9-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone19,3, iPhone19,7"
+            ],
+            [
+              "Model numbers",
+              "A3473, A3716, A3717, A3718"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone 18 Pro and iPhone 18 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone Duo, they form the twentieth generation of the iPhone, succeeding the iPhone 17 Pro and iPhone 17 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2026. The phones were released on September 18, 2026.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_18_Pro"
+    },
+    {
+      "id": "iphone19-4",
+      "name": "iPhone Duo",
+      "identifiers": [
+        "iPhone19,4"
+      ],
+      "released": "2026-10-23",
+      "chip": "A20 Pro",
+      "launchPriceUSD": 1999,
+      "displayInches": 7.6,
+      "colors": [
+        {
+          "name": "Night Sky",
+          "hex": "394452"
+        },
+        {
+          "name": "Star White",
+          "hex": "F7F6F5"
+        }
+      ],
+      "specs": [
+        {
+          "title": "Hardware",
+          "rows": [
+            [
+              "Chip",
+              "A20 Pro"
+            ],
+            [
+              "Display",
+              "7.6-inch"
+            ]
+          ]
+        },
+        {
+          "title": "Identifiers",
+          "rows": [
+            [
+              "Model identifiers",
+              "iPhone19,4"
+            ],
+            [
+              "Model numbers",
+              "A3447, A3719, A3720, A3721"
+            ]
+          ]
+        },
+        {
+          "title": "Display",
+          "rows": [
+            [
+              "Inner",
+              "7.6-inch"
+            ],
+            [
+              "Outer",
+              "5.4-inch"
+            ]
+          ]
+        }
+      ],
+      "about": "The iPhone Duo is a foldable smartphone developed and marketed by Apple. It is the first iPhone to feature a foldable design. The device was announced during the Apple Event at Apple Park in Cupertino, California, on September 9, 2026, alongside the iPhone 18 Pro and iPhone 18 Pro Max, and will be released on October 23, 2026.",
+      "aboutSource": "https://en.wikipedia.org/wiki/IPhone_Duo"
+    }
+  ]
+}
