@@ -1,0 +1,241 @@
+[
+    {
+        "name": "iPhone",
+        "id": 1001,
+        "release_date": "January 9, 2007",
+        "model": "iPhone1,1",
+        "quote": "Apple reinvents the phone",
+        "": "",
+        "description": "The iPhone 2G, also known as the original iPhone, was the first generation of Apple's iPhone lineup. It was announced by Steve Jobs on January 9, 2007, and released on June 29, 2007. The iPhone 2G was a revolutionary device that changed the smartphone industry forever, with its innovative touch-based user interface and a design that was unlike any other phone at the time. The iPhone 2G had a 3.5-inch diagonal screen with a resolution of 320x480 pixels, which was considered quite large for its time. It was powered by a 620 MHz ARM11 processor and had 128 MB of RAM. The device was available in two storage options: 4GB and 8GB, which was considered quite generous at the time. It did not have a front-facing camera, but it had a 2-megapixel camera on the back. The iPhone 2G was a groundbreaking device that set the standard for modern smartphones. Its innovative design and features paved the way for future iPhone models and other smartphones to come. Despite its relatively limited capabilities compared to modern smartphones, the iPhone 2G remains an important milestone in the history of technology and mobile computing.",
+        "imageName": "IPhone2G"
+    },
+    {
+        "name": "iPhone 3G",
+        "id": 1002,
+        "release_date": "June 9, 2008",
+        "model": "iPhone1,2",
+        "quote": "The first phone to beat the iPhone",
+        "": "",
+        "description": "Much like the original iPhone, the iPhone 3G combines mobile phone, iPod, and Internet functionality -- although the iPhone 3G most notably adds 3G (UMTS/HSDPA - 850, 1900, 2100 MHz, 3.6 Mbps) support and GPS functionality. The iPhone 3G features the same 3.5 display with 320x480 resolution at 163 ppi, but uses a slightly thicker case, with either a black or white plastic back -- rather than aluminum like the original model. It includes 8 GB or 16 GB of storage (white model only available with 16 GB), support for Wi-Fi (802.11b/g), Bluetooth 2.0+EDR and an intergrated 2.0 megapixel camera that supports geotagging. Apple reports that the iPhone 3G provides up to 24 hours of audio playback, 10 hours of talk time on 2G, 5 hours of talk time on 3G, 5 hours of Internet use on 3G, 6 hours of Internet use on Wi-Fi, 7 hours of video playback and 300 hours of standby time. The iPhone 3G uses the same multi-touch interface, as well as accelerometer, ambient light, and proximity sensor capabilities as the original model, although it has two proximity sensors compared to one in the original.",
+        "imageName": "IPhone3G"
+    },
+    {
+        "name": "iPhone 3GS",
+        "id": 1003,
+        "release_date": "June 8, 2009",
+        "model": "iPhone2,1",
+        "quote": "The fastest, smartest phone yet",
+        "": "",
+        "description": "Although it looks essentially identical to the iPhone 3G before it with the same black or white plastic case design and the same 3.5 display with 320x480 resolution at 163 ppi (albeit with a new oleophobic oil repellent coating) -- and still combines mobile phone, iPod, and Internet functionality, the iPhone 3GS has a variety of significant additions. Perhaps most notably, the iPhone 3GS is faster version of the iPhone 3G, S refers to its enhanced speed (600 MHz up from 412 MHz, with a dramatically improved graphics processor as well), twice the RAM (256 MB up from 128 MB) -- and adds support for faster 7.2 Mbps HSDPA (802.11b/g and Bluetooth are supported too), a 3.0 megapixel camera -- with VGA video recording at 30 FPS -- as well as autofocus, macro, and white balance support, a tap to focus feature, and the ability to trim the beginning and ending of videos, along with a digital compass and A-GPS. It also includes new accessibility features (VoiceOver), voice control functionality, integrated Nike + iPod support, and an inline remote on the headphone cable (like the iPod shuffle 3G). The iPhone 3GS released in 2009 includes 16 GB or 32 GB of storage and the version released in 2010 includes 8 GB of storage (for a lower price). Regardless of capacity, Apple reports that it provides up to 30 hours of audio playback, 12 hours of talk time on 2G, 5 hours of talk time on 3G, 5 hours of Internet use on 3G, 9 hours of Internet use on Wi-Fi, 10 hours of video playback and 300 hours of standby time.",
+        "imageName": "IPhone3GS"
+    },
+    {
+        "name": "iPhone 4",
+        "id": 1004,
+        "release_date": "June 7, 2010",
+        "model": "iPhone3,1, iPhone3,2, iPhone3,3",
+        "quote": "This changes everything. Again",
+        "": "",
+        "description": "The iPhone 4, heralded as the biggest leap since the original iPhone, uses an all stainless steel body design with an ultra high-density 3.5-inch, IPS, LED-backlit 960x640 326 ppi multi-touch retina display, mobile and data antennas integrated in the metal band that wraps around the sides of the phone, and a chemically hardened aluminosilcate glass front over both the display and a black frame and the chemically hardened black glass back as well (it was introduced with a white option on June 7, 2010, too, but this version did not ship until April 28, 2011). Regardless of color, both the front and back have an oleophobic oil repellent coating. It has dual cameras, a 5 megapixel HD video/still camera (720p at 30 FPS) with a backside illuminated sensor, a 5X digital zoom, and an LED flash on the rear and a VGA quality video/still camera on the front designed for video conferencing over a Wi-Fi network with Apple's included FaceTime application. It has dual noise-cancelling microphones also. It is powered by an Apple A4 processor of unspecified speed, has 512 MB of RAM, and has 16 GB or 32 GB of internal storage. Network support includes UMTS/HSDPA/HSUPA (850, 900, 1900, 2100 MHz) and GSM/EDGE (850, 900, 1800, 1900 MHz). 802.11g/n and Bluetooth 2.1+EDR are supported as well. Like the iPhone 3GS that came before it, the iPhone 4 includes a digital compass, A-GPS, and an accelerometer, but adds a 3-axis gyroscope to its list of sensors for additional 3D gaming options. Apple reports that the iPhone 4 provides up to 40 hours of audio playback, 14 hours of talk time on 2G, 7 hours of talk time on 3G, 6 hours of Internet use on 3G, 10 hours of Internet use on Wi-Fi, 10 hours of video playback and 300 hours of standby time.",
+        "imageName": "IPhone4"
+    },
+    {
+        "name": "iPhone 4S",
+        "id": 1005,
+        "release_date": "October 4, 2011",
+        "model": "iPhone4,1",
+        "quote": "The most amazing iPhone yet",
+        "description": "Although the iPhone 4S* looks like the iPhone 4 before it, it is considerably more powerful and most notably unveils a new voice-controlled intelligent assistant named Siri. Like the iPhone 4, the iPhone 4S uses the same all stainless steel body design with an ultra high-density 3.5-inch, IPS, LED-backlit 960x640 326 ppi multi-touch retina display, dual noise-cancelling microphones, mobile and data antennas integrated in the metal band that wraps around the sides of the phone, and a chemically hardened aluminosilcate glass front over both the display and a black or white frame and the chemically hardened black glass back, too. Both the front and back have an oleophobic oil repellent coating, as well. However, the iPhone 4S is a world phone, supporting both GSM and CDMA networks (UMTS/HSDPA/HSUPA (850, 900, 1900, 2100 MHz); GSM/EDGE (850, 900, 1800, 1900 MHz), and CDMA EV-DO Rev. A (800, 1900 MHz), and the antenna automatically switches between send and receive. It supports 802.11b/g/n, Bluetooth 4.0, and HSDPA of up to 14.4 Mbps, too. The iPhone 4S also has dual cameras -- an 8 megapixel HD video/still camera (1080p at 30 FPS) with a backside illuminated sensor, and an LED flash on the rear and a VGA quality video/still camera on the front designed for video conferencing over a Wi-Fi network with Apple's included FaceTime application. It is powered by a dual-core Apple A5 processor, has 512 MB of RAM, and has 8 GB, 16 GB, 32 GB, or 64 GB of internal storage (the 32 GB and 64 GB options were discontinued September 12, 2012, the 16 GB option was replaced by an 8 GB option on September 10, 2013, and this 8 GB configuration was discontinued on September 9, 2014). Apple reports that the iPhone 4S provides up to 40 hours of audio playback, 14 hours of talk time on 2G, 8 hours of talk time on 3G, 6 hours of Internet use on 3G, 9 hours of Internet use on Wi-Fi, 10 hours of video playback and 200 hours of standby time.",
+        "imageName": "IPhone4S"
+    },
+    {
+        "name": "iPhone 5",
+        "id": 1006,
+        "release_date": "September 12, 2012",
+        "model": "iPhone5,1, iPhone5,2",
+        "quote": "The biggest thing to happen to iPhone since iPhone",
+        "": "",
+        "description": "The iPhone 5 models have a 4 (diagonal) widescreen multi-touch IPS LED-backlit 1136x640 native resolution (326 ppi) retina display, dual cameras -- a rear 8 megapixel, 1080p iSight camera and a front 1.2 megapixel, 720p FaceTime HD camera, and 4G/LTE support, all packed in an aluminum unibody case with a glass front that is a mere 0.30 of an inch thick (color options include either a dark gray slate matte back and a glossy black front or a silver matte back and a glossy white front). Each iPhone 5 device is powered by a 1.3 GHz dual core Apple A6 processor, has 1 GB of RAM, and 16 GB, 32 GB, or 64 GB of flash storage. It also supports both 2.4 GHz and 5 GHz 802.11n Wi-Fi and Bluetooth 4.0 as well as packs three noise canceling microphones, a bottom-mounted headphone jack, and a new USB 2.0-based Lightning port for connectivity. Apple estimates that the iPhone 5 models provide up to 40 hours of audio playback, 8 hours of talk time on 3G, 8 hours of Internet use on 3G, 8 hours of Internet use on 4G/LTE, 10 hours of Internet use on Wi-Fi, 10 hours of video playback and 225 hours of standby time.",
+        "imageName": "IPhone5"
+    },
+    {
+        "name": "iPhone 5C",
+        "id": 1007,
+        "release_date": "September 10, 2013",
+        "model": "iPhone5,3, iPhone5,4",
+        "quote": "For the colorful",
+        "": "",
+        "description": "The iPhone 5c models have a 4 (diagonal) widescreen multi-touch IPS LED-backlit 1136x640 native resolution (326 ppi) retina display, and dual cameras -- a rear 8 megapixel, 1080p iSight camera and a front 1.2 megapixel, 720p FaceTime camera -- all housed in a polycarbonate unibody case offered in five playful color options (white, pink, yellow, blue, or green). Each iPhone 5c model is powered by a 1.3 GHz dual core Apple A6 processor, has 1 GB of RAM, and 8 GB, 16 GB, or 32 GB of flash storage. This model also supports both 2.4 GHz and 5 GHz 802.11n Wi-Fi, Bluetooth 4.0, and 4G/LTE, has a bottom-mounted headphone jack and uses the Lightning connector. Apple estimates that the iPhone 5c models provide up to 40 hours of audio playback, 10 hours of talk time on 3G, 8 hours of Internet use on 3G, 10 hours of Internet use on 4G/LTE, 10 hours of Internet use on Wi-Fi, 10 hours of video playback and 250 hours of standby time.",
+        "imageName": "IPhone5C"
+    },
+    {
+        "name": "iPhone 5S",
+        "id": 1008,
+        "release_date": "September 10, 2013",
+        "model": "iPhone6,1, iPhone6,2",
+        "quote": "Forward thinking",
+        "": "",
+        "description": "Heralded as the most forward-thinking smartphone in the world at the time of its introduction, the iPhone 5s models have a 4 (diagonal) widescreen multi-touch IPS LED-backlit 1136x640 native resolution (326 ppi) retina display, dual cameras -- a rear 8 megapixel, 1080p iSight camera with 1.5 micron pixels, an f/2.2 aperture, a dual LED True Tone flash and more as well as a front 1.2 megapixel, 720p FaceTime camera. The iPhone 5s is available in three metallic color options -- space gray, which has a black glass front and a mostly medium toned gunmetal gray aluminum back; gold, which has a white glass front and a mostly gold colored aluminum back; and silver, which has a white glass front and a mostly silver colored aluminum back (gold color option discontinued September 9, 2015). Regardless of color, each includes a Touch ID fingerprint sensor embedded in the home button (which no longer has the traditional iPhone rounded square icon like earlier models). This iPhone 5s model is powered by a 1.3 GHz 64-bit Apple A7 processor and has 1 GB of LPDDR3 RAM and 16 GB, 32 GB, or 64 GB of flash storage (64 GB option discontinued September 9, 2014). It also supports both 2.4 GHz and 5 GHz 802.11n Wi-Fi, Bluetooth 4.0 and 4G/LTE, has a bottom-mounted headphone jack and uses the Lightning connector. Apple estimates that the iPhone 5s models provide up to 40 hours of audio playback, 10 hours of talk time on 3G, 8 hours of Internet use on 3G, 10 hours of Internet use on 4G/LTE, 10 hours of Internet use on Wi-Fi, 10 hours of video playback and 250 hours of standby time.",
+        "imageName": "IPhone5S"
+    },
+    {
+        "name": "iPhone 6 and 6 Plus",
+        "id": 1009,
+        "release_date": "September 9, 2014",
+        "model": "iPhone7,1, iPhone7,2",
+        "quote": "Bigger than bigger",
+        "": "",
+        "description": "The iPhone 6 models have a 4.7 (diagonal) widescreen multi-touch IPS LED-backlit 1334x750 native resolution (326 ppi) Retina HD display, The iPhone 6 Plus models (which users sometimes refer to as iPhone 6+) have a 5.5 (diagonal) widescreen multi-touch IPS LED-backlit 1920x1080 native resolution (401 ppi) Retina HD display, a rear 8 megapixel, 1080p iSight camera with 1.5 micron pixels, an f/2.2 aperture, and both Optical image stabilization(Only on 6+) and autofocus with Focus Pixels (phase detection autofocus capability) as well as a front 1.2 megapixel, 720p FaceTime camera. The iPhone 6 and 6 Plus originally was available in three metallic color options -- silver, which has a white glass front and a silver colored aluminum back (pictured); gold, which has a white glass front and a gold colored aluminum back; and space gray, which has a black glass front and a medium toned gray aluminum back, but the re-introduced 32 GB variation only was available in space gray. Regardless of color, each uses a unibody design with gently rounded sides reminiscent of the earlier iPod touch 5th Gen, but with glass that beautifully curves toward the edges for a completely smooth and continuous surface. It also includes the Touch ID fingerprint sensor embedded in the home button. iPhone 6 models are powered by a 1.4 GHz 64-bit Apple A8 processor and has 1 GB of LPDDR3 RAM and 16 GB, 32 GB, 64 GB, or 128 GB of flash storage (32 GB option introduced on or around March 21, 2017). It also supports 802.11a/b/g/n/ac Wi-Fi, Bluetooth 4.0/4.2, LTE (4G), and NFC for Apple Pay financial transactions. Apple estimates that the iPhone 6 provides up to 50 hours of audio playback, 14 hours of talk time on 3G, 10 hours of Internet use on 3G, 10 hours of Internet use on LTE, 11 hours of Internet use on Wi-Fi, 11 hours of video playback and 250 hours of standby time. And the iPhone 6 Plus provides up to 80 hours of audio playback, 24 hours of talk time on 3G, 12 hours of Internet use on 3G, 12 hours of Internet use on LTE, 12 hours of Internet use on Wi-Fi, 14 hours of video playback and 384 hours of standby time.",
+        "imageName": "IPhone6"
+    },
+    {
+        "name": "iPhone 6S and 6S Plus",
+        "id": 1010,
+        "release_date": "September 9, 2015",
+        "model": "iPhone8,1, iPhone8,2",
+        "quote": "The only thing that's changed is everything",
+        "": "",
+        "description": "",
+        "imageName": "IPhone6S"
+    },
+    {
+        "name": "iPhone SE",
+        "id": 1011,
+        "release_date": "March 21, 2016",
+        "model": "iPhone8,4",
+        "quote": "A big step for small.",
+        "": "",
+        "description": "Marketed as a reinvented 4-inch iPhone, the iPhone SE (Special Edition) is nearly identical in appearance to the iPhone 5s, apart from matte-chamfered edges rather than shiny ones, but have many innards more in common with the higher performance iPhone 6s. All iPhone SE models have a 4 (diagonal) widescreen multi-touch IPS LED-backlit 1136x640 native resolution (326 ppi) retina display without 3D Touch support, It has a rear 12 megapixel, 4K iSight camera with 1.22 micron pixels, an f/2.2 aperture, a dual LED True Tone flash and more as well as a much more modest front 1.2 megapixel, 720p FaceTime camera. The iPhone SE is available in four metallic color options Silver, which has a white glass front and a mostly silver colored aluminum back; Space Gray, which has a black glass front and a mostly medium toned gunmetal gray aluminum back; Gold, which has a white glass front and a mostly gold colored aluminum back; and Rose Gold, which has a white glass front and a mostly pink-tinted gold colored aluminum back. Regardless of color, each also includes a first generation Touch ID fingerprint sensor embedded in the home button. All iPhone SE models are powered by a 1.8 GHz 64-bit Apple A9 processor and have 2 GB of LPDDR4 RAM and 16 GB, 32 GB, 64 GB, or 128 GB of flash storage (16 GB or 64 GB for devices sold from March 21, 2016 until March 21, 2017 and 32 GB or 128 GB for devices sold afterwards). They also support 4G/LTE, 802.11ac Wi-Fi, Bluetooth 4.2, and NFC (for Apple Pay), have a bottom-mounted headphone jack and use the Lightning connector. Apple estimates that the iPhone SE models provide up to 50 hours of audio playback, 14 hours of talk time on 3G, 12 hours of Internet use on 3G, 13 hours of Internet use on 4G/LTE, 13 hours of Internet use on Wi-Fi, 13 hours of video playback and 10 days of standby time.",
+        "imageName": "IPhoneSE"
+    },
+    {
+        "name": "iPhone 7 and 7 Plus",
+        "id": 1012,
+        "release_date": "September 7, 2016",
+        "model": "iPhone9,1, iPhone9,2, iPhone9,3, iPhone9,4",
+        "quote": "This is 7",
+        "": "",
+        "description": "",
+        "imageName": "IPhone7"
+    },
+    {
+        "name": "iPhone 8 and 8 Plus",
+        "id": 1013,
+        "release_date": "September 12, 2017",
+        "model": "iPhone10,1, iPhone10,2, iPhone10,4, iPhone10,5",
+        "quote": "A new generation of iPhone",
+        "": "",
+        "description": "",
+        "imageName": "IPhone8"
+    },
+    {
+        "name": "iPhone X",
+        "id": 1014,
+        "release_date": "September 12, 2017",
+        "model": "iPhone10,3, iPhone10,6",
+        "quote": "Say hello to the future",
+        "": "",
+        "description": "iPhone X is the biggest redesign to the iPhone since the first one, it has a 3D-touch capable 5.8 (diagonal) OLED HDR Super Retina display (2436x1125, 458 ppi, 1 million:1 contrast ratio) that occupies nearly the entire front of the device with the bottom chin where the Home button once was gone entirely and replaced by a new facial recognition Face ID authentication system. The iPhone X has three cameras. On the front tucked in the rather awkward notch -- is a new TrueDepth camera that in addition to supporting the Face ID functionality, takes 7 megapixel photos, shoots 1080p video, and has software support for Portrait mode, Portrait lighting, and more. The two rear cameras, one wide angle (f/1.8 aperture) and one telephoto (f/2.4 aperture), both have 12 megapixel sensors, support optical image stabilization, and shoot 4K photos and video. The cameras support motion tracking and offer augmented reality support, too. The iPhone X uses a primarily surgical-grade stainless steel case and has a glass front and back. It is splash, water, and dust-resistant (IP67), but not water-proof, and it has stereo speakers and a Lightning port. It was sold in two color options, a dark Space Gray and silver. Internally, the iPhone X is powered by a 64-bit Apple A11 Bionic processor with sixcores -- two performance cores and four high-efficiency cores -- and has 3 GB of RAM, as well as 64 GB or 256 GB of flash storage. It also supports 802.11ac Wi-Fi with MIMO, Bluetooth 5.0, LTE (4G), and NFC for Apple Pay. Apple estimates that the iPhone X provides up to 60 hours of audio playback, 21 hours of talk time, 12 hours of Internet use, and 13 hours of wireless video playback. Because of the device's glass back, the battery can be charged wirelessly using a charging mat that supports the Qi standard.",
+        "imageName": "IPhoneX"
+    },
+    {
+        "name": "iPhone XS and XS Max",
+        "id": 1015,
+        "release_date": "September 12, 2018",
+        "model": "iPhone11,2, iPhone11,4, iPhone11,6",
+        "quote": "Welcome to the big screens",
+        "": "",
+        "description": "",
+        "imageName": "IPhoneXS"
+    },
+    {
+        "name": "iPhone XR",
+        "id": 1016,
+        "release_date": "September 12, 2018",
+        "model": "iPhone11,8",
+        "quote": "Brilliant. In every way",
+        "": "",
+        "description": "All iPhone XR models have a haptic touch capable 6.1 (diagonal) LCD Liquid Retina HD display (1792x828, 326 ppi, 1400:1 contrast ratio) that occupies nearly the entire front of the device. It has dual cameras. On the front tucked in the notch is a TrueDepth camera that in addition to supporting Advanced Face ID identification functionality, takes 7 megapixel photos, shoots 1080p video, and has software support for Portrait mode, Portrait lighting, and more. The rear camera is a wide angle (f/1.8 aperture) with a 12 megapixel sensor, supports optical image stabilization, and shoots 4K photos and video. The iPhone XR uses an aerospace grade 7000 series aluminum case and has a glass front and back. It is splash, water, and dust-resistant to the IP67 standard (maximum depth of 1 meter up to 30 minutes). It is sold in six color options -- yellow, white, coral (salmon), black, (royal) blue, and (PRODUCT) RED. Internally, the iPhone XR is powered by a 64-bit, 7 nm Apple A12 Bionic processor with six cores -- two performance cores and four high-efficiency cores -- and an 8-core Neural Engine. It has 3 GB of RAM and 64 GB, 128 GB, or 256 GB of flash storage (256 GB option discontinued September 10, 2019). It also supports 802.11ac Wi-Fi with 2x2 MIMO, Bluetooth 5.0, LTE Advanced, NFC for Apple Pay, Express Cards with power reserve for compatible transit systems, and dual SIMs (one hardware nano SIM and one software-based eSIM). Apple estimates that the iPhone XR provides up to 65 hours of audio playback, 25 hours of talk time, 15 hours of Internet use, and 16 hours of wireless video playback. Because of the device's glass back, the battery can be charged wirelessly using a charging mat that supports the Qi standard.",
+        "imageName": "IPhoneXR"
+    },
+    {
+        "name": "iPhone 11",
+        "id": 1018,
+        "release_date": "September 10, 2019",
+        "model": "iPhone12,1",
+        "quote": "Just the right amount of everything",
+        "": "",
+        "description": "All iPhone 11 models have a haptic-touch capable 6.1 (diagonal) LCD Liquid Retina HD display (1792x828, 326 ppi, 1400:1 contrast ratio) that occupies nearly the entire front of the device. It has three cameras. On the front tucked in the notch is a TrueDepth camera that in addition to supporting Advanced Face ID identification functionality, takes 12 megapixel photos, shoots 4K video, and has software support for Portrait mode, Portrait lighting, and more. The rear packs dual 12 megapixel, 4K video-capable Ultra Wide (f/2.4 aperture, 120-degree field of view) and Wide (f/1.8 aperture) cameras. In addition to improvements on HDR and portrait mode offered by earlier iPhones, the iPhone 11 also adds a Night Mode. The iPhone 11 uses a low-carbon aluminum case and has a glass front and back. It is splash, water, and dust-resistant to the IP68 standard (maximum depth of 2 meters up to 30 minutes). It has six color options -- white, black, (pastel) green, (pastel) yellow, (pastel) purple, and (PRODUCT) RED. Internally, the iPhone 11 is powered by a 64-bit, 7 nm 2.66 GHz Apple A13 Bionic processor with six cores -- two performance cores and four high-efficiency cores -- and a third-generation Neural Engine. It has 4 GB of RAM and 64 GB, 128 GB, or 256 GB of flash storage (256 GB option discontinued September 14, 2021). It also supports 802.11ax Wi-Fi 6 with 2x2 MIMO, Gigabit-class LTE with 2x2 MIMO, Bluetooth 5.0, Ultra Wideband for spatial awareness, NFC for Apple Pay, Express Cards with power reserve for compatible transit systems, and dual SIMs (one hardware nano SIM and one software-based eSIM). Apple estimates that the iPhone 11 provides up to 65 hours of audio playback, 17 hours of video playback, and 10 hours of streamed video playback. It supports wireless (inductive) charging, too.",
+        "imageName": "IPhone11"
+    },
+    {
+        "name": "iPhone 11 Pro and 11 Pro Max",
+        "id": 1017,
+        "release_date": "September 10, 2019",
+        "model": "iPhone12,3, iPhone12,5",
+        "quote": "iPhone has gone Pro",
+        "": "",
+        "description": "",
+        "imageName": "IPhone11Pro"
+    },
+    {
+        "name": "iPhone SE(2nd Generation)",
+        "id": 1019,
+        "release_date": "April 15, 2020",
+        "model": "iPhone12,8",
+        "quote": "Lots to love. Less to spend",
+        "": "",
+        "description": "iPhone SE (2nd Gen) models have a 4.7 (diagonal) widescreen multitouch True Tone LED-backlit 1334x750 native resolution Retina HD display (326 ppi, 625 cd/m2) and a taptic-engine powered solid state clickless Home button. It has dual cameras, a rear 12-megapixel 4K camera with optical image stabilization, a f/1.8 aperture, a 6-element lens and wide color capture as well as a front 7-megapixel FaceTime HD camera with support for 1080p video. The cameras support motion tracking and offer augmented reality support, too. The iPhone SE (2nd Gen) uses an aerospace-grade aluminum alloy case reinforced by steel and has a glass front and back. It is splash, water, and dust-resistant (IP67), but not water-proof, and it has stereo speakers and a Lightning port. It has three color options -- white, black, and (PRODUCT) RED. Internally, the iPhone SE (2nd Gen) is powered by a 64-bit, 7 nm 2.66 GHz Apple A13 Bionic processor with six cores -- two performance cores and four high-efficiency cores -- and a third-generation Neural Engine. It has 3 GB of RAM and 64 GB, 128 GB, or 256 GB of flash storage (256 GB option discontinued September 14, 2021; all options discontinued March 8, 2022). It also supports 802.11ax Wi-Fi 6 with 2x2 MIMO, Gigabit-class LTE with 2x2 MIMO, Bluetooth 5.0, NFC for Apple Pay, Express Cards with power reserve for compatible transit systems, and a single hardware nano SIM (it does not support eSIM). Apple estimates that the iPhone SE (2nd Gen) provides up to 40 hours of audio playback, 13 hours of video playback, and 8 hours of streamed video playback. It supports wireless (inductive) charging, too (Qi).",
+        "imageName": "IPhoneSE2"
+    },
+    {
+        "name": "iPhone 12 and 12 mini",
+        "id": 1020,
+        "release_date": "October 13, 2020",
+        "model": "iPhone13,1, iPhone13,2",
+        "quote": "Blast past fast",
+        "": "",
+        "description": "",
+        "imageName": "IPhone12"
+    },
+    {
+        "name": "iPhone 12 Pro and 12 Pro Max",
+        "id": 1021,
+        "release_date": "October 13, 2020",
+        "model": "iPhone13,3, iPhone13,4",
+        "quote": "It's a leap year",
+        "": "",
+        "description": "",
+        "imageName": "IPhone12Pro"
+    },
+    {
+        "name": "iPhone 13 and 13 mini",
+        "id": 1022,
+        "release_date": "September 14, 2021",
+        "model": "iPhone14,4, iPhone14,5",
+        "quote": "Your new superpower",
+        "": "",
+        "description": "",
+        "imageName": "IPhone13"
+    },
+    {
+        "name": "iPhone 13 Pro and 13 Pro Max",
+        "id": 1023,
+        "release_date": "September 14, 2021",
+        "model": "iPhone14,2, iPhone14,3",
+        "quote": "Oh. So. Pro",
+        "": "",
+        "description": "",
+        "imageName": "IPhone13Pro"
+    },
+    {
+        "name": "iPhone SE(3rd Generation)",
+        "id": 1024,
+        "release_date": "March 8, 2022",
+        "model": "iPhone14,6",
+        "quote": "Love the power. Love the price",
+        "": "",
+        "description": "iPhone SE (3rd Gen) models have a 4.7 (diagonal) widescreen multitouch True Tone LED-backlit 1334x750 native resolution Retina HD display (326 ppi, 625 cd/m2) and a taptic-engine powered solid state clickless Home button. It has dual cameras, a rear 12-megapixel 4K camera with optical image stabilization, a f/1.8 aperture, a 6-element lens and new computational photography benefits, including Smart HDR 4, Photographic Styles, Deep Fusion, and Portrait mode, as well as a front 7-megapixel camera with support for 1080p video. The cameras support motion tracking and offer augmented reality support, too. The iPhone SE (3rd Gen) uses an aerospace-grade aluminum alloy case and has a glass front and back. It is splash, water, and dust-resistant (IP67), but not water-proof, and it has stereo speakers and a Lightning port. It has three color options -- a warm gray (Starlight), Midnight (black), and (PRODUCT) RED. Internally, the iPhone SE (3rd Gen) is powered by a 3.2 GHz Apple A15 Bionic processor with six cores -- two performance cores and four efficiency cores -- and a 16-core Neural Engine. It has 4 GB of RAM and 64 GB, 128 GB, or 256 GB of flash storage. It also supports 802.11ax Wi-Fi 6 with 2x2 MIMO, 5G wireless (but not mmWave), Bluetooth 5.0, NFC for Apple Pay, Express Cards with power reserve for compatible transit systems, and support for a single hardware nano SIM. Apple estimates that the iPhone SE (3rd Gen) provides up to 50 hours of audio playback, 15 hours of video playback, and 10 hours of streamed video playback. It supports wireless (inductive) charging, too (Qi).",
+        "imageName": "IPhoneSE3"
+    }
+]

@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F787DF5284145FB00688202 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F787DF4284145FB00688202 /* Media.xcassets */; };
+		4F8C1782284106AD00A7374A /* iPhoneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8C1781284106AD00A7374A /* iPhoneList.swift */; };
+		4F8C17842841094E00A7374A /* iPhoneDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8C17832841094E00A7374A /* iPhoneDetail.swift */; };
 		4F9BB766284102B7003AAFBD /* iPhoneopediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB765284102B7003AAFBD /* iPhoneopediaApp.swift */; };
 		4F9BB768284102B7003AAFBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB767284102B7003AAFBD /* ContentView.swift */; };
-		4F9BB76A284102B7003AAFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BB769284102B7003AAFBD /* Assets.xcassets */; };
 		4F9BB76D284102B7003AAFBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9BB76C284102B7003AAFBD /* Preview Assets.xcassets */; };
 		4F9BB777284102B8003AAFBD /* iPhoneopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB776284102B8003AAFBD /* iPhoneopediaTests.swift */; };
 		4F9BB781284102B8003AAFBD /* iPhoneopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB780284102B8003AAFBD /* iPhoneopediaUITests.swift */; };
 		4F9BB783284102B8003AAFBD /* iPhoneopediaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB782284102B8003AAFBD /* iPhoneopediaUITestsLaunchTests.swift */; };
+		4FB2CE112841047A00C64CDB /* iPhoneData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FB2CE102841047A00C64CDB /* iPhoneData.json */; };
+		4FB2CE132841048800C64CDB /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2CE122841048800C64CDB /* iPhone.swift */; };
+		4FB2CE15284104BF00C64CDB /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2CE14284104BF00C64CDB /* ModelData.swift */; };
+		4FB2CE172841051600C64CDB /* iPhoneRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2CE162841051600C64CDB /* iPhoneRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +40,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F787DF4284145FB00688202 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		4F8C1781284106AD00A7374A /* iPhoneList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneList.swift; sourceTree = "<group>"; };
+		4F8C17832841094E00A7374A /* iPhoneDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneDetail.swift; sourceTree = "<group>"; };
 		4F9BB762284102B7003AAFBD /* iPhoneopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9BB765284102B7003AAFBD /* iPhoneopediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneopediaApp.swift; sourceTree = "<group>"; };
 		4F9BB767284102B7003AAFBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4F9BB769284102B7003AAFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F9BB76C284102B7003AAFBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F9BB772284102B8003AAFBD /* iPhoneopediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneopediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9BB776284102B8003AAFBD /* iPhoneopediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneopediaTests.swift; sourceTree = "<group>"; };
 		4F9BB77C284102B8003AAFBD /* iPhoneopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneopediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9BB780284102B8003AAFBD /* iPhoneopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneopediaUITests.swift; sourceTree = "<group>"; };
 		4F9BB782284102B8003AAFBD /* iPhoneopediaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneopediaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FB2CE102841047A00C64CDB /* iPhoneData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhoneData.json; sourceTree = "<group>"; };
+		4FB2CE122841048800C64CDB /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		4FB2CE14284104BF00C64CDB /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		4FB2CE162841051600C64CDB /* iPhoneRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +106,12 @@
 		4F9BB764284102B7003AAFBD /* iPhoneopedia */ = {
 			isa = PBXGroup;
 			children = (
+				4F9BB7912841033E003AAFBD /* Resources */,
+				4F9BB79028410321003AAFBD /* Data */,
 				4F9BB765284102B7003AAFBD /* iPhoneopediaApp.swift */,
-				4F9BB767284102B7003AAFBD /* ContentView.swift */,
-				4F9BB769284102B7003AAFBD /* Assets.xcassets */,
+				4F9BB78F284102F1003AAFBD /* Views */,
 				4F9BB76B284102B7003AAFBD /* Preview Content */,
+				4F787DF4284145FB00688202 /* Media.xcassets */,
 			);
 			path = iPhoneopedia;
 			sourceTree = "<group>";
@@ -125,6 +139,34 @@
 				4F9BB782284102B8003AAFBD /* iPhoneopediaUITestsLaunchTests.swift */,
 			);
 			path = iPhoneopediaUITests;
+			sourceTree = "<group>";
+		};
+		4F9BB78F284102F1003AAFBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F9BB767284102B7003AAFBD /* ContentView.swift */,
+				4FB2CE162841051600C64CDB /* iPhoneRow.swift */,
+				4F8C1781284106AD00A7374A /* iPhoneList.swift */,
+				4F8C17832841094E00A7374A /* iPhoneDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F9BB79028410321003AAFBD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4FB2CE122841048800C64CDB /* iPhone.swift */,
+				4FB2CE14284104BF00C64CDB /* ModelData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4F9BB7912841033E003AAFBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FB2CE102841047A00C64CDB /* iPhoneData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +233,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					4F9BB761284102B7003AAFBD = {
 						CreatedOnToolsVersion = 13.4;
@@ -232,7 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9BB76D284102B7003AAFBD /* Preview Assets.xcassets in Resources */,
-				4F9BB76A284102B7003AAFBD /* Assets.xcassets in Resources */,
+				4F787DF5284145FB00688202 /* Media.xcassets in Resources */,
+				4FB2CE112841047A00C64CDB /* iPhoneData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +301,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9BB768284102B7003AAFBD /* ContentView.swift in Sources */,
+				4F8C1782284106AD00A7374A /* iPhoneList.swift in Sources */,
+				4FB2CE15284104BF00C64CDB /* ModelData.swift in Sources */,
+				4FB2CE172841051600C64CDB /* iPhoneRow.swift in Sources */,
+				4F8C17842841094E00A7374A /* iPhoneDetail.swift in Sources */,
 				4F9BB766284102B7003AAFBD /* iPhoneopediaApp.swift in Sources */,
+				4FB2CE132841048800C64CDB /* iPhone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +379,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -345,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -391,6 +440,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -399,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -425,6 +475,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +505,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
