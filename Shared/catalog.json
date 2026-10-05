@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T11:47:06Z",
+  "generatedAt": "2026-10-05T14:52:48Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -3218,7 +3218,7 @@
           ]
         }
       ],
-      "about": "The iPhone 17 Pro and iPhone 17 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone 17 and iPhone Air, they form the nineteenth generation of the iPhone, succeeding the iPhone 16 Pro and iPhone 16 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2025, and released on September 19, 2025.",
+      "about": "The iPhone 17 Pro and iPhone 17 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone 17 and iPhone Air, they form the nineteenth generation of the iPhone, succeeding the iPhone 16 Pro and iPhone 16 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2025, and released on September 19, 2025. The phones were discontinued on September 9, 2026, following the announcement of the iPhone 18 Pro and iPhone 18 Pro Max.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_17_Pro"
     },
     {
