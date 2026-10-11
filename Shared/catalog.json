@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T12:40:57Z",
+  "generatedAt": "2026-10-11T13:01:52Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -10,7 +10,7 @@
       ],
       "released": "2007-06-29",
       "discontinued": "2008-06-09",
-      "chip": "APL0098",
+      "chip": "Samsung S5L8900",
       "launchPriceUSD": 499,
       "displayInches": 3.5,
       "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone-original-colors.jpg",
@@ -26,7 +26,7 @@
           "rows": [
             [
               "Chip",
-              "APL0098"
+              "Samsung S5L8900"
             ],
             [
               "Display",
@@ -67,7 +67,7 @@
       ],
       "released": "2008-07-11",
       "discontinued": "2010-06-07",
-      "chip": "APL0098",
+      "chip": "Samsung S5L8900",
       "launchPriceUSD": 199,
       "displayInches": 3.5,
       "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone3g-colors.jpg",
@@ -87,7 +87,7 @@
           "rows": [
             [
               "Chip",
-              "APL0098"
+              "Samsung S5L8900"
             ],
             [
               "Display",
@@ -128,7 +128,7 @@
       ],
       "released": "2009-06-19",
       "discontinued": "2012-09-12",
-      "chip": "APL0298",
+      "chip": "Samsung S5L8920",
       "launchPriceUSD": 199,
       "displayInches": 3.5,
       "imageURL": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone3gs-colors.jpg",
@@ -148,7 +148,7 @@
           "rows": [
             [
               "Chip",
-              "APL0298"
+              "Samsung S5L8920"
             ],
             [
               "Display",
@@ -3394,7 +3394,7 @@
           ]
         }
       ],
-      "about": "The iPhone 18 Pro and iPhone 18 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone Duo, they form the twentieth generation of the iPhone, succeeding the iPhone 17 Pro and iPhone 17 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2026. The phones were released on September 18, 2026.",
+      "about": "The iPhone 18 Pro and iPhone 18 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone Duo, they form the twentieth generation of the iPhone, succeeding the iPhone 17 Pro and iPhone 17 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2026. The models were released on September 18, 2026.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_18_Pro"
     },
     {
@@ -3455,7 +3455,7 @@
           ]
         }
       ],
-      "about": "The iPhone 18 Pro and iPhone 18 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone Duo, they form the twentieth generation of the iPhone, succeeding the iPhone 17 Pro and iPhone 17 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2026. The phones were released on September 18, 2026.",
+      "about": "The iPhone 18 Pro and iPhone 18 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone Duo, they form the twentieth generation of the iPhone, succeeding the iPhone 17 Pro and iPhone 17 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2026. The models were released on September 18, 2026.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_18_Pro"
     },
     {
