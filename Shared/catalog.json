@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T13:01:52Z",
+  "generatedAt": "2026-10-13T14:20:42Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -178,7 +178,7 @@
           ]
         }
       ],
-      "about": "The iPhone 3GS, stylized as iPhone 3G🅂, is a smartphone that was developed and marketed by Apple. It is the third generation of the iPhone and the successor to the iPhone 3G. It was unveiled on June 8, 2009, at WWDC 2009, which took place at the Moscone Center in San Francisco.",
+      "about": "The iPhone 3GS, stylized as iPhone 3G🅂, is a smartphone that was developed and marketed by Apple. It is the third generation of the iPhone and the successor to the iPhone 3G. It was unveiled on June 8, 2009 at WWDC 2009, which took place at the Moscone Center in San Francisco.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_3GS"
     },
     {
@@ -3218,7 +3218,7 @@
           ]
         }
       ],
-      "about": "The iPhone 17 Pro and iPhone 17 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone 17 and iPhone Air, they form the nineteenth generation of the iPhone, succeeding the iPhone 16 Pro and iPhone 16 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2025, and released on September 19, 2025. The phones were discontinued on September 9, 2026, following the announcement of the iPhone 18 Pro and iPhone 18 Pro Max.",
+      "about": "The iPhone 17 Pro and iPhone 17 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone 17 and iPhone Air, they form the nineteenth generation of the iPhone, succeeding the iPhone 16 Pro and iPhone 16 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2025, and released on September 19, 2025. They were discontinued on September 9, 2026, following the announcement of the iPhone 18 Pro and iPhone 18 Pro Max.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_17_Pro"
     },
     {
