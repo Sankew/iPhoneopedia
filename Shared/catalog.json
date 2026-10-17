@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T11:39:45Z",
+  "generatedAt": "2026-10-17T10:53:08Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -1888,7 +1888,7 @@
           ]
         }
       ],
-      "about": "The iPhone 13 and iPhone 13 Mini are smartphones that were developed and marketed by Apple. They are the fifteenth generation of iPhones, succeeding the iPhone 12 and 12 Mini. They were unveiled at an Apple Event in Apple Park in Cupertino, California, on September 14, 2021, alongside the higher-priced iPhone 13 Pro and iPhone 13 Pro Max flagships. Furthermore, they were released on September 24, 2021. Improvements over the iPhone 12 include a 512 GB storage variant, BeiDou positioning support, and HDR video recording at 60 frames per second, doubling the frame rate of its predecessor.",
+      "about": "The iPhone 13 and iPhone 13 Mini are smartphones that were developed and marketed by Apple. They are the fifteenth generation of iPhones, succeeding the iPhone 12 and 12 Mini. They were unveiled at an Apple Event in Apple Park in Cupertino, California, on September 14, 2021, alongside the higher-priced iPhone 13 Pro and iPhone 13 Pro Max flagships. They were later released on September 24, 2021. Notable improvements over the iPhone 12 include 128gb of base storage, a maximum storage capacity of 512gb, BeiDou positioning support, and HDR video recording at 60 frames per second, doubling the frame rate of its predecessor.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_13"
     },
     {
@@ -2468,7 +2468,7 @@
           ]
         }
       ],
-      "about": "The iPhone 14 and iPhone 14 Plus are smartphones that were developed and marketed by Apple. They are the sixteenth-generation iPhones, succeeding the iPhone 13 and iPhone 13 Mini, and were announced during an Apple Event at Apple Park in Cupertino, California, on September 7, 2022, alongside the higher-priced iPhone 14 Pro and iPhone 14 Pro Max flagships. The iPhone 14 and iPhone 14 Plus feature a 6.1-inch (15 cm) and 6.7-inch (17 cm) display, improvements to the rear-facing camera, and satellite connectivity for contacting emergency services. The iPhone 14 was made available on September 16, 2022, and the iPhone 14 Plus was made available on October 7, 2022. The phones were priced at $799 and $899 respectively and both launched with iOS 16. Pre-orders for the iPhone 14 and iPhone 14 Plus began on September 9, 2022. Along with the 14 Pro and 14 Pro Max, the iPhone 14 and 14 Plus are the last iPhones to feature the Lightning port, as their successors, the iPhone 15 and 15 Plus, use a USB-C port, per European Commission regulation.",
+      "about": "The iPhone 14 and iPhone 14 Plus are smartphones that were developed and marketed by Apple. They are the sixteenth-generation iPhones, succeeding the iPhone 13 and iPhone 13 Mini, and were announced during an Apple Event at Apple Park in Cupertino, California, on September 7, 2022, alongside the higher-priced iPhone 14 Pro and iPhone 14 Pro Max flagships. The iPhone 14 and iPhone 14 Plus feature a 6.1-inch (15 cm) and 6.7-inch (17 cm) display, improvements to the rear-facing camera, and satellite connectivity for contacting emergency services. The iPhone 14 was made available on September 16, 2022, and the iPhone 14 Plus was made available on October 7, 2022. The phones were priced at $799 and $899 respectively and both launched with iOS 16. Pre-orders for the iPhone 14 and iPhone 14 Plus began on September 9, 2022. Along with the 14 Pro and 14 Pro Max, the iPhone 14 and 14 Plus are the last iPhones to support and use the proprietary Lightning port and connector, as their successors, the iPhone 15 and 15 Plus, use the universal USB-C connector, per European Commission regulation.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_14"
     },
     {
