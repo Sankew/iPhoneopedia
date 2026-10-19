@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T10:53:08Z",
+  "generatedAt": "2026-10-19T13:31:22Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -1965,7 +1965,7 @@
           ]
         }
       ],
-      "about": "The iPhone 13 and iPhone 13 Mini are smartphones that were developed and marketed by Apple. They are the fifteenth generation of iPhones, succeeding the iPhone 12 and 12 Mini. They were unveiled at an Apple Event in Apple Park in Cupertino, California, on September 14, 2021, alongside the higher-priced iPhone 13 Pro and iPhone 13 Pro Max flagships. Furthermore, they were released on September 24, 2021. Improvements over the iPhone 12 include a 512 GB storage variant, BeiDou positioning support, and HDR video recording at 60 frames per second, doubling the frame rate of its predecessor.",
+      "about": "The iPhone 13 and iPhone 13 Mini are smartphones that were developed and marketed by Apple. They are the fifteenth generation of iPhones, succeeding the iPhone 12 and 12 Mini. They were unveiled at an Apple Event in Apple Park in Cupertino, California, on September 14, 2021, alongside the higher-priced iPhone 13 Pro and iPhone 13 Pro Max flagships. They were later released on September 24, 2021. Notable improvements over the iPhone 12 include 128gb of base storage, a maximum storage capacity of 512gb, BeiDou positioning support, and HDR video recording at 60 frames per second, doubling the frame rate of its predecessor.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_13"
     },
     {
