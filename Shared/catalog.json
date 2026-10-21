@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T13:31:22Z",
+  "generatedAt": "2026-10-21T11:59:46Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -117,7 +117,7 @@
           ]
         }
       ],
-      "about": "The iPhone 3G is a smartphone developed and marketed by Apple. It is the second generation of iPhone, successor to the original iPhone, and was introduced on June 9, 2008, at WWDC 2008 which took place at the Moscone Center in San Francisco.",
+      "about": "The iPhone 3G is a 2008 smartphone developed and marketed by Apple. It is the second generation of iPhone, successor to the original iPhone, and was introduced on June 9, 2008, at WWDC 2008 which took place at the Moscone Center in San Francisco.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_3G"
     },
     {
