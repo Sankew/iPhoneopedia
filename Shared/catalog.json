@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T11:47:51Z",
+  "generatedAt": "2026-10-24T11:12:41Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -241,7 +241,7 @@
           ]
         }
       ],
-      "about": "The iPhone 4 is a smartphone that was developed and marketed by Apple. It is the fourth generation of the iPhone lineup, succeeding the iPhone 3GS and preceding the iPhone 4s. Following a number of notable leaks, the iPhone 4 was first unveiled on June 7, 2010, at Apple's Worldwide Developers Conference in San Francisco, and was released on June 24, 2010, in the United States, United Kingdom, France, Germany, and Japan.",
+      "about": "The iPhone 4 is a smartphone that was developed and marketed by Apple. It is the fourth generation of the iPhone lineup, succeeding the iPhone 3GS and preceding the iPhone 4s. Following a number of leaks, the iPhone 4 was first unveiled on June 7, 2010, at Apple's Worldwide Developers Conference in San Francisco, and was released on June 24, 2010, in the United States, United Kingdom, France, Germany, and Japan.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_4"
     },
     {
