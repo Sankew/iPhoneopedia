@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T12:22:48Z",
+  "generatedAt": "2026-10-28T13:08:12Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -1003,7 +1003,7 @@
           ]
         }
       ],
-      "about": "The iPhone 8 and iPhone 8 Plus are smartphones developed and marketed by Apple. They are the eleventh generation of the iPhone. The iPhone 8 was released on September 22, 2017, succeeding the iPhone 7 and iPhone 7 Plus, respectively.",
+      "about": "The iPhone 8 and iPhone 8 Plus are smartphones developed and marketed by Apple. They are part of the eleventh generation of the iPhone. The iPhone 8 was released on September 22, 2017, succeeding the iPhone 7 and iPhone 7 Plus, respectively.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_8"
     },
     {
@@ -3520,7 +3520,7 @@
           ]
         }
       ],
-      "about": "The iPhone Duo is the first foldable smartphone developed and marketed by Apple. The device was announced during an Apple event at Apple Park in Cupertino, California, on September 9, 2026, alongside the iPhone 18 Pro and iPhone 18 Pro Max and will be released on October 23, 2026.",
+      "about": "The iPhone Duo is the first foldable smartphone by Apple. The device was announced during an Apple event at Apple Park in Cupertino, California, on September 9, 2026, alongside the iPhone 18 Pro and iPhone 18 Pro Max and was released on October 23, 2026.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_Duo"
     }
   ]
