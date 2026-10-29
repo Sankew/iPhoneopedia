@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T13:08:12Z",
+  "generatedAt": "2026-10-29T13:14:28Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -1372,7 +1372,7 @@
           ]
         }
       ],
-      "about": "The iPhone 11 is a smartphone that was developed and marketed by Apple. It is the thirteenth generation of iPhone, succeeding the iPhone XR, and was unveiled on September 10, 2019, alongside the higher-end iPhone 11 Pro and 11 Pro Max at the Steve Jobs Theater at Apple Park in Cupertino, California, by Apple CEO Tim Cook. Pre-orders began on September 13, 2019, and the phone was officially released on September 20, 2019, one day after the official public release of iOS 13 and was therefore also considered an \"affordable flagship\" or \"budget flagship\" phone at its release.",
+      "about": "The iPhone 11 is a smartphone that was developed and marketed by Apple. It is the thirteenth generation of iPhone, succeeding the iPhone XR, and was unveiled on September 10, 2019, alongside the higher-end iPhone 11 Pro and 11 Pro Max at the Steve Jobs Theater at Apple Park in Cupertino, California, by Apple CEO Tim Cook. Pre-orders began on September 13, 2019, and the phone was officially released on September 20, 2019, one day after the official public release of iOS 13 and was therefore was considered an \"affordable flagship\" or \"budget flagship\" phone at its release just like its predecessor.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_11"
     },
     {
