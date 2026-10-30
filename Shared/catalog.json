@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T13:14:28Z",
+  "generatedAt": "2026-10-30T13:06:45Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -1065,7 +1065,7 @@
           ]
         }
       ],
-      "about": "The iPhone 8 and iPhone 8 Plus are smartphones developed and marketed by Apple. They are the eleventh generation of the iPhone. The iPhone 8 was released on September 22, 2017, succeeding the iPhone 7 and iPhone 7 Plus, respectively.",
+      "about": "The iPhone 8 and iPhone 8 Plus are smartphones developed and marketed by Apple. They are part of the eleventh generation of the iPhone. The iPhone 8 was released on September 22, 2017, succeeding the iPhone 7 and iPhone 7 Plus, respectively.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_8"
     },
     {
@@ -1681,7 +1681,7 @@
           ]
         }
       ],
-      "about": "The iPhone 12 Pro and iPhone 12 Pro Max are smartphones developed and marketed by Apple. They are the flagship smartphones in the fourteenth generation of the iPhone, succeeding the iPhone 11 Pro and iPhone 11 Pro Max, respectively. They were unveiled alongside the iPhone 12 and iPhone 12 Mini at an Apple Special Event at Apple Park in Cupertino, California, on October 13, 2020, with the iPhone 12 Pro being released on October 23, 2020, and the iPhone 12 Pro Max on November 13, 2020. They were discontinued on September 14, 2021, along with the iPhone XR, following the announcement of the iPhone 13 and iPhone 13 Pro.",
+      "about": "The iPhone 12 Pro and iPhone 12 Pro Max are smartphones developed and marketed by Apple. They are the flagship smartphones in the fourteenth generation of the iPhone, succeeding the iPhone 11 Pro and Pro Max, respectively. They were unveiled alongside the iPhone 12 and iPhone 12 Mini at an Apple Special Event at Apple Park in Cupertino, California, on October 13, 2020, with the iPhone 12 Pro being released on October 23, 2020, and the iPhone 12 Pro Max on November 13, 2020. They were discontinued on September 14, 2021, along with the iPhone XR, following the announcement of the iPhone 13 and iPhone 13 Pro.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_12_Pro"
     },
     {
@@ -1811,7 +1811,7 @@
           ]
         }
       ],
-      "about": "The iPhone 12 Pro and iPhone 12 Pro Max are smartphones developed and marketed by Apple. They are the flagship smartphones in the fourteenth generation of the iPhone, succeeding the iPhone 11 Pro and iPhone 11 Pro Max, respectively. They were unveiled alongside the iPhone 12 and iPhone 12 Mini at an Apple Special Event at Apple Park in Cupertino, California, on October 13, 2020, with the iPhone 12 Pro being released on October 23, 2020, and the iPhone 12 Pro Max on November 13, 2020. They were discontinued on September 14, 2021, along with the iPhone XR, following the announcement of the iPhone 13 and iPhone 13 Pro.",
+      "about": "The iPhone 12 Pro and iPhone 12 Pro Max are smartphones developed and marketed by Apple. They are the flagship smartphones in the fourteenth generation of the iPhone, succeeding the iPhone 11 Pro and Pro Max, respectively. They were unveiled alongside the iPhone 12 and iPhone 12 Mini at an Apple Special Event at Apple Park in Cupertino, California, on October 13, 2020, with the iPhone 12 Pro being released on October 23, 2020, and the iPhone 12 Pro Max on November 13, 2020. They were discontinued on September 14, 2021, along with the iPhone XR, following the announcement of the iPhone 13 and iPhone 13 Pro.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_12_Pro"
     },
     {
@@ -3218,7 +3218,7 @@
           ]
         }
       ],
-      "about": "The iPhone 17 Pro and iPhone 17 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone 17 and iPhone Air, they form the nineteenth generation of the iPhone, succeeding the iPhone 16 Pro and iPhone 16 Pro Max. They were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2025, and released on September 19, 2025. They were discontinued on September 9, 2026, following the announcement of the iPhone 18 Pro and iPhone 18 Pro Max.",
+      "about": "The iPhone 17 Pro and iPhone 17 Pro Max are smartphones developed and marketed by Apple. Alongside the iPhone 17 and iPhone Air, they form the nineteenth generation of the iPhone, succeeding the iPhone 16 Pro and iPhone 16 Pro Max. The models were unveiled during the Apple Event at Apple Park in Cupertino, California, on September 9, 2025, and released on September 19, 2025. They were discontinued on September 9, 2026, following the announcement of the iPhone 18 Pro and iPhone 18 Pro Max.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_17_Pro"
     },
     {
@@ -3520,7 +3520,7 @@
           ]
         }
       ],
-      "about": "The iPhone Duo is the first foldable smartphone by Apple. The device was announced during an Apple event at Apple Park in Cupertino, California, on September 9, 2026, alongside the iPhone 18 Pro and iPhone 18 Pro Max and was released on October 23, 2026.",
+      "about": "The iPhone Duo is the first foldable smartphone by Apple. The device was announced during an Apple event at Apple Park in Cupertino, California, on September 9, 2026, alongside the iPhone 18 Pro and iPhone 18 Pro Max, and was released on October 23, 2026.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_Duo"
     }
   ]
