@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T13:34:35Z",
+  "generatedAt": "2026-11-02T16:11:11Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -2111,7 +2111,7 @@
           ]
         }
       ],
-      "about": "The iPhone 13 Pro and iPhone 13 Pro Max are smartphones developed and marketed by Apple. They were the flagship smartphones in the fifteenth generation of the iPhone, succeeding the iPhone 12 Pro and iPhone 12 Pro Max respectively. The devices were unveiled alongside the iPhone 13 and iPhone 13 Mini at an Apple Special Event at Apple Park in Cupertino, California, on September 14, 2021, and became available ten days later, on September 24. They were discontinued on September 7, 2022, as well as the iPhone 11 and iPhone 12 mini, following the announcement of the iPhone 14 and iPhone 14 Pro.",
+      "about": "The iPhone 13 Pro and iPhone 13 Pro Max are smartphones developed and marketed by Apple. They were the flagship smartphones in the fifteenth generation of the iPhone, succeeding the iPhone 12 Pro and Pro Max respectively. The devices were unveiled alongside the iPhone 13 and iPhone 13 Mini at an Apple Special Event at Apple Park in Cupertino, California, on September 14, 2021, and became available ten days later, on September 24. They were discontinued on September 7, 2022, as well as the iPhone 11 and iPhone 12 mini, following the announcement of the iPhone 14 and iPhone 14 Pro.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_13_Pro"
     },
     {
