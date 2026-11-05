@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T14:26:40Z",
+  "generatedAt": "2026-11-05T14:45:50Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -1003,7 +1003,7 @@
           ]
         }
       ],
-      "about": "The iPhone 8 and iPhone 8 Plus are smartphones developed and marketed by Apple. They are part of the eleventh generation of the iPhone. The iPhone 8 was released on September 22, 2017, succeeding the iPhone 7 and iPhone 7 Plus, respectively.",
+      "about": "The iPhone 8 and iPhone 8 Plus are smartphones developed and marketed by Apple. Alongside the higher-end iPhone X, they are part of the eleventh generation of the iPhone. The iPhone 8 was released on September 22, 2017, succeeding the iPhone 7 and iPhone 7 Plus, respectively.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_8"
     },
     {
