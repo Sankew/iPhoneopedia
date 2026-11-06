@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T14:45:50Z",
+  "generatedAt": "2026-11-06T14:23:37Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -679,7 +679,7 @@
           ]
         }
       ],
-      "about": "The iPhone 6s and iPhone 6s Plus are smartphones that were designed, developed, and marketed by Apple. They are the ninth generation of the iPhone. They were announced on September 9, 2015, at the Bill Graham Civic Auditorium in San Francisco by Apple CEO Tim Cook, with pre-orders beginning September 12 and official release on September 25, 2015. They were succeeded by the iPhone 7 and iPhone 7 Plus on September 7, 2016, and were discontinued with the announcement of the iPhone XS, iPhone XS Max, and iPhone XR on September 12, 2018.",
+      "about": "The iPhone 6s and iPhone 6s Plus are smartphones that were designed, developed, and marketed by Apple. They are the ninth generation of the iPhone. They were announced on September 9, 2015, at the Bill Graham Civic Auditorium in San Francisco by Apple CEO Tim Cook, with pre-orders beginning September 12 and official release on September 25, 2015. They were succeeded by the iPhone 7 and iPhone 7 Plus on September 7, 2016, and were discontinued by Apple with the announcement of the iPhone XS, iPhone XS Max, and iPhone XR on September 12, 2018, but authorized resellers in certain countries, especially those located in Asia, continued selling them until 2019, mostly involving the 32 GB model.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_6s"
     },
     {
