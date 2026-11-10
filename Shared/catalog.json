@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T13:36:14Z",
+  "generatedAt": "2026-11-10T14:59:54Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -3104,7 +3104,7 @@
           ]
         }
       ],
-      "about": "The iPhone 17 is a smartphone developed and marketed by Apple that is part of the nineteenth generation of the iPhone. Succeeding the iPhone 16 series, the device was announced alongside the higher-priced, refreshed iPhone 17 Pro and 17 Pro Max and the new iPhone Air during an Apple Event at Apple Park in Cupertino, California, on September 9, 2025.",
+      "about": "The iPhone 17 is a smartphone developed and marketed by Apple that is part of the nineteenth generation of the iPhone. Succeeding the iPhone 16 series, the device was announced alongside the higher-priced, refreshed iPhone 17 Pro and 17 Pro Max and the iPhone Air during an Apple Event at Apple Park in Cupertino, California, on September 9, 2025.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_17"
     },
     {
