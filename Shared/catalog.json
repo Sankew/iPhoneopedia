@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T14:59:54Z",
+  "generatedAt": "2026-11-14T13:38:32Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -2176,7 +2176,7 @@
           ]
         }
       ],
-      "about": "The third-generation iPhone SE is a smartphone designed and developed by Apple. It is part of the 15th generation of the iPhone, alongside the iPhone 13 and 13 Mini and iPhone 13 Pro and 13 Pro Max models. Apple announced the third-generation iPhone SE on March 8, 2022, as the successor to the second-generation iPhone SE of 2020. Pre-orders began on March 11, 2022, and the phone was released afterwards on March 18, 2022. It was released with a starting price of US$429, a $30 increase over its predecessor.",
+      "about": "The third-generation iPhone SE is a smartphone designed and developed by Apple. It is part of the 15th generation of the iPhone, alongside the iPhone 13 and 13 Mini and iPhone 13 Pro and 13 Pro Max models. Apple announced the third-generation iPhone SE on March 8, 2022, as the successor to the second-generation iPhone SE of 2020. Pre-orders began on March 11, 2022, and the phone was released afterwards on March 18, 2022.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_SE_(3rd_generation)"
     },
     {
