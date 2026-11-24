@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T14:03:14Z",
+  "generatedAt": "2026-11-24T17:54:19Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -302,7 +302,7 @@
           ]
         }
       ],
-      "about": "The iPhone 4s is a smartphone that was developed and marketed by Apple. It is the fifth generation of the iPhone, succeeding the iPhone 4 and preceding the iPhone 5. It was announced on October 4, 2011, at Apple's Cupertino campus, and was the final Apple product announced in the lifetime of and without former Apple CEO and co-founder Steve Jobs, who died the following day.",
+      "about": "The iPhone 4s is a smartphone that was developed and marketed by Apple. It is the fifth generation of the iPhone, succeeding the iPhone 4 and preceding the iPhone 5. It was announced on October 4, 2011, at Apple's Cupertino campus, and was the final Apple product announced in the lifetime of former Apple CEO and co-founder Steve Jobs, who died the following day. It is also the first Apple product to be introduced without Steve Jobs.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_4s"
     },
     {
