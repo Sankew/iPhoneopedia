@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T17:54:19Z",
+  "generatedAt": "2026-11-28T15:39:21Z",
   "models": [
     {
       "id": "iphone1-1",
@@ -1551,7 +1551,7 @@
           ]
         }
       ],
-      "about": "The second-generation iPhone SE is a smartphone developed and marketed by Apple. It is part of the 13th generation of the iPhone, alongside the iPhone 11 and 11 Pro/Pro Max models. Apple announced it on April 15, 2020, coinciding with the discontinuation of the iPhone 8 and 8 Plus. Orders began on April 17, 2020, and the phone was released on April 24, 2020. It was released with a starting price of US$399, and positioned as a budget phone.",
+      "about": "The second-generation iPhone SE is a smartphone developed and marketed by Apple. It is part of the 13th generation of the iPhone, alongside the iPhone 11 and 11 Pro/Pro Max models. Apple announced it on April 15, 2020, coinciding with the discontinuation of the iPhone 8 and 8 Plus. Orders began on April 17, 2020, and the phone was released on April 24, 2020, making it the fourth model to not be released in September with the flagship models. It was released with a starting price of US$399, and positioned as a budget phone.",
       "aboutSource": "https://en.wikipedia.org/wiki/IPhone_SE_(2nd_generation)"
     },
     {
